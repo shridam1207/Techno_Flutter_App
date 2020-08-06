@@ -1,0 +1,4 @@
+#Tue Aug 04 01:01:49 IST 2020
+base.0=/home/tushar/Techno-Flutter-App/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
