@@ -13,7 +13,7 @@ import 'ContactUS/contact_us.dart';
 
 
 void main(){
-  runApp(MaterialApp(home: QuickLinks(),//ContactUs(),//HomePage(),
+  runApp(MaterialApp(home: HomePage(),
   theme: ThemeData(
     fontFamily: 'Circular'
   ),
