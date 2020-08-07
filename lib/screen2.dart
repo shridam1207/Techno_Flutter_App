@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pet_ui/configuration.dart';
+import 'package:flutter_app_techno_recent/configuration.dart';
 
 class Screen2 extends StatelessWidget {
   @override

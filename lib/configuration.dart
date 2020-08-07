@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:pet_ui/ContactUs.dart';
-import 'package:pet_ui/LogicQ.dart';
-import 'package:pet_ui/QuickLinks.dart';
-import 'package:pet_ui/Solutions.dart';
-import 'package:pet_ui/Updates.dart';
+import 'package:flutter_app_techno_recent/ContactUs.dart';
+import 'package:flutter_app_techno_recent/LogicQ.dart';
+import 'package:flutter_app_techno_recent/QuickLinks.dart';
+import 'package:flutter_app_techno_recent/Solutions.dart';
+import 'package:flutter_app_techno_recent/Updates.dart';
 
-import 'AboutUs/welcome_screen.dart';
+//import 'AboutUs/welcome_screen.dart';
+import 'AboutUs/about_us.dart';
 import 'Technopedia.dart';
 
 Color fb_blue = Color.fromRGBO(66, 103 ,178,1);
@@ -27,7 +28,7 @@ List<Map> drawerItems=[
   {
     'icon': Icons.person,
     'title' : 'About Us',
-    'page':WelcomeScreen()
+    'page': AboutUs()
   },
   {
     'icon': Icons.computer,
