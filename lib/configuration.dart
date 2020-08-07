@@ -6,7 +6,7 @@ import 'package:pet_ui/QuickLinks.dart';
 import 'package:pet_ui/Solutions.dart';
 import 'package:pet_ui/Updates.dart';
 
-import 'AboutUs/welcome_screen.dart';
+import 'AboutUs/about_us.dart';
 import 'Technopedia.dart';
 
 Color fb_blue = Color.fromRGBO(66, 103 ,178,1);
@@ -27,7 +27,7 @@ List<Map> drawerItems=[
   {
     'icon': Icons.person,
     'title' : 'About Us',
-    'page':WelcomeScreen()
+    'page':AboutUs()
   },
   {
     'icon': Icons.computer,
