@@ -20,6 +20,14 @@ class Body extends StatelessWidget {
             SizedBox(height: size.height * 0.05),
             //SizedBox(height: size.height * 0.05),
 
+            Align(
+              alignment: Alignment.topLeft,
+              child: IconButton(
+                iconSize: 33.0,
+                icon: Icon(Icons.arrow_back_ios  ), 
+                onPressed: (){print("heyhye");},
+              ),
+            ),
         SizedBox(height: size.height * 0.05),    
             SvgPicture.asset(
               "assets/icons/updates.svg",

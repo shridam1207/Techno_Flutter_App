@@ -46,6 +46,15 @@ class Body extends StatelessWidget {
         child: Column(
           //mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+SizedBox(height: size.height * 0.05),
+            Align(
+              alignment: Alignment.topLeft,
+              child: IconButton(
+                iconSize: 33.0,
+                icon: Icon(Icons.arrow_back_ios  ), 
+                onPressed: (){print("heyhye");},
+              ),
+            ),
             //SizedBox(height: size.height * 0.05),
             //SizedBox(height: size.height * 0.05),
             
@@ -92,6 +101,7 @@ class Body extends StatelessWidget {
             RoundedButton(
               text: "Attempt Now",
               press: () {
+                print("ssdnijfsan");
               /*  Navigator.push(
                   context,
                   MaterialPageRoute(

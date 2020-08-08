@@ -9,11 +9,11 @@ import 'AboutUs/about_us.dart';
 import 'Technopedia/technopedia.dart';
 import 'Updates/updates.dart';
 import 'QuickLinks/quick_links.dart';
-import 'ContactUS/contact_us.dart';
+import 'ContactUs/contact_us.dart';
 
 
 void main(){
-  runApp(MaterialApp(home: QuickLinks(),//ContactUs(),//HomePage(),
+  runApp(MaterialApp(home:Updates(),//AboutUs(),//ContactUs(),//HomePage(),
   theme: ThemeData(
     fontFamily: 'Circular'
   ),
