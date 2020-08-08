@@ -14,6 +14,16 @@ class Body extends StatelessWidget {
       child: SingleChildScrollView(
         child: Column(
           children: <Widget>[
+            SizedBox(height: size.height * 0.05),
+            Align(
+              alignment: Alignment.topLeft,
+              child: IconButton(
+                iconSize: 33.0,
+                icon: Icon(Icons.arrow_back_ios  ), 
+                onPressed: (){print("heyhye");},
+              ),
+            ),
+            
             Hero(
               tag:'hero',
               child: CircleAvatar(

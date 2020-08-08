@@ -42,13 +42,36 @@ class Body extends StatelessWidget {
     
     */
     return Background(
-      child: SingleChildScrollView(
+      child: Stack(
+        
+        children: <Widget>[
+          /*Positioned(
+            top: 22,
+            left: 10,
+            child: IconButton(
+              iconSize: 33.0,
+              icon: Icon(Icons.arrow_back_ios  ), 
+              onPressed: (){print("heyhye");},
+            ),
+            
+          ),    */    //NON SCROLLABLE BUTTON    
+        
+        SingleChildScrollView(
+
         child: Column(
           //mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            SizedBox(height: size.height * 0.05),
             //SizedBox(height: size.height * 0.05),
-            
+            SizedBox(height: size.height * 0.05),
+            Align(
+              alignment: Alignment.topLeft,
+              child: IconButton(
+                iconSize: 33.0,
+                icon: Icon(Icons.arrow_back_ios  ), 
+                onPressed: (){print("heyhye");},
+              ),
+            ),
+  
             Hero(
       tag:'hero',
       child: CircleAvatar(
@@ -120,6 +143,8 @@ class Body extends StatelessWidget {
           ],
         ),
       ),
+        ]
+    ),
     );
   }
 }  
