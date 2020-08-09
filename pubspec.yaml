@@ -19,11 +19,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  loading_animations: "^2.1.0"
+  chewie: ^0.9.7
+  video_player: 0.10.1
+
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-  flutter_svg: ^ 0.17.0
+  youtube_player_flutter: ^7.0.0+7
+  flutter_svg: ^0.18.0
   font_awesome_flutter:
   extended_image: ^0.7.3-dev
 
@@ -47,11 +52,13 @@ flutter:
   uses-material-design: true
   assets:
     - images/
+    - images/experiment/
     - assets/logo.png
     - assets/images/
     - assets/icons/
     - heads_images/
     - link_logo/
+    - assets/videos/Logic is All You Need - Official Curtain Raiser 2020.mp4
         
   fonts:
     - family: Circular

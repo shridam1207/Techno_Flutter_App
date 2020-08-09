@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pet_ui/main.dart';
 //import 'package:flutter_auth/Screens/Login/login_screen.dart';
 //import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
 import 'background.dart';
@@ -20,7 +21,9 @@ class Body extends StatelessWidget {
               child: IconButton(
                 iconSize: 33.0,
                 icon: Icon(Icons.arrow_back_ios  ), 
-                onPressed: (){print("heyhye");},
+                onPressed: (){Navigator.push(context, MaterialPageRoute(
+                    builder: (context) => HomePage()
+                ));},
               ),
             ),
             
