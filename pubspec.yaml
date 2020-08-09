@@ -54,6 +54,7 @@ flutter:
     - assets/icons/
     - heads_images/
     - link_logo/
+    - assets/
         
   fonts:
     - family: Circular

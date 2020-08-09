@@ -9,7 +9,8 @@ import 'AboutUs/about_us.dart';
 import 'Technopedia/technopedia.dart';
 import 'Updates/updates.dart';
 import 'QuickLinks/quick_links.dart';
-import 'ContactUs/contact_us.dart';
+import 'ContactUS/contact_us.dart';
+
 
 
 void main(){
