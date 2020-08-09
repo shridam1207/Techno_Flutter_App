@@ -143,6 +143,9 @@ class Body extends StatelessWidget {
                                     spreadRadius: -1,
                                   )
                                 ],
+                                image: DecorationImage(
+                                  image: ExactAssetImage('assets/splash_img.jpeg'),
+                                  fit: BoxFit.fitHeight,),
 //                                borderRadius: BorderRadius.circular(50.0),
                                 border: Border.all(
                                   color: Colors.white,
@@ -150,11 +153,11 @@ class Body extends StatelessWidget {
                                 ),
 
                               ),
-                              child: Image.asset(experiment[index]['iconPath'],
-
-                                height: 200,
-                                width: 260,
-                              ),
+//                              child: Image.asset(experiment[index]['iconPath'],
+//
+//                                height: 200,
+//                                width: 260,
+//                              ),
                             ),
                           ],
                         ),

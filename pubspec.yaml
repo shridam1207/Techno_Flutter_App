@@ -60,11 +60,9 @@ flutter:
     - assets/icons/
     - heads_images/
     - link_logo/
-<<<<<<< HEAD
     - assets/videos/Logic is All You Need - Official Curtain Raiser 2020.mp4
-=======
     - assets/
->>>>>>> 455cf9870d5edcebb330447f57f15801f98ed970
+
         
   fonts:
     - family: Circular
