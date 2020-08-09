@@ -31,6 +31,8 @@ dependencies:
   flutter_svg: ^0.18.0
   font_awesome_flutter:
   extended_image: ^0.7.3-dev
+  url_launcher: ^5.2.5
+  webview_flutter: 0.3.20+2
 
 
 
@@ -58,7 +60,11 @@ flutter:
     - assets/icons/
     - heads_images/
     - link_logo/
+<<<<<<< HEAD
     - assets/videos/Logic is All You Need - Official Curtain Raiser 2020.mp4
+=======
+    - assets/
+>>>>>>> 455cf9870d5edcebb330447f57f15801f98ed970
         
   fonts:
     - family: Circular

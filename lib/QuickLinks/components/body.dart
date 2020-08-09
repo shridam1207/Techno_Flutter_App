@@ -1,5 +1,13 @@
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 import 'package:pet_ui/main.dart';
+=======
+import 'package:pet_ui/webviews/fbweb.dart';
+import 'package:pet_ui/webviews/igweb.dart';
+import 'package:pet_ui/webviews/mediumweb.dart';
+import 'package:pet_ui/webviews/websiteweb.dart';
+import 'package:url_launcher/url_launcher.dart';
+>>>>>>> 455cf9870d5edcebb330447f57f15801f98ed970
 //import 'package:flutter_auth/Screens/Login/login_screen.dart';
 //import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
 import 'background.dart';
@@ -8,6 +16,22 @@ import '../../constants.dart';
 import 'package:flutter_svg/svg.dart';
 
 class Body extends StatelessWidget {
+  
+ // String _facebook=''
+  Future<void> _launchInApp(String url) async {
+      if (await canLaunch(url)) {
+        await launch(
+          url,
+          forceSafariVC: false,
+          forceWebView: true,
+          headers: <String, String>{'header_key': 'header_value'},
+        );
+      } else {
+        throw 'Could not launch $url';
+      }
+  }
+
+
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -44,7 +68,15 @@ class Body extends StatelessWidget {
               height: 40.0,
               child :
               RaisedButton.icon(
-                onPressed: (){ print('Button Clicked.'); },
+                onPressed: (){ 
+                  Navigator.push(context, MaterialPageRoute(
+                  builder: (context) => Fbweb()
+                  ));
+                  //_launchInApp('https://www.facebook.com/technothlon.techniche/');
+                  
+                  
+                  
+                  },
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(10.0))
                 ),
@@ -69,7 +101,11 @@ class Body extends StatelessWidget {
               height: 40.0,
               child :
               RaisedButton.icon(
-                onPressed: (){ print('Button Clicked.'); },
+                onPressed: (){ 
+                  Navigator.push(context, MaterialPageRoute(
+                  builder: (context) => Igweb()
+                  ));
+                },
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(10.0))
                 ),
@@ -96,7 +132,11 @@ class Body extends StatelessWidget {
               height: 40.0,
               child :    
               RaisedButton.icon(
-                onPressed: (){ print('Button Clicked.'); },
+                onPressed: (){ 
+                  Navigator.push(context, MaterialPageRoute(
+                  builder: (context) => Websiteweb()
+                  ));
+                 },
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(10.0))
                 ),
@@ -123,7 +163,11 @@ class Body extends StatelessWidget {
               height: 40.0,
               child : 
               RaisedButton.icon(
-                onPressed: (){ print('Button Clicked.'); },
+                onPressed: (){ 
+                  Navigator.push(context, MaterialPageRoute(
+                  builder: (context) => Mediumweb()
+                  ));
+                 },
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.all(Radius.circular(10.0))
                 ),
