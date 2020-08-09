@@ -3,7 +3,10 @@
   <component name="FacetManager">
     <facet type="android" name="Android">
       <configuration>
+<<<<<<< HEAD
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
+=======
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
         <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/../../Techno_Flutter_App/gen" />
         <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/../../Techno_Flutter_App/gen" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/../../Techno_Flutter_App/AndroidManifest.xml" />
@@ -22,7 +25,11 @@
       <excludeFolder url="file://$MODULE_DIR$/.pub" />
       <excludeFolder url="file://$MODULE_DIR$/build" />
     </content>
+<<<<<<< HEAD
     <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
+=======
+    <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Dart SDK" level="project" />
     <orderEntry type="library" name="Dart Packages" level="project" />

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 org.thegrowingdeveloper.pet_ui
+=======
+com.example.flutter_app_techno_recent
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -75,12 +79,29 @@ attr buttonBarStyle
 attr buttonGravity
 attr buttonIconDimen
 attr buttonPanelSideLayout
+<<<<<<< HEAD
+=======
+attr buttonSize
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
+<<<<<<< HEAD
 attr checkboxStyle
 attr checkedTextViewStyle
+=======
+attr cardBackgroundColor
+attr cardCornerRadius
+attr cardElevation
+attr cardMaxElevation
+attr cardPreventCornerOverlap
+attr cardUseCompatPadding
+attr cardViewStyle
+attr checkboxStyle
+attr checkedTextViewStyle
+attr circleCrop
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 attr closeIcon
 attr closeItemLayout
 attr collapseContentDescription
@@ -95,7 +116,24 @@ attr colorControlNormal
 attr colorError
 attr colorPrimary
 attr colorPrimaryDark
+<<<<<<< HEAD
 attr colorSwitchThumbNormal
+=======
+attr colorScheme
+attr colorSwitchThumbNormal
+attr com_facebook_auxiliary_view_position
+attr com_facebook_confirm_logout
+attr com_facebook_foreground_color
+attr com_facebook_horizontal_alignment
+attr com_facebook_is_cropped
+attr com_facebook_login_text
+attr com_facebook_logout_text
+attr com_facebook_object_id
+attr com_facebook_object_type
+attr com_facebook_preset_size
+attr com_facebook_style
+attr com_facebook_tooltip_mode
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 attr commitIcon
 attr contentDescription
 attr contentInsetEnd
@@ -104,6 +142,14 @@ attr contentInsetLeft
 attr contentInsetRight
 attr contentInsetStart
 attr contentInsetStartWithNavigation
+<<<<<<< HEAD
+=======
+attr contentPadding
+attr contentPaddingBottom
+attr contentPaddingLeft
+attr contentPaddingRight
+attr contentPaddingTop
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 attr controlBackground
 attr coordinatorLayoutStyle
 attr customNavigationLayout
@@ -147,6 +193,11 @@ attr icon
 attr iconTint
 attr iconTintMode
 attr iconifiedByDefault
+<<<<<<< HEAD
+=======
+attr imageAspectRatio
+attr imageAspectRatioAdjust
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 attr imageButtonStyle
 attr indeterminateProgressStyle
 attr initialActivityCount
@@ -202,6 +253,10 @@ attr radioButtonStyle
 attr ratingBarStyle
 attr ratingBarStyleIndicator
 attr ratingBarStyleSmall
+<<<<<<< HEAD
+=======
+attr scopeUris
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 attr searchHintIcon
 attr searchIcon
 attr searchViewStyle
@@ -328,6 +383,37 @@ color browser_actions_text_color
 color browser_actions_title_color
 color button_material_dark
 color button_material_light
+<<<<<<< HEAD
+=======
+color cardview_dark_background
+color cardview_light_background
+color cardview_shadow_end_color
+color cardview_shadow_start_color
+color com_facebook_blue
+color com_facebook_button_background_color
+color com_facebook_button_background_color_disabled
+color com_facebook_button_background_color_pressed
+color com_facebook_button_text_color
+color com_facebook_device_auth_text
+color com_facebook_likeboxcountview_border_color
+color com_facebook_likeboxcountview_text_color
+color com_facebook_likeview_text_color
+color com_facebook_primary_button_disabled_text_color
+color com_facebook_primary_button_pressed_text_color
+color com_facebook_primary_button_text_color
+color com_smart_login_code
+color common_google_signin_btn_text_dark
+color common_google_signin_btn_text_dark_default
+color common_google_signin_btn_text_dark_disabled
+color common_google_signin_btn_text_dark_focused
+color common_google_signin_btn_text_dark_pressed
+color common_google_signin_btn_text_light
+color common_google_signin_btn_text_light_default
+color common_google_signin_btn_text_light_disabled
+color common_google_signin_btn_text_light_focused
+color common_google_signin_btn_text_light_pressed
+color common_google_signin_btn_tint
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -352,6 +438,10 @@ color material_grey_850
 color material_grey_900
 color notification_action_color_filter
 color notification_icon_bg_color
+<<<<<<< HEAD
+=======
+color notification_material_background_media_default_color
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -451,6 +541,28 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen browser_actions_context_menu_max_width
 dimen browser_actions_context_menu_min_padding
+<<<<<<< HEAD
+=======
+dimen cardview_compat_inset_shadow
+dimen cardview_default_elevation
+dimen cardview_default_radius
+dimen com_facebook_auth_dialog_corner_radius
+dimen com_facebook_auth_dialog_corner_radius_oversized
+dimen com_facebook_button_corner_radius
+dimen com_facebook_button_login_corner_radius
+dimen com_facebook_likeboxcountview_border_radius
+dimen com_facebook_likeboxcountview_border_width
+dimen com_facebook_likeboxcountview_caret_height
+dimen com_facebook_likeboxcountview_caret_width
+dimen com_facebook_likeboxcountview_text_padding
+dimen com_facebook_likeboxcountview_text_size
+dimen com_facebook_likeview_edge_padding
+dimen com_facebook_likeview_internal_padding
+dimen com_facebook_likeview_text_size
+dimen com_facebook_profilepictureview_preset_size_large
+dimen com_facebook_profilepictureview_preset_size_normal
+dimen com_facebook_profilepictureview_preset_size_small
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 dimen compat_button_inset_horizontal_material
 dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
@@ -482,6 +594,13 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+<<<<<<< HEAD
+=======
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -574,7 +693,50 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+<<<<<<< HEAD
 drawable floating_action_mode_shape
+=======
+drawable com_facebook_auth_dialog_background
+drawable com_facebook_auth_dialog_cancel_background
+drawable com_facebook_auth_dialog_header_background
+drawable com_facebook_button_background
+drawable com_facebook_button_icon
+drawable com_facebook_button_like_background
+drawable com_facebook_button_like_icon_selected
+drawable com_facebook_close
+drawable com_facebook_favicon_blue
+drawable com_facebook_profile_picture_blank_portrait
+drawable com_facebook_profile_picture_blank_square
+drawable com_facebook_tooltip_black_background
+drawable com_facebook_tooltip_black_bottomnub
+drawable com_facebook_tooltip_black_topnub
+drawable com_facebook_tooltip_black_xout
+drawable com_facebook_tooltip_blue_background
+drawable com_facebook_tooltip_blue_bottomnub
+drawable com_facebook_tooltip_blue_topnub
+drawable com_facebook_tooltip_blue_xout
+drawable common_full_open_on_phone
+drawable common_google_signin_btn_icon_dark
+drawable common_google_signin_btn_icon_dark_focused
+drawable common_google_signin_btn_icon_dark_normal
+drawable common_google_signin_btn_icon_dark_normal_background
+drawable common_google_signin_btn_icon_disabled
+drawable common_google_signin_btn_icon_light
+drawable common_google_signin_btn_icon_light_focused
+drawable common_google_signin_btn_icon_light_normal
+drawable common_google_signin_btn_icon_light_normal_background
+drawable common_google_signin_btn_text_dark
+drawable common_google_signin_btn_text_dark_focused
+drawable common_google_signin_btn_text_dark_normal
+drawable common_google_signin_btn_text_dark_normal_background
+drawable common_google_signin_btn_text_disabled
+drawable common_google_signin_btn_text_light
+drawable common_google_signin_btn_text_light_focused
+drawable common_google_signin_btn_text_light_normal
+drawable common_google_signin_btn_text_light_normal_background
+drawable googleg_disabled_color_18
+drawable googleg_standard_color_18
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 drawable launch_background
 drawable notification_action_background
 drawable notification_bg
@@ -629,6 +791,10 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+<<<<<<< HEAD
+=======
+id action0
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -636,7 +802,10 @@ id action_bar_root
 id action_bar_spinner
 id action_bar_subtitle
 id action_bar_title
+<<<<<<< HEAD
 id action_close
+=======
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id action_container
 id action_context_bar
 id action_divider
@@ -648,25 +817,49 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+<<<<<<< HEAD
 id action_reload
 id action_share
+=======
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id action_text
 id actions
 id activity_chooser_view_content
 id add
+<<<<<<< HEAD
+=======
+id adjust_height
+id adjust_width
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id alertTitle
 id all
 id always
 id async
+<<<<<<< HEAD
 id beginning
 id blocking
 id bottom
+=======
+id auto
+id automatic
+id beginning
+id blocking
+id bottom
+id box_count
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id browser_actions_header_text
 id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+<<<<<<< HEAD
 id buttonPanel
+=======
+id button
+id buttonPanel
+id cancel_action
+id cancel_button
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id center
 id center_horizontal
 id center_vertical
@@ -675,17 +868,42 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+<<<<<<< HEAD
 id container
+=======
+id com_facebook_body_frame
+id com_facebook_button_xout
+id com_facebook_device_auth_instructions
+id com_facebook_fragment_container
+id com_facebook_login_fragment_progress_bar
+id com_facebook_smart_instructions_0
+id com_facebook_smart_instructions_or
+id com_facebook_tooltip_bubble_view_bottom_pointer
+id com_facebook_tooltip_bubble_view_text_body
+id com_facebook_tooltip_bubble_view_top_pointer
+id confirmation_code
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id content
 id contentPanel
 id custom
 id customPanel
+<<<<<<< HEAD
+=======
+id dark
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id decor_content_parent
 id default_activity_button
 id dialog_button
 id disableHome
+<<<<<<< HEAD
 id edit_query
 id end
+=======
+id display_always
+id edit_query
+id end
+id end_padder
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id expand_activities_button
 id expanded_menu
 id fill
@@ -697,27 +915,53 @@ id home
 id homeAsUp
 id icon
 id icon_group
+<<<<<<< HEAD
+=======
+id icon_only
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id ifRoom
 id image
 id info
+id inline
 id italic
+<<<<<<< HEAD
 id left
+=======
+id large
+id left
+id light
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id line1
 id line3
 id listMode
 id list_item
+<<<<<<< HEAD
 id menu_search
+=======
+id media_actions
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id message
 id middle
 id multiply
 id never
+<<<<<<< HEAD
+=======
+id never_display
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id none
 id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
+<<<<<<< HEAD
 id parentPanel
 id progressBar
+=======
+id open_graph
+id page
+id parentPanel
+id progress_bar
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id progress_circular
 id progress_horizontal
 id radio
@@ -743,12 +987,22 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+<<<<<<< HEAD
+=======
+id small
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id spacer
 id split_action_bar
 id src_atop
 id src_in
 id src_over
+<<<<<<< HEAD
 id start
+=======
+id standard
+id start
+id status_bar_latest_event_content
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id submenuarrow
 id submit_area
 id tabMode
@@ -771,15 +1025,26 @@ id title_template
 id top
 id topPanel
 id uniform
+<<<<<<< HEAD
 id up
 id useLogo
 id webView
+=======
+id unknown
+id up
+id useLogo
+id wide
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 id withText
 id wrap_content
 integer abc_config_activityDefaultDur
 integer abc_config_activityShortDur
 integer cancel_button_image_alpha
 integer config_tooltipAnimTime
+<<<<<<< HEAD
+=======
+integer google_play_services_version
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 integer status_bar_notification_info_maxnum
 layout abc_action_bar_title_item
 layout abc_action_bar_up_container
@@ -809,24 +1074,46 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+<<<<<<< HEAD
 layout activity_web_view
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout chrome_custom_tabs_layout
+=======
+layout browser_actions_context_menu_page
+layout browser_actions_context_menu_row
+layout com_facebook_activity_layout
+layout com_facebook_device_auth_dialog_fragment
+layout com_facebook_login_fragment
+layout com_facebook_smart_device_dialog_fragment
+layout com_facebook_tooltip_bubble
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 layout custom_dialog
 layout floating_action_mode
 layout floating_action_mode_item
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+<<<<<<< HEAD
 menu menu_main
+=======
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 mipmap ic_launcher
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -867,6 +1154,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+<<<<<<< HEAD
 string action_close
 string action_go_back
 string action_go_forward
@@ -877,6 +1165,49 @@ string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
 string menu_search
+=======
+string com_facebook_device_auth_instructions
+string com_facebook_image_download_unknown_error
+string com_facebook_internet_permission_error_message
+string com_facebook_internet_permission_error_title
+string com_facebook_like_button_liked
+string com_facebook_like_button_not_liked
+string com_facebook_loading
+string com_facebook_loginview_cancel_action
+string com_facebook_loginview_log_in_button
+string com_facebook_loginview_log_in_button_continue
+string com_facebook_loginview_log_in_button_long
+string com_facebook_loginview_log_out_action
+string com_facebook_loginview_log_out_button
+string com_facebook_loginview_logged_in_as
+string com_facebook_loginview_logged_in_using_facebook
+string com_facebook_send_button_text
+string com_facebook_share_button_text
+string com_facebook_smart_device_instructions
+string com_facebook_smart_device_instructions_or
+string com_facebook_smart_login_confirmation_cancel
+string com_facebook_smart_login_confirmation_continue_as
+string com_facebook_smart_login_confirmation_title
+string com_facebook_tooltip_default
+string common_google_play_services_enable_button
+string common_google_play_services_enable_text
+string common_google_play_services_enable_title
+string common_google_play_services_install_button
+string common_google_play_services_install_text
+string common_google_play_services_install_title
+string common_google_play_services_notification_channel_name
+string common_google_play_services_notification_ticker
+string common_google_play_services_unknown_issue
+string common_google_play_services_unsupported_text
+string common_google_play_services_update_button
+string common_google_play_services_update_text
+string common_google_play_services_update_title
+string common_google_play_services_updating_text
+string common_google_play_services_wear_update_text
+string common_open_on_phone
+string common_signin_button_text
+string common_signin_button_text_long
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 string search_menu_title
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat
@@ -884,12 +1215,19 @@ style AlertDialog_AppCompat_Light
 style Animation_AppCompat_Dialog
 style Animation_AppCompat_DropDownUp
 style Animation_AppCompat_Tooltip
+<<<<<<< HEAD
 style AppTheme
+=======
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
 style Base_Animation_AppCompat_DropDownUp
 style Base_Animation_AppCompat_Tooltip
+<<<<<<< HEAD
+=======
+style Base_CardView
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 style Base_DialogWindowTitle_AppCompat
 style Base_DialogWindowTitleBackground_AppCompat
 style Base_TextAppearance_AppCompat
@@ -1040,7 +1378,13 @@ style Base_Widget_AppCompat_Spinner_Underlined
 style Base_Widget_AppCompat_TextView_SpinnerItem
 style Base_Widget_AppCompat_Toolbar
 style Base_Widget_AppCompat_Toolbar_Button_Navigation
+<<<<<<< HEAD
 style InAppWebViewTheme
+=======
+style CardView
+style CardView_Dark
+style CardView_Light
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 style LaunchTheme
 style NormalTheme
 style Platform_AppCompat
@@ -1120,9 +1464,17 @@ style TextAppearance_AppCompat_Widget_Switch
 style TextAppearance_AppCompat_Widget_TextView_SpinnerItem
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+<<<<<<< HEAD
+=======
+style TextAppearance_Compat_Notification_Title_Media
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 style TextAppearance_Widget_AppCompat_ExpandedMenu_Item
 style TextAppearance_Widget_AppCompat_Toolbar_Subtitle
 style TextAppearance_Widget_AppCompat_Toolbar_Title
@@ -1154,7 +1506,10 @@ style ThemeOverlay_AppCompat_Dark_ActionBar
 style ThemeOverlay_AppCompat_Dialog
 style ThemeOverlay_AppCompat_Dialog_Alert
 style ThemeOverlay_AppCompat_Light
+<<<<<<< HEAD
 style ThemeTransparent
+=======
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar
@@ -1230,6 +1585,16 @@ style Widget_AppCompat_Toolbar_Button_Navigation
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 style Widget_Support_CoordinatorLayout
+<<<<<<< HEAD
+=======
+style com_facebook_activity_theme
+style com_facebook_auth_dialog
+style com_facebook_auth_dialog_instructions_textview
+style com_facebook_button
+style com_facebook_button_like
+style com_facebook_loginview_default_style
+style tooltip_bubble_text
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -1246,6 +1611,10 @@ styleable AppCompatTextHelper android_textAppearance android_drawableTop android
 styleable AppCompatTextView android_textAppearance autoSizeMaxTextSize autoSizeMinTextSize autoSizePresetSizes autoSizeStepGranularity autoSizeTextType firstBaselineToTopHeight fontFamily lastBaselineToBottomHeight lineHeight textAllCaps
 styleable AppCompatTheme android_windowIsFloating android_windowAnimationStyle actionBarDivider actionBarItemBackground actionBarPopupTheme actionBarSize actionBarSplitStyle actionBarStyle actionBarTabBarStyle actionBarTabStyle actionBarTabTextStyle actionBarTheme actionBarWidgetTheme actionButtonStyle actionDropDownStyle actionMenuTextAppearance actionMenuTextColor actionModeBackground actionModeCloseButtonStyle actionModeCloseDrawable actionModeCopyDrawable actionModeCutDrawable actionModeFindDrawable actionModePasteDrawable actionModePopupWindowStyle actionModeSelectAllDrawable actionModeShareDrawable actionModeSplitBackground actionModeStyle actionModeWebSearchDrawable actionOverflowButtonStyle actionOverflowMenuStyle activityChooserViewStyle alertDialogButtonGroupStyle alertDialogCenterButtons alertDialogStyle alertDialogTheme autoCompleteTextViewStyle borderlessButtonStyle buttonBarButtonStyle buttonBarNegativeButtonStyle buttonBarNeutralButtonStyle buttonBarPositiveButtonStyle buttonBarStyle buttonStyle buttonStyleSmall checkboxStyle checkedTextViewStyle colorAccent colorBackgroundFloating colorButtonNormal colorControlActivated colorControlHighlight colorControlNormal colorError colorPrimary colorPrimaryDark colorSwitchThumbNormal controlBackground dialogCornerRadius dialogPreferredPadding dialogTheme dividerHorizontal dividerVertical dropDownListViewStyle dropdownListPreferredItemHeight editTextBackground editTextColor editTextStyle homeAsUpIndicator imageButtonStyle listChoiceBackgroundIndicator listDividerAlertDialog listMenuViewStyle listPopupWindowStyle listPreferredItemHeight listPreferredItemHeightLarge listPreferredItemHeightSmall listPreferredItemPaddingLeft listPreferredItemPaddingRight panelBackground panelMenuListTheme panelMenuListWidth popupMenuStyle popupWindowStyle radioButtonStyle ratingBarStyle ratingBarStyleIndicator ratingBarStyleSmall searchViewStyle seekBarStyle selectableItemBackground selectableItemBackgroundBorderless spinnerDropDownItemStyle spinnerStyle switchStyle textAppearanceLargePopupMenu textAppearanceListItem textAppearanceListItemSecondary textAppearanceListItemSmall textAppearancePopupMenuHeader textAppearanceSearchResultSubtitle textAppearanceSearchResultTitle textAppearanceSmallPopupMenu textColorAlertDialogListItem textColorSearchUrl toolbarNavigationButtonStyle toolbarStyle tooltipForegroundColor tooltipFrameBackground viewInflaterClass windowActionBar windowActionBarOverlay windowActionModeOverlay windowFixedHeightMajor windowFixedHeightMinor windowFixedWidthMajor windowFixedWidthMinor windowMinWidthMajor windowMinWidthMinor windowNoTitle
 styleable ButtonBarLayout allowStacking
+<<<<<<< HEAD
+=======
+styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 styleable ColorStateListItem android_color android_alpha alpha
 styleable CompoundButton android_button buttonTint buttonTintMode
 styleable CoordinatorLayout keylines statusBarBackground
@@ -1258,6 +1627,10 @@ styleable GradientColorItem android_color android_offset
 styleable LinearLayoutCompat android_gravity android_orientation android_baselineAligned android_baselineAlignedChildIndex android_weightSum divider dividerPadding measureWithLargestChild showDividers
 styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width android_layout_height android_layout_weight
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
+<<<<<<< HEAD
+=======
+styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 styleable MenuGroup android_enabled android_id android_visible android_menuCategory android_orderInCategory android_checkableBehavior
 styleable MenuItem android_icon android_enabled android_id android_checked android_visible android_menuCategory android_orderInCategory android_title android_titleCondensed android_alphabeticShortcut android_numericShortcut android_checkable android_onClick actionLayout actionProviderClass actionViewClass alphabeticModifiers contentDescription iconTint iconTintMode numericModifiers showAsAction tooltipText
 styleable MenuView android_windowAnimationStyle android_itemTextAppearance android_horizontalDivider android_verticalDivider android_headerBackground android_itemBackground android_itemIconDisabledAlpha preserveIconSpacing subMenuArrow
@@ -1265,6 +1638,10 @@ styleable PopupWindow android_popupBackground android_popupAnimationStyle overla
 styleable PopupWindowBackgroundState state_above_anchor
 styleable RecycleListView paddingBottomNoButtons paddingTopNoTitle
 styleable SearchView android_focusable android_maxWidth android_inputType android_imeOptions closeIcon commitIcon defaultQueryHint goIcon iconifiedByDefault layout queryBackground queryHint searchHintIcon searchIcon submitBackground suggestionRowLayout voiceIcon
+<<<<<<< HEAD
+=======
+styleable SignInButton buttonSize colorScheme scopeUris
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
 styleable Spinner android_entries android_popupBackground android_prompt android_dropDownWidth popupTheme
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
@@ -1274,5 +1651,11 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+<<<<<<< HEAD
 xml image_share_filepaths
 xml provider_paths
+=======
+styleable com_facebook_like_view com_facebook_auxiliary_view_position com_facebook_foreground_color com_facebook_horizontal_alignment com_facebook_object_id com_facebook_object_type com_facebook_style
+styleable com_facebook_login_view com_facebook_confirm_logout com_facebook_login_text com_facebook_logout_text com_facebook_tooltip_mode
+styleable com_facebook_profile_picture_view com_facebook_is_cropped com_facebook_preset_size
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8

@@ -1,7 +1,11 @@
 {
     "logs": [
         {
+<<<<<<< HEAD
             "outputFile": "/home/tushar/Techno_Flutter_App/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+=======
+            "outputFile": "/home/ezio_wick/flutter_app_techno_recent/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-night-v8/values-night-v8.xml",
+>>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
             "map": [
                 {
                     "source": "/home/tushar/.gradle/caches/transforms-2/files-2.1/d8e69336e21c6a428e8a9e9d99518477/appcompat-1.0.0/res/values-night-v8/values-night-v8.xml",
