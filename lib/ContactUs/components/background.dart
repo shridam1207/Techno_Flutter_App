@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../components/rounded_button.dart';
+
 class Background extends StatelessWidget {
   final Widget child;
   const Background({
@@ -16,16 +16,6 @@ class Background extends StatelessWidget {
       child: Stack(
         alignment: Alignment.center,
         children: <Widget>[
-          /*Positioned(
-            top: 22,
-            left: 10,
-            child: IconButton(
-              iconSize: 33.0,
-              icon: Icon(Icons.arrow_back_ios  ), 
-              onPressed: (){print("heyhye");},
-            ),
-            
-          ),*/         //NON SCROLLABLE BUTTON 
           Positioned(
             top: 0,
             left: 0,

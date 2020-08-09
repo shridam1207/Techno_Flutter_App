@@ -4,13 +4,18 @@ import 'drawerScreen.dart';
 import 'homeScreen.dart';
 
 import 'login_page.dart';
-import 'AboutUs/about_us.dart';
 import 'constants.dart';
+import 'AboutUs/about_us.dart';
 import 'Technopedia/technopedia.dart';
+import 'Updates/updates.dart';
+import 'QuickLinks/quick_links.dart';
+import 'ContactUS/contact_us.dart';
+
 
 
 void main(){
   runApp(MaterialApp(home: HomePage(),
+                     
   theme: ThemeData(
     fontFamily: 'Circular'
   ),

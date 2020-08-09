@@ -6,7 +6,8 @@ import 'package:flutter_app_techno_recent/QuickLinks.dart';
 import 'package:flutter_app_techno_recent/Solutions.dart';
 import 'package:flutter_app_techno_recent/Updates.dart';
 
-//import 'AboutUs/welcome_screen.dart';
+
+
 import 'AboutUs/about_us.dart';
 import 'Technopedia.dart';
 
@@ -29,6 +30,7 @@ List<Map> drawerItems=[
     'icon': Icons.person,
     'title' : 'About Us',
     'page': AboutUs()
+
   },
   {
     'icon': Icons.computer,
