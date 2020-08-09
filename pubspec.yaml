@@ -26,6 +26,8 @@ dependencies:
   flutter_svg: ^ 0.17.0
   font_awesome_flutter:
   extended_image: ^0.7.3-dev
+  url_launcher: ^5.2.5
+  webview_flutter: 0.3.20+2
 
 
 
