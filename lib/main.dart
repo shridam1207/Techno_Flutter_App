@@ -10,11 +10,12 @@ import 'Technopedia/technopedia.dart';
 import 'Updates/updates.dart';
 import 'QuickLinks/quick_links.dart';
 import 'ContactUS/contact_us.dart';
-import 'ContactUs/components/know_your_reps.dart';
+
 
 
 void main(){
   runApp(MaterialApp(home: HomePage(),
+                     
   theme: ThemeData(
     fontFamily: 'Circular'
   ),
