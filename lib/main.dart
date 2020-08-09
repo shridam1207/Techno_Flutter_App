@@ -14,6 +14,7 @@ import 'ContactUs/contact_us.dart';
 
 void main(){
   runApp(MaterialApp(home: HomePage(),
+                     
   theme: ThemeData(
     fontFamily: 'Circular'
   ),
