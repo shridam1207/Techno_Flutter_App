@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: SingleChildScrollView(
               child: Container(
                 decoration: BoxDecoration(
-                  color:fb_blue,
+                  color:Colors.purpleAccent[700],
                   borderRadius: BorderRadius.circular(isDrawerOpen ? 40 : 0.0),
                 ),
                 child: Column(
@@ -148,10 +148,33 @@ class _HomeScreenState extends State<HomeScreen> {
 
                       ),
                     ),
+                    Container(height: 225,
+                      width: 700,
+                      decoration: BoxDecoration(
+                        color:Colors.blueGrey[50],),
+                      child:  SingleChildScrollView(
+                        child: Column(
+                          children: <Widget>[
+
+                            Container(
+                              padding: EdgeInsets.all(10),
+                              margin: EdgeInsets.fromLTRB(30, 10,15,10),
+                              height: 200,
+                              width:350,
+                              child: YoutubePlayer(
+                                controller: _controller,
+                                showVideoProgressIndicator: true,
+                              ),
+                            ),
+
+                          ],
+                        ),
+                      ),
+                    ),
 
                     Container(height: 225,
                       decoration: BoxDecoration(
-                        color:fb_blue,),
+                        color:Colors.purpleAccent[700],),
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemCount: categories.length,
@@ -192,22 +215,27 @@ class _HomeScreenState extends State<HomeScreen> {
 
                       ),
                     ),
-                    Container(height: 300,
-                      decoration: BoxDecoration(
-                        color:Colors.white,),
-                      child:  SingleChildScrollView(
-                        child: Column(
-                          children: <Widget>[
-
-                            YoutubePlayer(
-                              controller: _controller,
-                              showVideoProgressIndicator: true,
-                            ),
-
-                          ],
-                        ),
-                      ),
-                      ),
+//                    Container(height: 300,
+//                      width: 700,
+//                      decoration: BoxDecoration(
+//                        color:Colors.white,),
+//                      child:  SingleChildScrollView(
+//                        child: Column(
+//                          children: <Widget>[
+//
+//                            Container(
+//                              height: 200,
+//                              width:300,
+//                              child: YoutubePlayer(
+//                                controller: _controller,
+//                                showVideoProgressIndicator: true,
+//                              ),
+//                            ),
+//
+//                          ],
+//                        ),
+//                      ),
+//                      ),
 
 //                    Container(height: 60,
 //                      width: 425,
@@ -278,8 +306,8 @@ class _HomeScreenState extends State<HomeScreen> {
                               width: double.infinity,
                               height: 20.0,
                               child: new TabBar(
-                                indicatorColor: fb_blue,
-                                labelColor: fb_blue,
+                                indicatorColor: Colors.purpleAccent[700],
+                                labelColor: Colors.purpleAccent[700],
                                 labelStyle: GoogleFonts.varelaRound(
                                   fontWeight: FontWeight.bold,
                                 ),

@@ -27,12 +27,6 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"இதனுடன் பகிர்"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g> மூலம் பகிர்"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"சுருக்கு"</string>
-<<<<<<< HEAD
-    <string msgid="8230469354668895088" name="copy_toast_msg">"கிளிப்-போர்டுக்கு இணைப்பு நகலெடுக்கப்பட்டது"</string>
-    <string msgid="2615365786337886368" name="fallback_menu_item_copy_link">"இணைப்பை நகலெடு"</string>
-    <string msgid="8984733760067120953" name="fallback_menu_item_open_in_browser">"உலாவியில் திற"</string>
-    <string msgid="271185644269364308" name="fallback_menu_item_share_link">"இணைப்பைப் பகிர்"</string>
-=======
     <string gender="unknown" name="com_facebook_device_auth_instructions">&lt;b>facebook.com/device&lt;/b> ஐப் பார்வையிட்டு, மேலே காட்டப்பட்ட குறியீட்டை உள்ளிடவும்.</string>
     <string gender="unknown" name="com_facebook_image_download_unknown_error">படத்தைப் பதிவிறக்கும்போது எதிர்பாராத பிழை ஏற்பட்டது.</string>
     <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView உள்நுழைவுக்கு இணைய அனுமதித் தேவை</string>
@@ -74,7 +68,10 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"மொபைலில் திற"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"உள்நுழைக"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google மூலம் உள்நுழைக"</string>
->>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
+    <string msgid="8230469354668895088" name="copy_toast_msg">"கிளிப்-போர்டுக்கு இணைப்பு நகலெடுக்கப்பட்டது"</string>
+    <string msgid="2615365786337886368" name="fallback_menu_item_copy_link">"இணைப்பை நகலெடு"</string>
+    <string msgid="8984733760067120953" name="fallback_menu_item_open_in_browser">"உலாவியில் திற"</string>
+    <string msgid="271185644269364308" name="fallback_menu_item_share_link">"இணைப்பைப் பகிர்"</string>
     <string msgid="146198913615257606" name="search_menu_title">"தேடு"</string>
     <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>

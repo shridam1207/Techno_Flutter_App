@@ -27,12 +27,6 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
     <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"使用<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
-<<<<<<< HEAD
-    <string msgid="8230469354668895088" name="copy_toast_msg">"链接已复制到剪贴板"</string>
-    <string msgid="2615365786337886368" name="fallback_menu_item_copy_link">"复制链接"</string>
-    <string msgid="8984733760067120953" name="fallback_menu_item_open_in_browser">"在浏览器中打开"</string>
-    <string msgid="271185644269364308" name="fallback_menu_item_share_link">"分享链接"</string>
-=======
     <string gender="unknown" name="com_facebook_device_auth_instructions">请访问&lt;b>facebook.com/device&lt;/b>并输入以上验证码。</string>
     <string gender="unknown" name="com_facebook_image_download_unknown_error">下载图片时出现意外错误。</string>
     <string gender="unknown" name="com_facebook_internet_permission_error_message">WebView 登录需要访问网络</string>
@@ -74,7 +68,10 @@
     <string msgid="5201977337835724196" name="common_open_on_phone">"在手机上打开"</string>
     <string msgid="3441753203274453993" name="common_signin_button_text">"登录"</string>
     <string msgid="669893613918351210" name="common_signin_button_text_long">"使用 Google 帐号登录"</string>
->>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
+    <string msgid="8230469354668895088" name="copy_toast_msg">"链接已复制到剪贴板"</string>
+    <string msgid="2615365786337886368" name="fallback_menu_item_copy_link">"复制链接"</string>
+    <string msgid="8984733760067120953" name="fallback_menu_item_open_in_browser">"在浏览器中打开"</string>
+    <string msgid="271185644269364308" name="fallback_menu_item_share_link">"分享链接"</string>
     <string msgid="146198913615257606" name="search_menu_title">"搜索"</string>
     <string msgid="8106346172024741305" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>
