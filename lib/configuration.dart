@@ -34,6 +34,9 @@ List<Map> experiment = [
   {'iconPath': 'images/Experiment6.png'},
   {'iconPath': 'images/Experiment7.png'},
   {'iconPath': 'images/Experiment8.png'},
+  {'iconPath': 'images/Experiment9.png'},
+  {'iconPath': 'images/Experiment10.png'},
+
 ];
 
 List<Map> drawerItems=[

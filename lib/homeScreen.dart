@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Container(
                 decoration: BoxDecoration(
                   color:Colors.purpleAccent[700],
-                  borderRadius: BorderRadius.circular(isDrawerOpen ? 40 : 0.0),
+                  borderRadius: BorderRadius.circular(isDrawerOpen ? 40 : 20.0),
                 ),
                 child: Column(
                   children: [
@@ -118,6 +118,11 @@ class _HomeScreenState extends State<HomeScreen> {
                         itemCount: categories.length,
                         itemBuilder: (context,index){
                           return Container(
+                              decoration: BoxDecoration(
+                                  shape: BoxShape.rectangle,
+                                  borderRadius: BorderRadius.only(
+                                      topLeft: Radius.circular(25.0),
+                                      bottomRight: Radius.circular(25.0))),
                             child: Column(
                               children: [
                                 InkWell(
@@ -151,30 +156,32 @@ class _HomeScreenState extends State<HomeScreen> {
                     Container(height: 225,
                       width: 700,
                       decoration: BoxDecoration(
-                        color:Colors.blueGrey[50],),
+//                        borderRadius: BorderRadius.circular(100),
+                      color: Colors.white,
+                      ),
                       child:  SingleChildScrollView(
                         child: Column(
                           children: <Widget>[
-
                             Container(
                               padding: EdgeInsets.all(10),
-                              margin: EdgeInsets.fromLTRB(30, 10,15,10),
-                              height: 200,
-                              width:350,
+                              margin: EdgeInsets.fromLTRB(15, 10,15,10),
                               child: YoutubePlayer(
                                 controller: _controller,
                                 showVideoProgressIndicator: true,
                               ),
-                            ),
+                                height: 175,
+                                width: 375,
+                              ),
+
 
                           ],
                         ),
+                        ),
                       ),
-                    ),
 
                     Container(height: 225,
                       decoration: BoxDecoration(
-                        color:Colors.purpleAccent[700],),
+                        color:Colors.white,),
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
                         itemCount: categories.length,
@@ -195,7 +202,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                         spreadRadius: -1,
                                       )
                                     ],
-                                    borderRadius: BorderRadius.circular(50.0),
+                                    borderRadius: BorderRadius.circular(20.0),
                                     border: Border.all(
                                       color: Colors.white,
                                       width: 1.0,
@@ -204,7 +211,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   ),
                                   child: Image.asset(categories[index]['iconPath'],
                                     height: 150,
-                                    width: 355,
+                                    width: 250,
                                   ),
                                 ),
                               ],
@@ -289,44 +296,44 @@ class _HomeScreenState extends State<HomeScreen> {
 //                        ],
 //                      ),
 //                    ),
-                    Container(height: 80,
-                      decoration: BoxDecoration(
-//                        borderRadius: BorderRadius.Circular(isDrawerOpen ? 40 : 0.0),
-                        color: Colors.purple,
-                      ),
-                      child: DefaultTabController(
-                        length: 2,
-                        child: SizedBox(
-                          height: 2,
-                          child: BottomAppBar(
-                            clipBehavior: Clip.antiAlias,
-                            shape: CircularNotchedRectangle(
-                            ),
-                            child: SizedBox(
-                              width: double.infinity,
-                              height: 20.0,
-                              child: new TabBar(
-                                indicatorColor: Colors.purpleAccent[700],
-                                labelColor: Colors.purpleAccent[700],
-                                labelStyle: GoogleFonts.varelaRound(
-                                  fontWeight: FontWeight.bold,
-                                ),
-                                tabs: <Widget>[
-                                  new Tab(
-                                    text: 'Login',
-                                  ),
-                                  new Tab(
-                                    text: 'Register',
-                                  ),
-
-
-                                ],
-                              ),
-                            ),
-                          ),
-                        ),
-                      ),
-                    ),
+//                    Container(height: 80,
+//                      decoration: BoxDecoration(
+////                        borderRadius: BorderRadius.Circular(isDrawerOpen ? 40 : 0.0),
+//                        color: Colors.purple,
+//                      ),
+//                      child: DefaultTabController(
+//                        length: 2,
+//                        child: SizedBox(
+//                          height: 2,
+//                          child: BottomAppBar(
+//                            clipBehavior: Clip.antiAlias,
+//                            shape: CircularNotchedRectangle(
+//                            ),
+//                            child: SizedBox(
+//                              width: double.infinity,
+//                              height: 20.0,
+//                              child: new TabBar(
+//                                indicatorColor: Colors.purpleAccent[700],
+//                                labelColor: Colors.purpleAccent[700],
+//                                labelStyle: GoogleFonts.varelaRound(
+//                                  fontWeight: FontWeight.bold,
+//                                ),
+//                                tabs: <Widget>[
+//                                  new Tab(
+//                                    text: 'Login',
+//                                  ),
+//                                  new Tab(
+//                                    text: 'Register',
+//                                  ),
+//
+//
+//                                ],
+//                              ),
+//                            ),
+//                          ),
+//                        ),
+//                      ),
+//                    ),
 
 
 
