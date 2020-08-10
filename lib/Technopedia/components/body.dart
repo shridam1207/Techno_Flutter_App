@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pet_ui/homeScreen.dart';
-import 'package:pet_ui/main.dart';
+import 'package:flutter_app_techno_recent/homeScreen.dart';
+import 'package:flutter_app_techno_recent/main.dart';
 //import 'package:flutter_auth/Screens/Login/login_screen.dart';
 //import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
 import '../../drawerScreen.dart';

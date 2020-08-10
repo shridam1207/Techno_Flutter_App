@@ -5,7 +5,7 @@ import 'background.dart';
 import '../../components/rounded_button.dart';
 import '../../constants.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:pet_ui/configuration.dart';
+import 'package:flutter_app_techno_recent/configuration.dart';
 
 //List<Map> headlist = [
 //  {'name': 'Aman Bansal', 'iconPath': 'heads_images/Aman_Bansal.jpg','details':'''North Zone

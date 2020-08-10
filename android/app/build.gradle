@@ -39,13 +39,10 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-<<<<<<< HEAD
         applicationId "org.thegrowingdeveloper.pet_ui"
         minSdkVersion 17
-=======
         applicationId "com.example.flutter_app_techno_recent"
         minSdkVersion 21
->>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

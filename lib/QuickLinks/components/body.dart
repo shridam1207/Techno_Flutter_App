@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
-<<<<<<< HEAD
-import 'package:pet_ui/main.dart';
-=======
-import 'package:pet_ui/webviews/fbweb.dart';
-import 'package:pet_ui/webviews/igweb.dart';
-import 'package:pet_ui/webviews/mediumweb.dart';
-import 'package:pet_ui/webviews/websiteweb.dart';
+import 'package:flutter_app_techno_recent/main.dart';
+import 'package:flutter_app_techno_recent/webviews/fbweb.dart';
+import 'package:flutter_app_techno_recent/webviews/igweb.dart';
+import 'package:flutter_app_techno_recent/webviews/mediumweb.dart';
+import 'package:flutter_app_techno_recent/webviews/websiteweb.dart';
 import 'package:url_launcher/url_launcher.dart';
->>>>>>> 455cf9870d5edcebb330447f57f15801f98ed970
 //import 'package:flutter_auth/Screens/Login/login_screen.dart';
 //import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
 import 'background.dart';

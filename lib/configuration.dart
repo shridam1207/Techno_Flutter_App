@@ -1,22 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-<<<<<<< HEAD
-import 'package:pet_ui/LED/LED.dart';
+import 'LED/LED.dart';
 import 'ContactUs/contact_us.dart';
-import 'package:pet_ui/LogicQ.dart';
+import 'LogicQ.dart';
 import 'QuickLinks/quick_links.dart';
-import 'package:pet_ui/Solutions.dart';
+import 'Solutions.dart';
 import 'Updates/updates.dart';
-=======
-import 'package:flutter_app_techno_recent/ContactUs.dart';
 import 'package:flutter_app_techno_recent/LogicQ.dart';
-import 'package:flutter_app_techno_recent/QuickLinks.dart';
 import 'package:flutter_app_techno_recent/Solutions.dart';
-import 'package:flutter_app_techno_recent/Updates.dart';
-
-
->>>>>>> 46ffc6ccd2d3c22d7a284e50b374a5e5a21951b8
-
+import 'package:flutter_app_techno_recent/Updates/updates.dart';
 import 'AboutUs/about_us.dart';
 import 'Technopedia/technopedia.dart';
 

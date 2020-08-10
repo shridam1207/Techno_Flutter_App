@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:pet_ui/main.dart';
+import 'package:flutter_app_techno_recent/main.dart';
 //import 'package:flutter_auth/Screens/Login/login_screen.dart';
 //import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
 import 'background.dart';
 //import 'package:flutter_auth/components/rounded_button.dart';
 import '../../constants.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:pet_ui/configuration.dart';
+import 'package:flutter_app_techno_recent/configuration.dart';
 
 class Body extends StatelessWidget {
   @override

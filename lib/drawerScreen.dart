@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:flutter_app_techno_recent/configuration.dart';
 //import 'package:flutter_app_techno_recent/AboutUs/welcome_screen.dart';
-import 'package:pet_ui/configuration.dart';
-import 'package:pet_ui/AboutUs/about_us.dart';
+import 'configuration.dart';
+import 'AboutUs/about_us.dart';
 
 
 class DrawerScreen extends StatefulWidget {

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:loading_animations/loading_animations.dart';
-import 'package:pet_ui/main.dart';
+import 'main.dart';
 
 void main(){
   runApp(MaterialApp(home: SplashScreen(),
