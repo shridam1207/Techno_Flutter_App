@@ -291,7 +291,7 @@
     },
     {
       "name": "mime",
-      "rootUri": "file:///home/tushar/.pub-cache/hosted/pub.dartlang.org/mime-0.9.6+3",
+      "rootUri": "file:///home/tushar/.pub-cache/hosted/pub.dartlang.org/mime-0.9.7",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -542,7 +542,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2020-08-10T07:36:05.562074Z",
+  "generated": "2020-08-11T12:55:45.696917Z",
   "generator": "pub",
   "generatorVersion": "2.9.0-21.2.beta"
 }

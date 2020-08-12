@@ -28,7 +28,7 @@ class Splash extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     Timer(
-        Duration(seconds: 5),
+        Duration(seconds: 10),
             () => Navigator.of(context).pushReplacement(MaterialPageRoute(
             builder: (BuildContext context) => HomePage())));
 
@@ -44,8 +44,8 @@ class SplashScreenContent extends StatelessWidget {
         decoration: BoxDecoration(
             gradient: LinearGradient(
               begin: Alignment(0, 0),
-              end: Alignment(5, 5),
-              colors: <Color>[Colors.purple[600],Colors.white],
+              end: Alignment(2, 2),
+              colors: <Color>[Colors.deepPurple,Colors.white],
             )),
         child: Center(
           child: Column(children: <Widget>[

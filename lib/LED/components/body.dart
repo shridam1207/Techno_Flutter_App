@@ -78,6 +78,18 @@ class Body extends StatelessWidget {
                       ),
                     ),
                   ),
+                  Center(
+                    child: Container(
+                      padding: EdgeInsets.fromLTRB(0, 10, 0, 20),
+                      child: Text(
+                        "Some Glimpses",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 30,
+                        ),
+                      ),
+                    ),
+                  ),
                   Container(height: 240,
                     decoration: BoxDecoration(
                       color:Colors.white,),

@@ -1,6 +1,9 @@
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app_techno_recent/developers.dart';
 
 import 'package:flutter_app_techno_recent/configuration.dart';
+import 'package:flutter_app_techno_recent/settings.dart';
 //import 'package:flutter_app_techno_recent/AboutUs/welcome_screen.dart';
 import 'configuration.dart';
 import 'AboutUs/about_us.dart';
@@ -63,11 +66,32 @@ class _DrawerScreenState extends State<DrawerScreen> {
             children: [
               Icon(Icons.settings,color: Colors.white,),
               SizedBox(width: 10,),
-              Text('Settings',style:TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
+//              Text('Settings',style:TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
+                RichText(
+                text: TextSpan(
+                text: "Settings",
+                style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),
+                    recognizer: TapGestureRecognizer()
+                      ..onTap = () {Navigator.push(context, MaterialPageRoute(
+                          builder: (context) => Developers()
+                          ));
+                        },
+              ),),
               SizedBox(width: 10,),
               Container(width: 2,height: 20,color: Colors.white,),
               SizedBox(width: 10,),
-              Text('Developers',style:TextStyle(color: Colors.white,fontWeight: FontWeight.bold),)
+//              Text('Developers',style:TextStyle(color: Colors.white,fontWeight: FontWeight.bold),)
+              RichText(
+                text: TextSpan(
+                  text: "Developers",
+                  style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),
+                    recognizer: TapGestureRecognizer()
+                    ..onTap = () {
+                      Navigator.push(context, MaterialPageRoute(
+                          builder: (context) => Settings()
+                      ));
+                    },),
+                  ),
 
 
             ],
