@@ -47,15 +47,29 @@ class Body extends StatelessWidget {
             
             ListTile(
               leading: Icon(Icons.chevron_right ),
-              title: Text("Make sure to confirm your email addresses by visiting your Profile."),
+              title: Text("Make sure to confirm your email addresses by visiting your Profile.",                     
+                       style: TextStyle(
+                      fontFamily: 'sniglet',
+                    ),
+                 ),
             ),
             ListTile(
               leading: Icon(Icons.chevron_right ),
-              title: Text("A very warm welcome to the participants, hope you have a pleasing journey."),
+              title: Text("A very warm welcome to the participants, hope you have a pleasing journey.",                     
+                       style: TextStyle(
+                      fontFamily: 'sniglet',
+
+                    ),
+                 ),
             ),
             ListTile(
               leading: Icon(Icons.chevron_right ),
-              title: Text("You can also edit your other contact details in the Edit Profile Tab."),
+              title: Text("You can also edit your other contact details in the Edit Profile Tab.",                     
+                       style: TextStyle(
+                      fontFamily: 'sniglet',
+
+                    ),
+               ),
             ),
 
 
