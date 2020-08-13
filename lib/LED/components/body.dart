@@ -72,9 +72,10 @@ class Body extends StatelessWidget {
                       child: Text(
                         '''Technothlon, started with the aim of inspiring young minds, in its 15 years of span, has strived to identify the budding talent across the country and nurture and inspire them to be great future leaders of the country. With each and every possible way out to promote out of the box thinking amongst the students, Technothlon had started with its new campaign “Learn.Experience.Discover (LED)”. Through this initiative, we demonstrate to the school students, simple experiments, so as to explain to them the basic principles of science which otherwise they might be learning by rote. ''',
                         style: TextStyle(
-                          //fontWeight: FontWeight.bold
+                         // fontWeight: FontWeight.bold,
                           fontSize: 18,
                         ),
+                        textAlign: TextAlign.center,
                       ),
                     ),
                   ),
@@ -90,9 +91,9 @@ class Body extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Container(height: 240,
+                  Container(height: 270,
                     decoration: BoxDecoration(
-                      color:Colors.white,),
+                      color:Colors.grey[100],),
                     child: ListView.builder(
                       scrollDirection: Axis.horizontal,
                       itemCount: experiment.length,
@@ -101,8 +102,8 @@ class Body extends StatelessWidget {
                           child: Column(
                             children: [
                               Container(
-                                height: 200,
-                                width: 300,
+                                height: 250,
+                                width: 325,
                                 padding: EdgeInsets.all(20),
                                 margin: EdgeInsets.fromLTRB(25, 10,25,10),
                                 decoration: BoxDecoration(
