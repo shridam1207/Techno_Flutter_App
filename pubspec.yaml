@@ -87,7 +87,13 @@ flutter:
           weight: 100
         - asset: fonts/CircularStd-Bold.ttf
           weight: 500
-
+    - family: sniglet
+      fonts:    
+        - asset: fonts/Sniglet-Regular.ttf
+        
+        
+        
+        
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
