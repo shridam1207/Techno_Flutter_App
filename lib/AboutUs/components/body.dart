@@ -109,7 +109,7 @@ class Body extends StatelessWidget {
 2. Mains: is an event-based competition. The top 50 teams from each squad compete against each other in challenging events designed to test their innovation, creativity, and imagination.''',
               style: TextStyle(
                 //fontWeight: FontWeight.bold,
-
+                fontFamily: 'sniglet',
                 fontSize: 15,
                 ),
               textAlign: TextAlign.center,
