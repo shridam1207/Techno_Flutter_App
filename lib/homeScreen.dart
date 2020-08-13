@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: DefaultTabController(
               length:2,
               child: Scaffold(
-                  backgroundColor: Colors.purple,
+                  backgroundColor: Colors.grey[500],
                   appBar: AppBar(
                     leading: isDrawerOpen ? IconButton(
                       icon: Icon(Icons.arrow_back_ios),color:Colors.white,

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_techno_recent/homeScreen.dart';
 import 'package:flutter_app_techno_recent/main.dart';
+import 'package:url_launcher/url_launcher.dart';
 //import 'package:flutter_auth/Screens/Login/login_screen.dart';
 //import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
 import '../../drawerScreen.dart';
@@ -104,20 +105,29 @@ class Body extends StatelessWidget {
                 ),
               ),
 
-              RoundedButton(
-                text: "Attempt Now",
-                press: () {
-                  print("ssdnijfsan");
-                /*  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return LoginScreen();
-                      },
-                    ),
-                  );*/
+                Container(
+                margin: EdgeInsets.symmetric(vertical: 10),
+                width: size.width * 0.8,
+                child: ClipRRect(
+                borderRadius: BorderRadius.circular(29),
+                child: FlatButton(
+                padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
+                onPressed: () async {
+                  const url = 'https://google.com';
+                  if (await canLaunch(url)) {
+                    await launch(url);
+                  } else {
+                    throw 'Could not launch $url';
+                  }
                 },
+                color: Colors.purple,
+                textColor: Colors.white,
+                child: Text("Attempt Now",
+                    style: TextStyle(fontSize: 17)
+                  ),
               ),
+                ),
+                ),
 
               /*RoundedButton(
                 text: "SIGN UP",
