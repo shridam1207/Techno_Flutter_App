@@ -205,6 +205,13 @@
             </list>
           </value>
         </entry>
+        <entry key="flip_card">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/flip_card-0.4.4/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="flutter">
           <value>
             <list>
@@ -657,6 +664,7 @@
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/firebase_core_platform_interface-1.0.4/lib" />
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/firebase_core_web-0.1.1+2/lib" />
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/firebase_database-3.1.6/lib" />
+      <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/flip_card-0.4.4/lib" />
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/flutter_facebook_login-3.0.0/lib" />
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/flutter_inappwebview-4.0.0+4/lib" />
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/flutter_svg-0.18.0/lib" />

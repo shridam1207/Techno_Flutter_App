@@ -75,33 +75,33 @@ class Body extends StatelessWidget {
               ),
             ),
   
-            Hero(
-      tag:'hero',
-      child: CircleAvatar(
+                      Hero(
+                tag:'hero',
+                child: CircleAvatar(
 
-        backgroundColor: Colors.transparent,
-        radius: 100.0,
-        child: Image.asset('assets/images/AboutUs.png'),
-      ),
-      
-    ),
-        SizedBox(height: size.height * 0.05),    
-/*            SvgPicture.asset(
-              "assets/icons/chat.svg",
-              height: size.height * 0.45,
-            ),*/
-            //SizedBox(height: size.height * 0.05),
-            Text(
-              "About Us",
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 40
+                  backgroundColor: Colors.transparent,
+                  radius: 100.0,
+                  child: Image.asset('assets/images/AboutUs.png'),
                 ),
-            ),
-                    Center(
-                      child:Container(
-            padding: EdgeInsets.fromLTRB(30, 20, 30, 20),
-            child: Text(
+
+              ),
+                  SizedBox(height: size.height * 0.05),
+          /*            SvgPicture.asset(
+                        "assets/icons/chat.svg",
+                        height: size.height * 0.45,
+                      ),*/
+                      //SizedBox(height: size.height * 0.05),
+                      Text(
+                        "About Us",
+                        style: TextStyle(
+                          fontWeight: FontWeight.bold,
+                          fontSize: 40
+                          ),
+                      ),
+                              Center(
+                                child:Container(
+                      padding: EdgeInsets.fromLTRB(30, 20, 30, 20),
+                      child: Text(
             '''Technothlon is an international school championship organized by the student fraternity of IIT Guwahati. Technothlon began in 2004 in a small room with an aim to "Inspire Young Minds". Starting on our journey with a participation of 200 students confined to the city of Guwahati, over the past 15 years we have expanded our reach to over 400 cities all over India and various centers abroad. The championship is organized over 2 rounds:
 
 1. Prelims: is the preliminary examination that involves no prerequisites or general knowledge, and students have to rely on their logical and analytical thinking skills alone.

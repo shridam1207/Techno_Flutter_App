@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b95c9d7d-df68-42b8-8e46-f15806c23f61" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/plate1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/plate2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/plate3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/plate4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/plate5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/plate6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mains1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mains2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mains4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mains5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mains6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mains7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mains8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mains9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/efdf0ba5a40b18e4f1f37f89120cacc5/.filecache" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/efdf0ba5a40b18e4f1f37f89120cacc5/.filecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/efdf0ba5a40b18e4f1f37f89120cacc5/app.dill" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/efdf0ba5a40b18e4f1f37f89120cacc5/app.dill" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/flutter_build/efdf0ba5a40b18e4f1f37f89120cacc5/debug_android_application.stamp" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/flutter_build/efdf0ba5a40b18e4f1f37f89120cacc5/debug_android_application.stamp" afterDir="false" />
@@ -23,330 +25,22 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/external_libs_dex/debug/mergeExtDexDebug/out/classes.dex" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/assets/icons/login.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/NOTICES" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/NOTICES" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/libs.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/libs.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/+AIvrRwOnugeYp+FKQbWm8btdgo=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/+AIvrRwOnugeYp+FKQbWm8btdgo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/1DlYC7dsfrULl5i+oXN6TO567M4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/1FuZ20nfSkPHb8SmPhyjRflxuWo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/2DnNhqeURL0yq_Y+nYzS75EiR60=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/2k5pyDssyXJj32VURUXixYband8=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/2k5pyDssyXJj32VURUXixYband8=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/35S78qR7eUWxUnHwzt6Te_OgZT4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/3nm80pdjSbti6C2O3QfuDILkMfA=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/3nm80pdjSbti6C2O3QfuDILkMfA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/3tOYgi5J_JyTAH3TjN8X0Xq9iSU=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/3tOYgi5J_JyTAH3TjN8X0Xq9iSU=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/4+lzjj0Hb2XV5msCUB_Bruqnc9o=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/4+lzjj0Hb2XV5msCUB_Bruqnc9o=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/4bVnxq2nG6TgZYFEa9wnBpBF5VA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/4jLMU2Kr7rH+8OVgZ_G8iN49dVQ=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/4jLMU2Kr7rH+8OVgZ_G8iN49dVQ=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/4mvkYJ3JI7rcY3tTZ8dHMHUbBYo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/4rE9EMvxqSs9uVGcVSkhzAreUAE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/5egt6Lr+L4+ATuZW6HE9AwrWJqI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/5u+0bI5uNIr9F0vfALUf9HMgH1M=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/5u+0bI5uNIr9F0vfALUf9HMgH1M=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/60wdM0jqryvLt2Xk4TA7Znx6TjI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/69hWh437T8smHivrcO2tLg46r0Y=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/69hWh437T8smHivrcO2tLg46r0Y=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/6A1gUYL3XBvMJAd0fu0py4rmwhE=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/6A1gUYL3XBvMJAd0fu0py4rmwhE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/7Q0xTI8I_ppCuXlQhzC2CVtAc9M=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/7Q0xTI8I_ppCuXlQhzC2CVtAc9M=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/7Sq7xbkuSITEUxPejKqEM6mj6bc=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/7Sq7xbkuSITEUxPejKqEM6mj6bc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/7xY6PWdn6ZNlZDBbkg_epktt60w=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/7xY6PWdn6ZNlZDBbkg_epktt60w=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/87Y+qmB9FM8nwtbiX4CId_yDfdc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/8AH7fx5mo8uwSpI4prl7J3D_LlM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/9ct1d1GMwTrb1sdpoDr56UqIDe4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/9koUXvPfyTA4_sgweEnKUZwvYqA=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/9koUXvPfyTA4_sgweEnKUZwvYqA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/AFshFK1ESHim7gupMoHubN4DhP4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/AKZY1FgzgdxKFPrdvV1TR6VqL6o=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/AKZY1FgzgdxKFPrdvV1TR6VqL6o=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/AaiOZMD0OyxILFoKt6ZPU670Bdk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/AlC+1Ed7_mPhcE3CKheo51FSWh0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/AwxqGxFWnI5BejdNLezU2uMuGz0=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/AwxqGxFWnI5BejdNLezU2uMuGz0=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/BCeW0qVtw5eCAxD9+vb9nnttyF4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/BCeW0qVtw5eCAxD9+vb9nnttyF4=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Blo1fBWxR7mpdjpiPk4M+TOppwc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/C1rWKERVz_UkBebnq3KtB8BdmMY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/C39DLxusp30yNZ6Su62IGeY1jAM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/CZ4_WFm0AMu_eOmNe1ndjyvFFzg=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/CZ4_WFm0AMu_eOmNe1ndjyvFFzg=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/CvLwICwy0gxwXfmPTeOzD8WdTOA=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/CvLwICwy0gxwXfmPTeOzD8WdTOA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/D2QUIoGI65CjHdOqQlQxI9O_ZEQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/DQXAwjqOOGzaXhTzRSN7ktBuh2E=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/DXAmkrRtEnWh0N3xz4ItOdLBnzg=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/DXAmkrRtEnWh0N3xz4ItOdLBnzg=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/DYX0gXDSTVkmg5xorSoIuETSpjQ=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/DYX0gXDSTVkmg5xorSoIuETSpjQ=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/DcCqoqF7sXyIpn3AtKTA5VGky+0=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/DcCqoqF7sXyIpn3AtKTA5VGky+0=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/EEzaXUlj9l8fsuAzcg9TNNOW5Pg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/EejMf7kKfsBRobppCReKJ1mgDKA=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/EejMf7kKfsBRobppCReKJ1mgDKA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/EnMuFCxEz5L8v1s4Wd0VakoAwjo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/FUOxOqTfsdPEgDOjWKsMt2GUWf4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/FUOxOqTfsdPEgDOjWKsMt2GUWf4=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/HHhV8MpOtd_6aFaHKuYyl2tG6rc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/I3fMEG3tcTX5oRZiG7gqSaOi1Z8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/IEURxCzEc3G_jctW9Uh+jbfcS+k=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/J0c0vUNlR3FNGHaPV_4NCbi4_Mk=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/J0c0vUNlR3FNGHaPV_4NCbi4_Mk=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/JAV3iuX71TJZFrZxNi2QVCyfPG8=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/JAV3iuX71TJZFrZxNi2QVCyfPG8=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/JLOFSHxjUKoNhQAFE_yGhYV7LJo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/KSuldrKPH36opgN5n0Azo1CIuMI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Kro1Hp1x+QRC6KrJDUAqjeoqjEk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/LCBmiyG0A7yhMoZC4GVodNJ9hoU=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/LCBmiyG0A7yhMoZC4GVodNJ9hoU=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/LVW07zDV9jSoCJY7rTGdUyYe3ws=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/LVW07zDV9jSoCJY7rTGdUyYe3ws=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/MAy8nuGy0SDJYF3I59Yr0A1myfk=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/MAy8nuGy0SDJYF3I59Yr0A1myfk=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/MQnxv7MsiPcrxvLGTJnQJ3lz8oE=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/MQnxv7MsiPcrxvLGTJnQJ3lz8oE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/MZdJFAb0WVKqyq+G0kKeSHaWgn8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/N+nPt+CInzv12cj9hscNDB6zAGM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Ngnf1D7szST9Fg91A65kURpNwvs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/OVFrYP9IqbMjL2R0FSkcitoIPC4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/OVFrYP9IqbMjL2R0FSkcitoIPC4=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/P2jWKXY9ypvkQp47EQqxengVeOk=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/P2jWKXY9ypvkQp47EQqxengVeOk=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/PCB3znBpW4ZnSBIe6lvz5qL3Czo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/PD+WGTWzBWvMU7UldikNpQewZS0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/PLIncbE+I1nQ7tSKSf9Bxr4m+3Y=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/PSzs1Fp+Ye8gNVHSbpgJG5_oMWQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Pc9+a8soIA4nE42tG75d1o6XpB4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q4ogsNMrTP4rcJauu2Arsj0p2Yw=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Q4ogsNMrTP4rcJauu2Arsj0p2Yw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/QUlA0ZJ6g3EuXvx3SZ0K47c8rvY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Qhhn6qP7IWPnbXhVtacMV83XHi0=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Qhhn6qP7IWPnbXhVtacMV83XHi0=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/QkQ6ncBZdxoxXcR3Ec8H2nFn3iE=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/QkQ6ncBZdxoxXcR3Ec8H2nFn3iE=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/QsjOEoDd+QzoDEZ11vVHQT7hG+0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/SBOdx40FDh5q0zEa_Slzv2wnWa0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/SDOlPENO6Jz9CjxHl2lRWQl1rEo=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/SDOlPENO6Jz9CjxHl2lRWQl1rEo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/T8AzQ8V9ncr7vlDFnYDzmQrfMCw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/THsLcOrMLo2xSvDzIqLPhYO6yow=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Tih4eFyjltfbHwHBYia6uk3LTh0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/UOjBs+81jlIYE0KS0+r7XkBom_Y=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/UOjBs+81jlIYE0KS0+r7XkBom_Y=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Un9aVWbCJiCB8YcBHE8zN71zxfY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/UxIAUevp8qJVI1RrEXBWvk+DjRs=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/UxIAUevp8qJVI1RrEXBWvk+DjRs=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/VR7X4zipS_E0Ixdr2DZX_DocKtk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/VSW4fWaU960lYTFakPMZCeYMrWQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/VdRdw32UT6ik9cvo2cLfKdTD6x0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/WPPJV5t5JTX0xoKi1R4kYExP5e0=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/WPPJV5t5JTX0xoKi1R4kYExP5e0=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/WsyUdDI9w+wQhljAs8mI_+2t8W8=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/WsyUdDI9w+wQhljAs8mI_+2t8W8=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/WuvWxWWLFqL6HC21c7ylEHF7lfI=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/WuvWxWWLFqL6HC21c7ylEHF7lfI=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/Y4ej+SnIcLwhBNyNE2lpDUSUoQI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/YFv_1872LJ7rzzkC3Ysou77mVJw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/YYMZLag9Sw6Jzm7tMOhKPLDpnxU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/YqWvUSsNfCFLUGnnhKuYo0FIXL4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/YqWvUSsNfCFLUGnnhKuYo0FIXL4=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ZA5r1BuIKpJuVGR3lswQzO2Re8U=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/_AfKey0bVlPO6rB+b3r3M82TqaQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/_gtAleKhptbmm1F9YjOWCTk1rkg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/aBk46H8Nj4HVNfjsFQ0K_7MOMaM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/aWbRCQJ2QsPj0bTlFFzL8z18ty0=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/aWbRCQJ2QsPj0bTlFFzL8z18ty0=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/asKKXMRqt_aOd4vryNRD9MJoGr4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/asKKXMRqt_aOd4vryNRD9MJoGr4=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/bL4xTq54SN6sj4kqAsC+36NuPr8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/bSoc6a9STtcAZPbfeN1J_LHDsMk=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/bSoc6a9STtcAZPbfeN1J_LHDsMk=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/bXVxzrHc7VdygjO0DNoTXFGpbfQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/beCnxc7JcBrQegKrkO6AvwsdhBI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/boZ0DxrOe26pjM9xwe5mlOf33Tk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/cCTQwt4Fr0hihiW0LfiVGxY1MRg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/cfGYk+eR00ge2XoCvzkdX5p76hw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ci3zWeCmaEepVpo5hqLDX5nofyE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/cqHMoIdbFRgc7mPRsW1c1YJZ9mU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ct7Ha7uZknmHvCAvK5rqlq25jME=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/d1L2nYwzrgV6npmNH9bVe+4lmRg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/dRogrDwMEEiu4BfejpZ_Ycu9tUw=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/dRogrDwMEEiu4BfejpZ_Ycu9tUw=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/dt176WtgC+WwU+Tz10dcPTRjoHU=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/dxw_zRYAPTgC292gknFDrnv09Ps=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/dxw_zRYAPTgC292gknFDrnv09Ps=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/e2pxvhH3CC99pOGUIB9Kw6UNHfM=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/e2pxvhH3CC99pOGUIB9Kw6UNHfM=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/e9jNRH9N7SJdS+JIhHy1+HRnT1c=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/e9jNRH9N7SJdS+JIhHy1+HRnT1c=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/eU413kM8urAFtUNnos8XNJKsS3Y=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/eYxSfBdMESMqWo0YfJXLYpWmk_Y=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ffHp+YUGl_lEYMkW8U9g9fY2GLs=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ffHp+YUGl_lEYMkW8U9g9fY2GLs=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/gG5twE1BFuZFn6WDMrenGV8ztnQ=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/gG5twE1BFuZFn6WDMrenGV8ztnQ=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/gY2Wh7CFZZAM0aoCG_wBdHOXNIM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/gkjNkw9xTn84tAnrsAuZdntROks=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/h9nfs4G1wDYiGQf3s+odRHszT50=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/hE0wq8Aj_ePYv+ERNsVRNl4SUDM=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/hE0wq8Aj_ePYv+ERNsVRNl4SUDM=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/hFChwFMl1dCpBjkyMkuuW2TAbZY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/iC_v4oRM71z7VPTGf62KQXZH22U=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/i_JSYZhie1yO36tNWcO0QVbv8Cg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ialzSShtgQAU5LQca635gIH7WhY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ikSMDqh_Idisv3wDXyHkr8qFO10=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/imlHbRhv2gpTAFAN3Ys2aWnjSlk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/iuelFbh89rhYQYy22_QyxB16YTg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/iwvE+UVCN8SmZ2685IOOeU2Mc3U=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/iwvE+UVCN8SmZ2685IOOeU2Mc3U=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/jFlr4fwC1UfvX2I2HjNt5e15OOQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/jRkSC3cUPtcWvvtTYE9a_2LERbE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/jXLszDVERpXln953d_isyHJ_eA4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/jXLszDVERpXln953d_isyHJ_eA4=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/jZswFbEeReAjUb0nymMVwzBzzuY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/je4RecP3egmoPHqq7nEWr6Af8v4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/je4RecP3egmoPHqq7nEWr6Af8v4=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/jfiWrT5lP9qHgUY9uisYTFZkc9M=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/jfiWrT5lP9qHgUY9uisYTFZkc9M=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/kRYiH0e3302fOO73p9ek+qOqQlY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/kc8ZQNAmI1Q_xTMdAaxOYsYS_Qw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/kevqpq5rO8kH0vQtHvX3JizhMuo=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/lWaaw0TSDMqfCzzZHft6v3nYEx4=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/lWaaw0TSDMqfCzzZHft6v3nYEx4=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/luo9P4l+FKsEBHGNQdE0PhHs1tc=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/luo9P4l+FKsEBHGNQdE0PhHs1tc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/mV7YjHwsRscRM9CesFmPuwViQYs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ndACW1fVSpSpwPeeTboCxrR5J4Y=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/nqSJ9DzJWC42XMRxDE5E1ml7yDA=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/oCBlPiwrSH70+XZH4ywSGdNKdtE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/oN8LdqF_9zcVPRJ7Znm8PdxZ+YY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ohEZtBbrOnBOQv0AfZPSXc+AbMY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ohKfoP3HwOvURWsR_NLygwyV3I4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/p2gOi_COFzKR_uMfWwfkzVYWHHU=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/p2gOi_COFzKR_uMfWwfkzVYWHHU=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/p2vu2i1V+KIdvaFbld36b78saPc=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/p2vu2i1V+KIdvaFbld36b78saPc=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/pgzRz4Z+++BDXY2u7Aktnd92n2g=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/pozWbHM+YJyW1IavNA35AEss_Ys=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/px_XNzpla8VrvA6uologtA+iVAk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/q7ODzFI_5LRBy9TIjrx7GO0niYs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/qQ4FUic3QoRtdW2YgwQpVkBwhEo=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/qQ4FUic3QoRtdW2YgwQpVkBwhEo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/qVyfxffPfEth3tutBBxRUKZDsAA=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/qVyfxffPfEth3tutBBxRUKZDsAA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/rXG1hBwx_rJwxEqnLHvi9bA6GMs=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/rXG1hBwx_rJwxEqnLHvi9bA6GMs=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/rdP0TaDuL8FejHcYZAEPhw6PKAM=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/rhCIFPBFfq_1HsGfMhJHSoZvrg8=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/rhCIFPBFfq_1HsGfMhJHSoZvrg8=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/roNV10lEnYG8h4dVkFvarXV3hY0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/rqNp7WpE7FWZzfonx1h_PkulOB8=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/rqNp7WpE7FWZzfonx1h_PkulOB8=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ruXfi2Wa+TmmrbeC7JsHeI31KLA=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ruXfi2Wa+TmmrbeC7JsHeI31KLA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/s2hwExwx4tAyan8Urstp1AMeIvE=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/s5hdWTDzUtYypW3AsOfIPmMvB7Y=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/sNJ+_i2IkLmrWVkm+ahGbH0L3vk=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/sW33zbmDqZy4hF3vnXXGd6kKpxs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/tIDPeDa93K3jHP9dM0BaQ6xz10A=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/tIDPeDa93K3jHP9dM0BaQ6xz10A=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/tLwfXEEl0MwMEm0psIynz7TqGb0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/tW6eVzo_EbM86vQYf01HXlw6NLo=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/tW6eVzo_EbM86vQYf01HXlw6NLo=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/u+cwgtM0wqhbZQvGIcP15jHBhnU=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/u+cwgtM0wqhbZQvGIcP15jHBhnU=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/u5_gcm3U2bgEzLIguPP39s+SoaQ=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/u5_gcm3U2bgEzLIguPP39s+SoaQ=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/u5t9JSbybTO78OHL_zLlcn2cyhY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/u_s9KV8Q8saVkOjVO1KlUdPBdxA=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/u_s9KV8Q8saVkOjVO1KlUdPBdxA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ueSBlFOQBsmS9Ktby6Uj7ebE+Xg=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ueSBlFOQBsmS9Ktby6Uj7ebE+Xg=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/vaomhGChNtX9kL1vx3g4rxXbIx8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/vh9bpnBwdvoI5b20W4HMWvUi+e4=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/vw06OnE7Y4Mq_vJHHlhqsos50Mw=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/w4OOW496wy80wz4blRjJa3BG++o=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/wH01BxFZkC28Mn6vI9OnYE_uFvQ=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/weWOUN75axJHZUf6ypsV2Y+L56c=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/wpj2IkDnvSNXDO_T6s+0Y+gLSUc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/x6pggL3oZx7Np7OlPQU2x76eBng=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/xlAyZDzLqUWS3noRynbZoTtMf3s=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/xlAyZDzLqUWS3noRynbZoTtMf3s=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/ybZqx_2JNJQ2f9PSmkZBRP0s5J0=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/z301F1VNsLYvDExgnDhnae3g8l0=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/z301F1VNsLYvDExgnDhnae3g8l0=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/z9wdueE8WLRctgDkRHp+ioD1QzI=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/zfaiiVeDkfhDSGHSSp4WBA7bdrs=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/zjBjTnAURN76W1VengcefoKsHLg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/zlWF2xG81tZ9au7qT+rdP7RpIEY=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/qVyfxffPfEth3tutBBxRUKZDsAA=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/qVyfxffPfEth3tutBBxRUKZDsAA=" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/7lRwqc_TvHZ9s7fFVm0b601Ydhg=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/A+M35HiypUPBQrORMyvAcmgbVy8=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/nuBwoaWwdl++qmI31BE2WJIwLuU=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/zip-cache/nuBwoaWwdl++qmI31BE2WJIwLuU=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/AssetManifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/assets/icons/login.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/NOTICES" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/NOTICES" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/app.apk.sha1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/apk/debug/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cloud_firestore/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cloud_firestore_web/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore_web/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/cloud_firestore_web/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/cloud_firestore_web/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_analytics/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_analytics/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_analytics/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_analytics/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_auth/.transforms/25750b143eeed9f5052e4e696c8243ab.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_auth/.transforms/25750b143eeed9f5052e4e696c8243ab/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_auth/.transforms/2e0fa81a1958094e2291e3122c8f8ab0.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_auth/.transforms/ba49f1bc325f36d664ee5544b015ef08.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_auth/.transforms/ba49f1bc325f36d664ee5544b015ef08/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_auth/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_auth/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_auth/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_auth/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_auth_web/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_auth_web/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_auth_web/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_auth_web/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_core/.transforms/08b7beaef4c5f3b4b52a45f960de979d.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_core/.transforms/83acee8ffa56b3682d594391a139b7fe.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_core/.transforms/83acee8ffa56b3682d594391a139b7fe/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_core/.transforms/d18bdc67106505317cacd7f5ec0ec59f.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_core/.transforms/d18bdc67106505317cacd7f5ec0ec59f/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_core/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_core/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_core/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_core_web/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_core_web/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_core_web/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_core_web/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_database/.transforms/158405d56fbc5ca8cd71cb7ce7d84b32.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_database/.transforms/158405d56fbc5ca8cd71cb7ce7d84b32/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_database/.transforms/8861c2dcf6b32b8a42089e1f514a99f0.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_database/.transforms/8861c2dcf6b32b8a42089e1f514a99f0/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_database/.transforms/f4fec5001de0bbd1f47a297e82d91e60.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_database/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_database/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/firebase_database/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/firebase_database/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_facebook_login/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/flutter_facebook_login/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_facebook_login/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/flutter_facebook_login/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/.transforms/43fc017c57e6ea4eae80fc749234e83d.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/.transforms/43fc017c57e6ea4eae80fc749234e83d/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/.transforms/4b98c698422aa7532bb0f157ef135a8f.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/.transforms/4e94a915cfe7eecc1c2b6bf3509091d6.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/.transforms/4e94a915cfe7eecc1c2b6bf3509091d6/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/.transforms/8af0e411a34285d4410b85aaf2f3801a.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/.transforms/8ea2c5edaf02e4a46ad5c3ac98e44e36.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/.transforms/8ea2c5edaf02e4a46ad5c3ac98e44e36/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/.transforms/9e2048091f62de81c0dd545cb23cf5b4.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/.transforms/9e2048091f62de81c0dd545cb23cf5b4/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/.transforms/a4157296b051e47bf5742457a65d417f.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/.transforms/a4157296b051e47bf5742457a65d417f/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/flutter_inappwebview/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/flutter_inappwebview/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/flutter_inappwebview/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/google_sign_in/.transforms/48b8105d92b1473110e9043567d8089c.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/google_sign_in/.transforms/5adc8d79157e0056815cf5fb78f912fb.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/google_sign_in/.transforms/5adc8d79157e0056815cf5fb78f912fb/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/google_sign_in/.transforms/fc8d9f4de1eef91437a4d16175c8be0c.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/google_sign_in/.transforms/fc8d9f4de1eef91437a4d16175c8be0c/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/google_sign_in/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/google_sign_in/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/google_sign_in/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/google_sign_in/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/.transforms/19ca42b9e235ffb9aab840225a0db0fc.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/.transforms/205802220a0609b15ac599e590a3ca09.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/.transforms/205802220a0609b15ac599e590a3ca09/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/.transforms/4435d1feb745e1baf7d7e28ff3b96f15.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/.transforms/4435d1feb745e1baf7d7e28ff3b96f15/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/.transforms/540befe10623e1c87ef18a9b9a8adf4d.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/.transforms/540befe10623e1c87ef18a9b9a8adf4d/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/.transforms/80ebce8f0cb9f82bc5b73666f147dfbe.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/.transforms/d42204d0755685589afb57b9ac5001b1.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/.transforms/d42204d0755685589afb57b9ac5001b1/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/.transforms/d6b160b2d9fbdc292bacd1779b028804.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/.transforms/d6b160b2d9fbdc292bacd1779b028804/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/path_provider/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/path_provider/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/path_provider/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/url_launcher/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/url_launcher/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/url_launcher/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/url_launcher/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/url_launcher/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/url_launcher/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/177605b3a05d8600cbcb4994ace76195.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/177605b3a05d8600cbcb4994ace76195/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/1b477729d6e795a57dba07d1aee84d78.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/1b477729d6e795a57dba07d1aee84d78/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/29589e2727166851148cbc543e46362a.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/29589e2727166851148cbc543e46362a/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/2c7aa20f7960ffc08facfe2a8ecf5fa9.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/2c7aa20f7960ffc08facfe2a8ecf5fa9/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/3cd73daeab208ec65d3524b83c9ffe62.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/3cd73daeab208ec65d3524b83c9ffe62/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/3f53bb8474b361a493dbc0bff1658355.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/8035b36ba0b786cc47cd05ae95c628c4.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/8035b36ba0b786cc47cd05ae95c628c4/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/82af19c2f26c7079e4efe1d37e6e3267.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/d860ffe24392ea2f88a48b4473ffb308.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/da60d6b22a5204acb18a95762151154e.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/.transforms/da60d6b22a5204acb18a95762151154e/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/video_player/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video_player/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/video_player/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/wakelock/.transforms/4f2a73ba40fa7bbfada905ad9441e560.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/wakelock/.transforms/4f2a73ba40fa7bbfada905ad9441e560/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/wakelock/.transforms/7a520af2a08b9cbdac7bc11b1698a3e5.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/wakelock/.transforms/bc528363aeabefc36cc3a51979d1460f.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/wakelock/.transforms/bc528363aeabefc36cc3a51979d1460f/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/wakelock/.transforms/fd422933e464e9609ac9288739a7b746.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/wakelock/.transforms/fd422933e464e9609ac9288739a7b746/full/classes.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/wakelock/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/wakelock/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/wakelock/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/wakelock/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/wakelock/intermediates/merged_java_res/debug/out.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/wakelock/intermediates/merged_java_res/debug/out.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/wakelock/kotlin/compileDebugKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/wakelock/kotlin/compileDebugKotlin/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/wakelock/kotlin/compileDebugKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/wakelock/kotlin/compileDebugKotlin/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webview_flutter/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter/intermediates/compile_only_not_namespaced_r_class_jar/debug/R.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webview_flutter/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/webview_flutter/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/LED/components/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/LED/components/body.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/drawerScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/drawerScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/homeScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/homeScreen.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/splash.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/splash.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/AboutUs/components/body.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/AboutUs/components/body.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Solutions.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Solutions.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/configuration.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/configuration.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
@@ -383,7 +77,7 @@
   <component name="PropertiesComponent">
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Techno_App" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -392,13 +86,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/images" />
       <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/images/Experiment" />
       <recent name="$PROJECT_DIR$/assets/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
