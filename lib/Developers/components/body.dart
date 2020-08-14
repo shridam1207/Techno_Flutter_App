@@ -73,10 +73,15 @@ class Body extends StatelessWidget {
                   child: Image.asset('assets/images/AboutUs.png'),
                 ),
               ),*/
-              SvgPicture.asset(
-                "assets/icons/technopedia.svg",
-                height: size.height * 0.3,
+            Hero(
+              tag:'hero',
+              child: CircleAvatar(
+
+                backgroundColor: Colors.transparent,
+                radius: 100.0,
+                child: Image.asset('assets/icons/developers.jpg'),
               ),
+            ),
               SizedBox(height: size.height * 0.05),
 
 /*            SvgPicture.asset(
@@ -85,7 +90,7 @@ class Body extends StatelessWidget {
               ),*/
               //SizedBox(height: size.height * 0.05),
               Text(
-                "Technopedia",
+                "Developers",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 40
@@ -97,7 +102,6 @@ class Body extends StatelessWidget {
                   child: Text(
                     '''Technopedia is the online module of Technothlon providing its students with an ultimate experience of the prelims beforehand. With the monthly quizzes, Technopedia aims at keeping the young minds involved in brainstorming questions and helping them prepare for the prelims''',
                     style: TextStyle(
-                      fontFamily: 'sniglet',
                       //fontWeight: FontWeight.bold
                       fontSize: 15,
                     ),

@@ -1,9 +1,10 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app_techno_recent/developers.dart';
+import 'package:flutter_app_techno_recent/Developers/developers.dart';
 
 import 'package:flutter_app_techno_recent/configuration.dart';
-import 'package:flutter_app_techno_recent/settings.dart';
+import '''package:flutter_app_techno_recent/FAQ's/faqs.dart''';
+import 'package:flutter_app_techno_recent/Info/info.dart';
 //import 'package:flutter_app_techno_recent/AboutUs/welcome_screen.dart';
 import 'configuration.dart';
 import 'AboutUs/about_us.dart';
@@ -64,16 +65,16 @@ class _DrawerScreenState extends State<DrawerScreen> {
 
           Row(
             children: [
-              Icon(Icons.settings,color: Colors.white,),
+              Icon(Icons.question_answer,color: Colors.white,),
               SizedBox(width: 10,),
 //              Text('Settings',style:TextStyle(color: Colors.white,fontWeight: FontWeight.bold),),
                 RichText(
                 text: TextSpan(
-                text: "Settings",
+                text: "FAQ's",
                 style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),
                     recognizer: TapGestureRecognizer()
                       ..onTap = () {Navigator.push(context, MaterialPageRoute(
-                          builder: (context) => Developers()
+                          builder: (context) => faqs()
                           ));
                         },
               ),),
@@ -88,10 +89,24 @@ class _DrawerScreenState extends State<DrawerScreen> {
                     recognizer: TapGestureRecognizer()
                     ..onTap = () {
                       Navigator.push(context, MaterialPageRoute(
-                          builder: (context) => Settings()
+                          builder: (context) => Developers()
                       ));
                     },),
                   ),
+              SizedBox(width: 10,),
+              Container(width: 2,height: 20,color: Colors.white,),
+              SizedBox(width: 10,),
+              RichText(
+                text: TextSpan(
+                  text: "Info",
+                  style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold),
+                  recognizer: TapGestureRecognizer()
+                    ..onTap = () {
+                      Navigator.push(context, MaterialPageRoute(
+                          builder: (context) => info()
+                      ));
+                    },),
+              ),
 
 
             ],

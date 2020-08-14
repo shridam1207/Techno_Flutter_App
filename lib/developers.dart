@@ -5,7 +5,7 @@ class Developers extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Solutions'),
+        title: Text('developers'),
       ),
       body: SafeArea(
         child: Center(
