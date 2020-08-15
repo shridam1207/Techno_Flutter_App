@@ -4,36 +4,39 @@ import 'drawerScreen.dart';
 import 'homeScreen.dart';
 
 
-//import 'login_page.dart';
-//import 'constants.dart';
-//import 'AboutUs/about_us.dart';
-//import 'Technopedia/technopedia.dart';
-//import 'Updates/updates.dart';
-//import 'QuickLinks/quick_links.dart';
-//import 'ContactUs/contact_us.dart';
+import 'login_page.dart';
+import 'constants.dart';
+import 'AboutUs/about_us.dart';
+import 'Technopedia/technopedia.dart';
+import 'Updates/updates.dart';
+import 'QuickLinks/quick_links.dart';
+import 'ContactUs/contact_us.dart';
 
 
-//void main(){
-//  runApp(MaterialApp(home: HomePage(),
-//
-//  theme: ThemeData(
-//    fontFamily: 'Circular'
-//  ),
-//  ));
-//}
+import 'ContactUs/components/know_your_reps.dart';
+import 'Solutions/solutions.dart';
+import 'package:flutter_downloader/flutter_downloader.dart';
+
+// import 'package:flutter_app_techno_recent/Solutions.dart';
 
 
 
 
-//void main(){
-//  runApp(MaterialApp(home: HomePage(),
-//                     
-//  theme: ThemeData(
-//    fontFamily: 'Circular'
-//  ),
-//  ));
-//}
 
+void main() async {
+
+  WidgetsFlutterBinding.ensureInitialized();
+  await FlutterDownloader.initialize(
+  debug: false // optional: set false to disable printing logs to console
+);
+
+  runApp(MaterialApp(home: HomePage(),
+                     
+  theme: ThemeData(
+    fontFamily: 'Circular'
+  ),
+  ));
+}
 
 
 class HomePage extends StatelessWidget {
@@ -52,3 +55,5 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
+

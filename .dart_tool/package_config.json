@@ -170,6 +170,12 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "flip_card",
+      "rootUri": "file:///home/tushar/.pub-cache/hosted/pub.dartlang.org/flip_card-0.4.4",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///home/ezio_wick/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -542,7 +548,11 @@
       "languageVersion": "2.7"
     }
   ],
+<<<<<<< HEAD
+  "generated": "2020-08-13T20:15:39.145903Z",
+=======
   "generated": "2020-08-13T08:18:26.531693Z",
+>>>>>>> eb80cf649a7a2631db1078bdbe1c2bccffdcbcc0
   "generator": "pub",
   "generatorVersion": "2.8.4"
 }
