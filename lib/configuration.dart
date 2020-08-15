@@ -13,6 +13,7 @@ import 'package:flutter_app_techno_recent/Solutions.dart';
 import 'package:flutter_app_techno_recent/Updates/updates.dart';
 import 'AboutUs/about_us.dart';
 import 'Technopedia/technopedia.dart';
+import 'Solutions/solutions.dart';
 
 Color fb_blue = Color.fromRGBO(66, 103 ,178,1);
 
@@ -56,7 +57,7 @@ List<Map> drawerItems=[
   {
     'icon': Icons.book,
     'title' : 'Solutions',
-    'page':Cityreps()
+    'page':Solutions()
   },
   {
     'icon': Icons.lightbulb_outline,
