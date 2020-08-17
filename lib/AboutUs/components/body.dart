@@ -39,10 +39,11 @@ class Body extends StatelessWidget {
       ),
     );
   }
-} 
+}
     
     */
     return Background(
+
       child: Stack(
         
         children: <Widget>[
@@ -68,7 +69,7 @@ class Body extends StatelessWidget {
               alignment: Alignment.topLeft,
               child: IconButton(
                 iconSize: 33.0,
-                icon: Icon(Icons.arrow_back_ios  ), 
+                icon: Icon(Icons.arrow_back_ios  ),
                 onPressed: (){  Navigator.push(context, MaterialPageRoute(
                     builder: (context) => HomePage()
                 ));},
