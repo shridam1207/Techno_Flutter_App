@@ -109,7 +109,7 @@ class Body extends StatelessWidget {
                       children: [
                         Container(
                             padding: EdgeInsets.all(10),
-                            margin: EdgeInsets.fromLTRB(15, 10,15,10),
+                            margin: EdgeInsets.fromLTRB(20, 10,25,10),
                             decoration: BoxDecoration(
                               color: Colors.white,
                               boxShadow: [
