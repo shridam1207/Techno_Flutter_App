@@ -6,10 +6,10 @@ import 'LED/LED.dart';
 import 'ContactUs/contact_us.dart';
 import 'LogicQ.dart';
 import 'QuickLinks/quick_links.dart';
-import 'Solutions.dart';
+
 import 'Updates/updates.dart';
-import 'package:flutter_app_techno_recent/LogicQ.dart';
-import 'package:flutter_app_techno_recent/Solutions.dart';
+
+
 import 'package:flutter_app_techno_recent/Updates/updates.dart';
 import 'AboutUs/about_us.dart';
 import 'Technopedia/technopedia.dart';
@@ -59,11 +59,11 @@ List<Map> drawerItems=[
     'title' : 'Solutions',
     'page':Solutions()
   },
-  {
-    'icon': Icons.lightbulb_outline,
-    'title' : 'LogicQ',
-    'page':LogicQ()
-  },
+//  {
+//    'icon': Icons.lightbulb_outline,
+//    'title' : 'LogicQ',
+//    'page':LogicQ()
+//  },
   {
     'icon': Icons.contacts,
     'title' : 'Contact Us',
@@ -83,19 +83,19 @@ List<Map> drawerItems=[
 
 
 List<Map> headlist = [
-  {'name': 'Aman Bansal', 'iconPath': 'heads_images/Aman_Bansal.jpg','details':'''North Zone
+  {'tag': 'aman', 'name': 'Aman Bansal', 'iconPath': 'heads_images/Aman_Bansal.jpg','details':'''North Zone
 aman.bansal@techniche.org
 +91 9755049920''' },
-  {'name': 'Vedansh Nehra', 'iconPath': 'heads_images/Vedansh_Nehra.jpg','details':'''West Zone
+  {'tag': 'vedansh','name': 'Vedansh Nehra', 'iconPath': 'heads_images/Vedansh_Nehra.jpg','details':'''West Zone
 vedansh@techniche.org
 +91 9354020275''' },
-  {'name': 'Pooja Bhagat', 'iconPath': 'heads_images/Pooja_Bhagat.jpg','details':'''Central Zone
+  {'tag': 'pooja','name': 'Pooja Bhagat', 'iconPath': 'heads_images/Pooja_Bhagat.jpg','details':'''Central Zone
 pooja@techniche.org
 +91 8401809075''' },
-  {'name': 'Shridam Mahajan', 'iconPath': 'heads_images/Shridam_Mahajan.jpg','details':'''East Zone
+  {'tag': 'shridam','name': 'Shridam Mahajan', 'iconPath': 'heads_images/Shridam_Mahajan.jpg','details':'''East Zone
 shridam@techniche.org
 +91 7587817679''' },
-  {'name': 'Sai Chandan', 'iconPath': 'heads_images/Sai_Chandan.jpg','details':'''South Zone
+  {'tag': 'sai','name': 'Sai Chandan', 'iconPath': 'heads_images/Sai_Chandan.jpg','details':'''South Zone
 chandan@techniche.org
 +91 9030267303''' },
 ];

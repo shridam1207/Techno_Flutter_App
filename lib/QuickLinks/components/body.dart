@@ -185,6 +185,9 @@ class Body extends StatelessWidget {
             ),  
             
             SizedBox(height: size.height * 0.05),
+            SizedBox(height: size.height * 0.05),
+            SizedBox(height: size.height * 0.05),
+            SizedBox(height: size.height * 0.05),
           ],
         ),
       ),

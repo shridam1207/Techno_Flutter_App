@@ -8,10 +8,11 @@ import 'package:flutter_app_techno_recent/configuration.dart';
 
 class mains extends StatefulWidget {
   @override
-  _CityrepsState createState() => _CityrepsState();
+  _MainsState createState() => _MainsState();
 }
 
-class _CityrepsState extends State<mains> {
+
+class _MainsState extends State<mains> {
   String selectedyear = null;
 
   Set<String> Years = new Set();
@@ -50,34 +51,45 @@ class _CityrepsState extends State<mains> {
               height: size.height * 0.45,
             ),*/
                   //SizedBox(height: size.height * 0.05),
-                  Center(
-                    child: Container(
-                      padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
-                      child: Text(
-                        "MAINS",
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 50,
-                        ),
-                      ),
+                  Hero(
+                    tag:'hero',
+                    child: CircleAvatar(
+
+                      backgroundColor: Colors.transparent,
+                      radius: 130.0,
+                      child: Image.asset('assets/images/mains.jpg'),
+                    ),
+
+                  ),
+                  //SizedBox(height: size.height * 0.03),
+                  /*            SvgPicture.asset(
+                        "assets/icons/chat.svg",
+                        height: size.height * 0.45,
+                      ),*/
+                  //SizedBox(height: size.height * 0.05),
+                  Text(
+                    "MAINS",
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 40
                     ),
                   ),
                   Center(
                     child:Container(
                       padding: EdgeInsets.fromLTRB(30, 20, 30, 20),
                       child: Text(
-                        '''Technothlon is an international school championship organized by the student fraternity of IIT Guwahati. Technothlon began in 2004 in a small room with an aim to "Inspire Young Minds". Starting on our journey with a participation of 200 students confined to the city of Guwahati, over the past 15 years we have expanded our reach to over 400 cities all over India and various centers abroad. The championship is organized over 2 rounds:
-
-1. Prelims: is the preliminary examination that involves no prerequisites or general knowledge, and students have to rely on their logical and analytical thinking skills alone.
-
-2. Mains: is an event-based competition. The top 50 teams from each squad compete against each other in challenging events designed to test their innovation, creativity, and imagination.''',
+                        '''Mains is an event based competition. It is conducted during "Techniche", the Techno-Management Festival of IIT Guwahati, held during the first week of September. The selected teams of the same squad compete against each other in various events. The events are designed to test the creativity and imagination of the participants. There is no prerequisite knowledge requirement for these events. Moreover, any extra knowledge required is taught to the students by us. The winners of Technothlon are crowned on the basis of their performance in these events.
+''',
                         style: TextStyle(
-                          //fontWeight: FontWeight.bold
-                          fontSize: 20,
+                          //fontWeight: FontWeight.bold,
+                          fontFamily: 'sniglet',
+                          fontSize: 15,
                         ),
+                        textAlign: TextAlign.center,
                       ),
                     ),
                   ),
+
 
                   Center(
                     child: Container(
