@@ -129,8 +129,7 @@ class Body extends StatelessWidget {
                             ),
                             child:Column(
                                 children: [
-//                                Hero(
-//                                  tag: (headlist[index]['tag']),
+//                              
                                   Padding(
                                     padding: EdgeInsets.all(16.0),
                                     child : CircleAvatar(
