@@ -219,7 +219,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                             children: [
                                               Container(
                                                 padding: EdgeInsets.all(10),
-                                                margin: EdgeInsets.fromLTRB(15, 10,15,10),
+                                                margin: EdgeInsets.fromLTRB(0, 10,15,10),
                                                 decoration: BoxDecoration(
                                                   color: Colors.white,
                                                   boxShadow: [
