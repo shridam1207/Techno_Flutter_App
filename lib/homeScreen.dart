@@ -237,7 +237,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                   ),
 
                                                 ),
-                                                child: Image(image: AssetImage('images/logo.png'),),
+                                                child: Image(image: AssetImage('images/logo.png'),
                                                   height: 150,
                                                   width: 250,
                                                 ),
