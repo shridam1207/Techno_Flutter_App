@@ -1,8 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_techno_recent/configuration.dart';
-import 'package:flutter_app_techno_recent/developers.dart';
-import 'package:flutter_app_techno_recent/screen2.dart';
+//import 'package:flutter_app_techno_recent/developers.dart';
+//import 'package:flutter_app_techno_recent/screen2.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:video_player/video_player.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen> {
             child: DefaultTabController(
               length:2,
               child: Scaffold(
-                  backgroundColor: Colors.grey[500],
+                  backgroundColor: Colors.yellow[700],
                   appBar: AppBar(
                     leading: isDrawerOpen ? IconButton(
                       icon: Icon(Icons.arrow_back_ios),color:Colors.white,
@@ -152,13 +152,17 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                       Positioned(
                         top: 130.0,
-                        right:216,
+                        right:128,
                         child: Container(
                           child: Text('WHO ARE WE?',
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 20.0,
-                                  color: Colors.purple)),
+                                  color: Colors.purple),
+                            textAlign: TextAlign.center,
+
+                          ),
+
                         ),
                       ),
 
@@ -181,6 +185,21 @@ class _HomeScreenState extends State<HomeScreen> {
                             ],
                           ),
                         ),),
+                      Positioned(
+                        top: 360.0,
+                        right: 153,
+                      child: Container(
+                        child: Text('EXPLORE',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 20.0,
+                              color: Colors.purple),
+                          textAlign: TextAlign.center,
+
+                        ),
+                      ),
+
+                      ),
                       Positioned(
                           top: 400.0,
                           left: 25.0,
@@ -218,7 +237,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                   ),
 
                                                 ),
-                                                child: Image.asset(categories[index]['iconPath'],
+                                                child: Image(image: AssetImage('images/logo.png'),),
                                                   height: 150,
                                                   width: 250,
                                                 ),

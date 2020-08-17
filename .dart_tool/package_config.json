@@ -86,6 +86,12 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "downloads_path_provider",
+      "rootUri": "file:///home/ezio_wick/flutter/.pub-cache/hosted/pub.dartlang.org/downloads_path_provider-0.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "extended_image",
       "rootUri": "file:///home/ezio_wick/flutter/.pub-cache/hosted/pub.dartlang.org/extended_image-1.1.0",
       "packageUri": "lib/",
@@ -171,7 +177,7 @@
     },
     {
       "name": "flip_card",
-      "rootUri": "file:///home/tushar/.pub-cache/hosted/pub.dartlang.org/flip_card-0.4.4",
+      "rootUri": "file:///home/ezio_wick/flutter/.pub-cache/hosted/pub.dartlang.org/flip_card-0.4.4",
       "packageUri": "lib/",
       "languageVersion": "2.0"
     },
@@ -180,6 +186,12 @@
       "rootUri": "file:///home/ezio_wick/flutter/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "2.2"
+    },
+    {
+      "name": "flutter_downloader",
+      "rootUri": "file:///home/ezio_wick/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_downloader-1.5.0",
+      "packageUri": "lib/",
+      "languageVersion": "1.20"
     },
     {
       "name": "flutter_facebook_login",
@@ -374,6 +386,18 @@
       "languageVersion": "1.19"
     },
     {
+      "name": "permission_handler",
+      "rootUri": "file:///home/ezio_wick/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "permission_handler_platform_interface",
+      "rootUri": "file:///home/ezio_wick/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler_platform_interface-2.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
+    },
+    {
       "name": "petitparser",
       "rootUri": "file:///home/ezio_wick/flutter/.pub-cache/hosted/pub.dartlang.org/petitparser-2.4.0",
       "packageUri": "lib/",
@@ -548,11 +572,7 @@
       "languageVersion": "2.7"
     }
   ],
-<<<<<<< HEAD
-  "generated": "2020-08-13T20:15:39.145903Z",
-=======
-  "generated": "2020-08-13T08:18:26.531693Z",
->>>>>>> eb80cf649a7a2631db1078bdbe1c2bccffdcbcc0
+  "generated": "2020-08-17T04:46:55.980202Z",
   "generator": "pub",
   "generatorVersion": "2.8.4"
 }
