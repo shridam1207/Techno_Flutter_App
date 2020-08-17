@@ -31,7 +31,7 @@ class Body extends StatelessWidget {
                 ));},
               ),
             ),
-        SizedBox(height: size.height * 0.05),    
+        //SizedBox(height: size.height * 0.05),    
             SvgPicture.asset(
               "assets/icons/updates.svg",
               height: size.height * 0.25,
@@ -95,7 +95,12 @@ class Body extends StatelessWidget {
           SizedBox(height: size.height * 0.05),
           SizedBox(height: size.height * 0.05),
           SizedBox(height: size.height * 0.05),
-
+          SizedBox(height: size.height * 0.05),    
+          SizedBox(height: size.height * 0.05),    
+          SizedBox(height: size.height * 0.05),    
+          SizedBox(height: size.height * 0.05),    
+          SizedBox(height: size.height * 0.05),    
+          SizedBox(height: size.height * 0.05),    
           ],
         ),
       ),

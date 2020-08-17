@@ -103,7 +103,7 @@ class _BodyState extends State<Body> {
         child: SingleChildScrollView(
           child: Column(
             children: <Widget>[
-              SizedBox(height: size.height * 0.05),
+              //SizedBox(height: size.height * 0.05),
               Align(
                 alignment: Alignment.topLeft,
                  child: IconButton(
@@ -115,7 +115,7 @@ class _BodyState extends State<Body> {
                    ))},
                  ),
               ),
-              SizedBox(height: size.height * 0.05),
+              //SizedBox(height: size.height * 0.05),
               Image.asset(
                 "assets/icons/sol_picture.jpg",
                 height: size.height * 0.3,
@@ -138,6 +138,7 @@ class _BodyState extends State<Body> {
                   child: Text(
                     '''Look through our repository of past question papers to help you prepare for Technothlon 2020''',
                     style: TextStyle(
+                      fontFamily: 'sniglet',
                       //fontWeight: FontWeight.bold
                       fontSize: 15,
                     ),
@@ -192,7 +193,11 @@ class _BodyState extends State<Body> {
                                             color: Colors.black54,
                                             fontSize: 16,
                                           ),
-                                          hint: Text('Select Squad'),
+                                          hint: Text('Select Squad',style: TextStyle(
+                      fontFamily: 'sniglet',
+                      //fontWeight: FontWeight.bold
+                      fontSize: 15,
+                    )),
                                           onChanged: (String newValue) {
                                             setState(() {
                                               selected_Squad = newValue;
@@ -204,7 +209,11 @@ class _BodyState extends State<Body> {
                                           },
                                           items: squads.map((item) {
                                                 return new DropdownMenuItem(
-                                                  child: new Text(item),
+                                                  child: new Text(item,style: TextStyle(
+                      fontFamily: 'sniglet',
+                      //fontWeight: FontWeight.bold
+                      fontSize: 15,
+                    )),
                                                   value: item,
                                                 );
                                               })?.toList() ??
@@ -239,7 +248,11 @@ class _BodyState extends State<Body> {
                                             color: Colors.black54,
                                             fontSize: 16,
                                           ),
-                                          hint: Text('Select Year'),
+                                          hint: Text('Select Year',style: TextStyle(
+                      fontFamily: 'sniglet',
+                      //fontWeight: FontWeight.bold
+                      fontSize: 15,
+                    )),
                                           onChanged: (String newValue) {
                                             setState(() {
                                               selected_Year = newValue;
@@ -251,7 +264,11 @@ class _BodyState extends State<Body> {
                                           },
                                           items: years.map((item) {
                                                 return new DropdownMenuItem(
-                                                  child: new Text(item),
+                                                  child: new Text(item,style: TextStyle(
+                      fontFamily: 'sniglet',
+                      //fontWeight: FontWeight.bold
+                      fontSize: 15,
+                    )),
                                                   value: item,
                                                 );
                                               })?.toList() ??
@@ -286,7 +303,11 @@ class _BodyState extends State<Body> {
                                             color: Colors.black54,
                                             fontSize: 16,
                                           ),
-                                          hint: Text('Select Paper'),
+                                          hint: Text('Select Paper',style: TextStyle(
+                      fontFamily: 'sniglet',
+                      //fontWeight: FontWeight.bold
+                      fontSize: 15,
+                    )),
                                           onChanged: (String newValue) {
                                             setState(() {
                                               selected_Paper = newValue;
@@ -298,7 +319,11 @@ class _BodyState extends State<Body> {
                                           },
                                           items: papers.map((item) {
                                                 return new DropdownMenuItem(
-                                                  child: new Text(item),
+                                                  child: new Text(item,style: TextStyle(
+                      fontFamily: 'sniglet',
+                      //fontWeight: FontWeight.bold
+                      fontSize: 15,
+                    )),
                                                   value: item,
                                                 );
                                               })?.toList() ??

@@ -124,7 +124,10 @@ class Body extends StatelessWidget {
                 color: Colors.purple,
                 textColor: Colors.white,
                 child: Text("Attempt Now",
-                    style: TextStyle(fontSize: 17)
+                    style: TextStyle(
+                      fontSize: 17,
+                      fontFamily: 'sniglet',
+                      )
                   ),
               ),
                 ),

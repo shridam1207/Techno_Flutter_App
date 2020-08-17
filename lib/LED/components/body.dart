@@ -73,7 +73,8 @@ class Body extends StatelessWidget {
                         '''Technothlon, started with the aim of inspiring young minds, in its 15 years of span, has strived to identify the budding talent across the country and nurture and inspire them to be great future leaders of the country. With each and every possible way out to promote out of the box thinking amongst the students, Technothlon had started with its new campaign “Learn.Experience.Discover (LED)”. Through this initiative, we demonstrate to the school students, simple experiments, so as to explain to them the basic principles of science which otherwise they might be learning by rote. ''',
                         style: TextStyle(
                          // fontWeight: FontWeight.bold,
-                          fontSize: 18,
+                         fontFamily: 'sniglet',
+                          fontSize: 15,
                         ),
                         textAlign: TextAlign.center,
                       ),
