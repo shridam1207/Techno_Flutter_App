@@ -319,7 +319,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         left: 10.0,
                         right: 10.0,
                         child:Container(
-                          height: 300,
+                          height: 400,
                           width: 2000,
                           child: Swiper(
 //                            curve: Curves.easeIn,
@@ -340,7 +340,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                       Positioned(
-                        top: 1100.0,
+                        top: 1200.0,
                         right: 153,
                         child: Container(
                           child: Text('EXPLORE',
@@ -355,12 +355,12 @@ class _HomeScreenState extends State<HomeScreen> {
 
                       ),
                       Positioned(
-                        top: 1150.0,
+                        top: 1235.0,
                         left: 10.0,
                         right: 10.0,
                         child:Container(
                           margin: EdgeInsets.symmetric(vertical: 12),
-                          height: 300,
+                          height: 425,
 
                           child: Swiper(
                             curve: Curves.easeIn,
