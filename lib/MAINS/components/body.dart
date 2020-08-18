@@ -83,7 +83,7 @@ class _MainsState extends State<mains> {
                         style: TextStyle(
                           //fontWeight: FontWeight.bold,
                           fontFamily: 'sniglet',
-                          fontSize: 20,
+                          fontSize: 15,
                         ),
                         textAlign: TextAlign.center,
                       ),

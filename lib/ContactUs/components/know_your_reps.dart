@@ -66,8 +66,7 @@ class _CityrepsState extends State<Cityreps> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-          body : Container(
+    return Container(
           child: FutureBuilder(
               future: _getRep(),
               builder: (BuildContext context, AsyncSnapshot snapshot) {
@@ -328,8 +327,7 @@ class _CityrepsState extends State<Cityreps> {
                   );
                 }
               }),
-        ),
-    );
+        );
   }
 }
 

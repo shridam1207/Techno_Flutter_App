@@ -55,6 +55,7 @@ class Body extends StatelessWidget {
                   fontSize: 40
                 ),
               ),
+
               ListView(
                 scrollDirection: Axis.vertical,
                 shrinkWrap: true,
@@ -101,7 +102,21 @@ class Body extends StatelessWidget {
                       children: const <Widget>[
                         ListTile(title: Text('No questions in the paper will require prior knowledge of facts, formulae, etc. Questions will be both objective and subjective and will demand basic common sense, logic and presence of mind. Previous years papers are here.')),
                       ]
+
+              Center(
+                child:Container(
+                  padding: EdgeInsets.fromLTRB(30, 20, 30, 20),
+                  child: Text(
+                    '''Technopedia is the online module of Technothlon providing its students with an ultimate experience of the prelims beforehand. With the monthly quizzes, Technopedia aims at keeping the young minds involved in brainstorming questions and helping them prepare for the prelims''',
+                    style: TextStyle(
+                      fontFamily: 'sniglet',
+                      //fontWeight: FontWeight.bold
+                      fontSize: 15,
+                    ),
+                    textAlign: TextAlign.center,
                   ),
+                ),
+              ),
                   ExpansionTile(
                       title: const Text('My partner fell ill and can’t give the exam. Can I give the exam alone ?',style: TextStyle( fontFamily: 'sniglet',fontWeight: FontWeight.bold)),
                       backgroundColor: Theme.of(context).accentColor.withOpacity(0.025),
