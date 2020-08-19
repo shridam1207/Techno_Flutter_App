@@ -8,6 +8,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:video_player/video_player.dart';
 import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'Calendar/calendar.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -98,7 +99,11 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       IconButton(
                         icon: Icon(Icons.calendar_today),
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(context, MaterialPageRoute(
+                  builder: (context) => Calendar(),
+                  ));
+                        },
                         color: Colors.white,
                       )
                     ],
