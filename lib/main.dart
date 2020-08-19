@@ -16,13 +16,6 @@ import 'ContactUs/contact_us.dart';
 import 'ContactUs/components/know_your_reps.dart';
 import 'Solutions/solutions.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';
-
-
-
-
-
-
-
 void main() async {
 
   WidgetsFlutterBinding.ensureInitialized();
@@ -37,7 +30,6 @@ void main() async {
   ),
   ));
 }
-
 
 class HomePage extends StatelessWidget {
   @override
