@@ -39,10 +39,10 @@ dependencies:
   page_transition: ^1.1.6
   percent_indicator: ^2.1.5
   youtube_player_flutter: ^7.0.0+7
-  flutter_svg: ^0.17.0
+  flutter_svg: ^0.17.3+1
   font_awesome_flutter:
   cupertino_icons: ^0.1.3
-  extended_image: ^1.1.0
+  extended_image: ^0.7.3-dev
   url_launcher: ^5.5.0
   webview_flutter: 0.3.20+2
   flip_card: ^0.4.4
@@ -82,6 +82,7 @@ flutter:
     - assets/images/
     - assets/icons/
     - heads_images/
+    - dev_images/
     - link_logo/
     - assets/videos/Logic is All You Need - Official Curtain Raiser 2020.mp4
     - assets/
