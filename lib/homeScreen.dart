@@ -17,13 +17,6 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   int photoIndex = 0;
   int photoIndex_theme = 0;
-//
-//  var images4 = [
-//    'assets/img11.jpg',
-//    'assets/img12.jpg',
-//    'assets/img13.jpg',
-//    'assets/img14.jpg',
-//  ];
 
   var photos = [
     'assets/poster1.jpg',
@@ -33,32 +26,6 @@ class _HomeScreenState extends State<HomeScreen> {
     'assets/theme_hauts.jpg',
     'assets/theme_juniors.jpg',
   ];
-
-  void _previousImage() {
-    setState(() {
-      photoIndex = photoIndex > 0 ? photoIndex - 1 : 0;
-    });
-  }
-
-  void _previousImage_theme() {
-    setState(() {
-      photoIndex_theme = photoIndex_theme > 0 ? photoIndex_theme - 1 : 0;
-    });
-  }
-
-  void _nextImage() {
-    setState(() {
-      photoIndex = photoIndex < photos.length - 1 ? photoIndex + 1 : photoIndex;
-    });
-  }
-
-  void _nextImage_theme() {
-    setState(() {
-      photoIndex_theme = photoIndex_theme < photos_theme.length - 1 ? photoIndex_theme + 1 : photoIndex_theme;
-    });
-  }
-
-
 
   double xOffset = 0;
   double yOffset = 0;
@@ -139,40 +106,45 @@ class _HomeScreenState extends State<HomeScreen> {
                   body: ListView(children: [
                     Stack(children: [
                       Container(
-                          height: MediaQuery.of(context).size.height +700,
+                          height: MediaQuery.of(context).size.height*1.88,
                           width: MediaQuery.of(context).size.width,
                           color: Colors.transparent),
-                      Container(height: 120,
+                      Container(height:  MediaQuery.of(context).size.height*0.2,
+                        width: MediaQuery.of(context).size.width,
                           child: ListView.builder(
+
                             scrollDirection: Axis.horizontal,
                             itemCount: categories.length,
                             itemBuilder: (context,index){
                               return Container(
+                                width: MediaQuery.of(context).size.width*0.25,
                                   decoration: BoxDecoration(
                                       shape: BoxShape.rectangle,
                                       borderRadius: BorderRadius.only(
                                           topLeft: Radius.circular(25.0),
                                           bottomRight: Radius.circular(25.0))),
                                 child: Column(
+
                                   children: [
                                     InkWell(
                                       onTap:()=>{
                                       Navigator.push(context, MaterialPageRoute(
                                       builder: (context) => categories[index]['page']
                                       ))
-                              },
+                                      },
                                       child: Container(
-                                        padding: EdgeInsets.fromLTRB(10,10,10,0),
-                                        margin: EdgeInsets.only(left: 25),
+                                        padding: EdgeInsets.fromLTRB(MediaQuery.of(context).size.width*0.028,0,MediaQuery.of(context).size.width*0.028,0),
+                                        margin: EdgeInsets.fromLTRB(MediaQuery.of(context).size.width*0.028,0,MediaQuery.of(context).size.width*0.028,0),
                                         child: Container(
                                           child: Image.asset(categories[index]['iconPath'],
                                               height: 50,
-                                              width: 50),
+                                              width: MediaQuery.of(context).size.width*0.18),
                                         ),
                                       ),
                                     ),
                                     Container(
-                                      margin:EdgeInsets.fromLTRB(25,10,0,10),
+                                      margin: EdgeInsets.fromLTRB(MediaQuery.of(context).size.width*0.028,MediaQuery.of(context).size.width*0.018,MediaQuery.of(context).size.width*0.028,0),
+                                     // margin:EdgeInsets.fromLTRB(25,10,0,10),
                                       child: Text(categories[index]['name'], style: TextStyle(color: Colors.white,
                                           fontWeight: FontWeight.bold),),
                                     )
@@ -184,7 +156,8 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ),
                       Positioned(
-                          top: 100.0,
+                          top:  MediaQuery.of(context).size.height*0.12,
+                          width: MediaQuery.of(context).size.width,
                           child: Container(
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.only(
@@ -192,35 +165,39 @@ class _HomeScreenState extends State<HomeScreen> {
                                     topRight: Radius.circular(60.0),
                                   ),
                                   color: Colors.white),
-                                  height: MediaQuery.of(context).size.height +700,
+                                  height: MediaQuery.of(context).size.height*2,
                                   width: MediaQuery.of(context).size.width,
                         ),
                           ),
                       Positioned(
-                        top: 130.0,
-                        right:128,
-                        child: Container(
-                          child: Text('WHO ARE WE?',
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 20.0,
-                                  color: Colors.purple),
-                            textAlign: TextAlign.center,
+                        width: MediaQuery.of(context).size.width,
+                        top: MediaQuery.of(context).size.height*0.15,
+                        //right:128,
+                        child: Center(
+                          child: Container(
+                            child: Text('WHO ARE WE?',
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 20.0,
+                                    color: Colors.purple),
+                              textAlign: TextAlign.center,
+
+                            ),
 
                           ),
-
                         ),
                       ),
 
                       Positioned(
-                          top:170,
-                          left: (MediaQuery.of(context).size.width / 2) -150,
+                          top:MediaQuery.of(context).size.height*0.18,
+                          //left: (MediaQuery.of(context).size.width / 2) -150,
+                          width: MediaQuery.of(context).size.width,
                         child:  SingleChildScrollView(
                           child: Column(
                             children: <Widget>[
 
                               Container(
-                                height: 150,
+                                height: MediaQuery.of(context).size.height*0.2,
                                 width:300,
                                 child: YoutubePlayer(
                                   controller: _controller,
@@ -231,9 +208,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             ],
                           ),
                         ),),
+                      
                       Positioned(
-                        top: 400.0,
-                        right: 153,
+                        top: MediaQuery.of(context).size.height*0.45,
+                        //right: 153,
+                        width: MediaQuery.of(context).size.width,
                       child: Container(
                         child: Text('EXPLORE',
                           style: TextStyle(
@@ -247,7 +226,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                       ),
                       Positioned(
-                          top: 450.0,
+                          top: MediaQuery.of(context).size.height*0.47,
                           left: 25.0,
                           right: 25.0,
                           child: Column(
@@ -255,7 +234,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                 children: <Widget>[
                                   Container(
-                                    height: 200.0,
+                                    height: MediaQuery.of(context).size.height*0.25,
                                     child: ListView.builder(
                                       scrollDirection: Axis.horizontal,
                                       itemCount: categories.length,
@@ -284,7 +263,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                                                 ),
                                                 child: Image(image: AssetImage('images/logo.png'),
-                                                  height: 150,
+                                                  height: MediaQuery.of(context).size.height*0.18,
                                                   width: 250,
                                                 ),
                                               ),
@@ -300,8 +279,9 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                       ),
                       Positioned(
-                        top: 700.0,
-                        right: 153,
+                        top: MediaQuery.of(context).size.height*0.78,
+                        //right: 153,
+                        width: MediaQuery.of(context).size.width,
                         child: Container(
                           child: Text('EXPLORE',
                             style: TextStyle(
@@ -315,11 +295,11 @@ class _HomeScreenState extends State<HomeScreen> {
 
                       ),
                       Positioned(
-                        top: 750.0,
+                        top: MediaQuery.of(context).size.height*0.81,
                         left: 10.0,
                         right: 10.0,
                         child:Container(
-                          height: 300,
+                          height: MediaQuery.of(context).size.height*0.4,
                           width: 2000,
                           child: Swiper(
 //                            curve: Curves.easeIn,
@@ -340,8 +320,9 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                       Positioned(
-                        top: 1100.0,
-                        right: 153,
+                        top: MediaQuery.of(context).size.height*1.3,
+                        //right: 153,
+                        width: MediaQuery.of(context).size.width,
                         child: Container(
                           child: Text('EXPLORE',
                             style: TextStyle(
@@ -355,18 +336,20 @@ class _HomeScreenState extends State<HomeScreen> {
 
                       ),
                       Positioned(
-                        top: 1150.0,
+                        top: MediaQuery.of(context).size.height*1.31,
                         left: 10.0,
                         right: 10.0,
                         child:Container(
                           margin: EdgeInsets.symmetric(vertical: 12),
-                          height: 300,
-
+                          height: MediaQuery.of(context).size.height*0.5,
+                          width: MediaQuery.of(context).size.width*0.5,
                           child: Swiper(
                             curve: Curves.easeIn,
                             itemCount: 2,
                             itemBuilder: (BuildContext context, int index) {
                               return Container(
+                                height: MediaQuery.of(context).size.height*0.5,
+                                width: MediaQuery.of(context).size.width*0.5,
                                 margin: EdgeInsets.fromLTRB(0, 10,15,10),
                                 decoration: BoxDecoration(
                                   color: Colors.white,
@@ -383,14 +366,24 @@ class _HomeScreenState extends State<HomeScreen> {
                                     color: Colors.white,
                                     width: 1.0,
                                   ),
+                                  image: new DecorationImage(
+                                    fit: BoxFit.fill ,
+                                    image: new AssetImage(
+                                      photos_theme[index],
+                                    ),
+                                  ),
 
                                 ),
-                                child: ClipRRect(
-                                    borderRadius: BorderRadius.circular(10),
-                                    child: Image(
-                                      image: AssetImage(photos_theme[index]),
-                                      fit: BoxFit.cover,
-                                    )),
+//                                child: Container(
+//                                  child: ClipRRect(
+//                                      borderRadius: BorderRadius.circular(10),
+//                                      child: Image(
+//                                        image: AssetImage(photos_theme[index]),
+//                                        fit: BoxFit.cover,
+//                                        height: MediaQuery.of(context).size.height*0.1,
+//                                        width: 1000,
+//                                      )),
+//                                ),
                               );
                             },
                             viewportFraction: 0.8,
@@ -453,145 +446,3 @@ class _HomeScreenState extends State<HomeScreen> {
               }
 
 }
-
-class SelectedPhoto extends StatelessWidget {
-
-  final int numberOfDots;
-  final int photoIndex;
-
-  SelectedPhoto({this.numberOfDots, this.photoIndex});
-
-  Widget _inactivePhoto() {
-    return new Container(
-        child: new Padding(
-          padding: const EdgeInsets.only(left: 3.0, right: 3.0),
-          child: Container(
-            height: 8.0,
-            width: 8.0,
-            decoration: BoxDecoration(
-                color: Colors.grey,
-                borderRadius: BorderRadius.circular(4.0)
-            ),
-          ),
-        )
-    );
-  }
-
-  Widget _activePhoto() {
-    return Container(
-      child: Padding(
-        padding: EdgeInsets.only(left: 3.0, right: 3.0),
-        child: Container(
-          height: 10.0,
-          width: 10.0,
-          decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(5.0),
-              boxShadow: [
-                BoxShadow(
-                    color: Colors.grey,
-                    spreadRadius: 0.0,
-                    blurRadius: 2.0
-                )
-              ]
-          ),
-        ),
-      ),
-    );
-  }
-
-  List<Widget> _buildDots() {
-    List<Widget> dots = [];
-
-    for(int i = 0; i< numberOfDots; ++i) {
-      dots.add(
-          i == photoIndex ? _activePhoto(): _inactivePhoto()
-      );
-    }
-
-    return dots;
-  }
-
-
-  @override
-  Widget build(BuildContext context) {
-    return new Center(
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: _buildDots(),
-      ),
-    );
-  }
-}
-
-class SelectedPhoto_theme extends StatelessWidget {
-
-  final int numberOfDots_theme;
-  final int photoIndex_theme;
-
-  SelectedPhoto_theme({this.numberOfDots_theme, this.photoIndex_theme});
-
-  Widget _inactivePhoto() {
-    return new Container(
-        child: new Padding(
-          padding: const EdgeInsets.only(left: 3.0, right: 3.0),
-          child: Container(
-            height: 8.0,
-            width: 8.0,
-            decoration: BoxDecoration(
-                color: Colors.grey,
-                borderRadius: BorderRadius.circular(4.0)
-            ),
-          ),
-        )
-    );
-  }
-
-  Widget _activePhoto() {
-    return Container(
-      child: Padding(
-        padding: EdgeInsets.only(left: 3.0, right: 3.0),
-        child: Container(
-          height: 10.0,
-          width: 10.0,
-          decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.circular(5.0),
-              boxShadow: [
-                BoxShadow(
-                    color: Colors.grey,
-                    spreadRadius: 0.0,
-                    blurRadius: 2.0
-                )
-              ]
-          ),
-        ),
-      ),
-    );
-  }
-
-  List<Widget> _buildDots() {
-    List<Widget> dots = [];
-
-    for(int i = 0; i< numberOfDots_theme; ++i) {
-      dots.add(
-          i == photoIndex_theme ? _activePhoto(): _inactivePhoto()
-      );
-    }
-
-    return dots;
-  }
-
-
-  @override
-  Widget build(BuildContext context) {
-    return new Center(
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: _buildDots(),
-      ),
-    );
-  }
-}
-
-

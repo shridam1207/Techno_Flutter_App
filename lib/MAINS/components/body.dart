@@ -185,7 +185,7 @@ class _MainsState extends State<mains> {
                                               fit: BoxFit.fill ,
                                               colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.5), BlendMode.dstATop),
                                               image: new AssetImage(
-                                                  experiment[index]['iconPath'],
+                                                  mains_events[index]['iconPath'],
                                               ),
                                             ),),
                                           child: Column(
