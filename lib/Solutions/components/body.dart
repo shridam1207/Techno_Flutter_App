@@ -116,11 +116,18 @@ class _BodyState extends State<Body> {
                  ),
               ),
               //SizedBox(height: size.height * 0.05),
-              Image.asset(
-                "assets/icons/sol_picture.jpg",
-                height: size.height * 0.3,
+
+              Hero(
+                tag:'hero',
+                child: CircleAvatar(
+
+                  backgroundColor: Colors.transparent,
+                  radius: 130.0,
+                  child: Image.asset('assets/icons/sol_picture.jpg'),
+                ),
+
               ),
-              SizedBox(height: size.height * 0.05),
+              //SizedBox(height: size.height * 0.05),
 
 /*            SvgPicture.asset(
                 "assets/icons/chat.svg",
