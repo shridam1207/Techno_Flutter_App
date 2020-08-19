@@ -144,6 +144,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           color: Colors.transparent),
                       Container(height: 120,
                           child: ListView.builder(
+
                             scrollDirection: Axis.horizontal,
                             itemCount: categories.length,
                             itemBuilder: (context,index){
@@ -154,25 +155,27 @@ class _HomeScreenState extends State<HomeScreen> {
                                           topLeft: Radius.circular(25.0),
                                           bottomRight: Radius.circular(25.0))),
                                 child: Column(
+
                                   children: [
                                     InkWell(
                                       onTap:()=>{
                                       Navigator.push(context, MaterialPageRoute(
                                       builder: (context) => categories[index]['page']
                                       ))
-                              },
+                                      },
                                       child: Container(
-                                        padding: EdgeInsets.fromLTRB(10,10,10,0),
-                                        margin: EdgeInsets.only(left: 25),
+                                        padding: EdgeInsets.fromLTRB(MediaQuery.of(context).size.width*0.028,0,MediaQuery.of(context).size.width*0.028,0),
+                                        margin: EdgeInsets.fromLTRB(MediaQuery.of(context).size.width*0.028,0,MediaQuery.of(context).size.width*0.028,0),
                                         child: Container(
                                           child: Image.asset(categories[index]['iconPath'],
                                               height: 50,
-                                              width: 50),
+                                              width: MediaQuery.of(context).size.width*0.14),
                                         ),
                                       ),
                                     ),
                                     Container(
-                                      margin:EdgeInsets.fromLTRB(25,10,0,10),
+                                      margin: EdgeInsets.fromLTRB(MediaQuery.of(context).size.width*0.028,0,MediaQuery.of(context).size.width*0.028,0),
+                                     // margin:EdgeInsets.fromLTRB(25,10,0,10),
                                       child: Text(categories[index]['name'], style: TextStyle(color: Colors.white,
                                           fontWeight: FontWeight.bold),),
                                     )
@@ -185,6 +188,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       Positioned(
                           top: 100.0,
+                          width: MediaQuery.of(context).size.width,
                           child: Container(
                               decoration: BoxDecoration(
                                   borderRadius: BorderRadius.only(
@@ -197,24 +201,28 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                           ),
                       Positioned(
+                        width: MediaQuery.of(context).size.width,
                         top: 130.0,
-                        right:128,
-                        child: Container(
-                          child: Text('WHO ARE WE?',
-                              style: TextStyle(
-                                  fontWeight: FontWeight.bold,
-                                  fontSize: 20.0,
-                                  color: Colors.purple),
-                            textAlign: TextAlign.center,
+                        //right:128,
+                        child: Center(
+                          child: Container(
+                            child: Text('WHO ARE WE?',
+                                style: TextStyle(
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 20.0,
+                                    color: Colors.purple),
+                              textAlign: TextAlign.center,
+
+                            ),
 
                           ),
-
                         ),
                       ),
 
                       Positioned(
                           top:170,
-                          left: (MediaQuery.of(context).size.width / 2) -150,
+                          //left: (MediaQuery.of(context).size.width / 2) -150,
+                          width: MediaQuery.of(context).size.width,
                         child:  SingleChildScrollView(
                           child: Column(
                             children: <Widget>[
@@ -231,9 +239,11 @@ class _HomeScreenState extends State<HomeScreen> {
                             ],
                           ),
                         ),),
+                      
                       Positioned(
                         top: 400.0,
-                        right: 153,
+                        //right: 153,
+                        width: MediaQuery.of(context).size.width,
                       child: Container(
                         child: Text('EXPLORE',
                           style: TextStyle(
@@ -301,7 +311,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                       Positioned(
                         top: 700.0,
-                        right: 153,
+                        //right: 153,
+                        width: MediaQuery.of(context).size.width,
                         child: Container(
                           child: Text('EXPLORE',
                             style: TextStyle(
@@ -340,8 +351,12 @@ class _HomeScreenState extends State<HomeScreen> {
                         ),
                       ),
                       Positioned(
-                        top: 1200.0,
-                        right: 153,
+
+
+                        top: 1100.0,
+                        //right: 153,
+                        width: MediaQuery.of(context).size.width,
+
                         child: Container(
                           child: Text('EXPLORE',
                             style: TextStyle(

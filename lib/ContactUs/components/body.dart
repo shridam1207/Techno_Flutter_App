@@ -4,6 +4,7 @@ import 'package:flutter_app_techno_recent/homeScreen.dart';
 //import 'package:flutter_app_techno_recent/ContactUs/components/know_your_reps.dart';
 import 'dart:async' show Future;
 import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter_app_techno_recent/main.dart';
 
 import 'dart:async';
 import 'dart:convert';
@@ -87,7 +88,9 @@ class _BodyState extends State<Body> {
                 icon: Icon(Icons.arrow_back_ios),
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => HomeScreen()));
+                      MaterialPageRoute(builder: (context) => HomePage()));
+                      //Navigator.push(context, MaterialPageRoute(
+                      // builder: (context) => HomePage()
                 },
               ),
             ),

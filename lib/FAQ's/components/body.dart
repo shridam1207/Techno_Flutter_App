@@ -102,7 +102,7 @@ class Body extends StatelessWidget {
                       children: const <Widget>[
                         ListTile(title: Text('No questions in the paper will require prior knowledge of facts, formulae, etc. Questions will be both objective and subjective and will demand basic common sense, logic and presence of mind. Previous years papers are here.')),
                       ]
-
+                  ),
               Center(
                 child:Container(
                   padding: EdgeInsets.fromLTRB(30, 20, 30, 20),
