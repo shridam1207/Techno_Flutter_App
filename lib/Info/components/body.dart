@@ -47,6 +47,9 @@ class Body extends StatelessWidget {
     */
     return
       Background(
+        child: Stack(
+            children: <Widget> [
+        SingleChildScrollView(
           child: Column(
             //mainAxisAlignment: MainAxisAlignment.center,
             children: [
@@ -91,62 +94,74 @@ class Body extends StatelessWidget {
                   fontSize: 40
                 ),
               ),
-              Center(
-                child:Container(
-                  padding: EdgeInsets.fromLTRB(30, 20, 30, 20),
-                  child: Text(
-                    '''Technopedia is the online module of Technothlon providing its students with an ultimate experience of the prelims beforehand. With the monthly quizzes, Technopedia aims at keeping the young minds involved in brainstorming questions and helping them prepare for the prelims''',
-                    style: TextStyle(
-                      fontFamily: 'sniglet',
-                      //fontWeight: FontWeight.bold
-                      fontSize: 15,
-                    ),
-                    textAlign: TextAlign.center,
+              ListView(
+                scrollDirection: Axis.vertical,
+                shrinkWrap: true,
+                padding: EdgeInsets.all(5.0),
+                children: <Widget>[
+                  const ListTile(title: Text('Through a series of events involving mental aptitude, logic, and dexterity, we seek to provide school students, a platform to build fundamental experience and knowledge, to exercise co-ordination skills, and to think OUT OF THE BOX!',style: TextStyle(fontFamily: 'Roboto'),)),
+                  ExpansionTile(
+                      title: const Text('WHAT ARE WE',style: TextStyle(fontWeight: FontWeight.bold)),
+                      backgroundColor: Theme.of(context).accentColor.withOpacity(0.025),
+                      children: const <Widget>[
+                        ListTile(title: Text('Technothlon is an international school championship organized by the student fraternity of IIT Guwahati.Technothlon began in 2004 in a small room with an aim to Inspire Young Minds.Starting on our journey with a participation of 200 students confined to the city of Guwahati, over the past 14 years we have expanded our reach to over 400 cities all over India and various centres abroad.\nThe championship is organized over 2 rounds.\n\nPRELIMS : A written preliminary examination which takes place in numerous schools all over India in the month of July.\nMAINS : An event based competition which is conducted at IIT Guwahati, among the top 100 students from each squad.')),
+                      ]
                   ),
-                ),
+                  ExpansionTile(
+                      title: const Text('STRUCTURE',style: TextStyle(fontWeight: FontWeight.bold)),
+                      backgroundColor: Theme.of(context).accentColor.withOpacity(0.025),
+                      children: const <Widget>[
+                        ListTile(title: Text('Students participate in teams of TWO.\n\n There are two squads :\n 1) JUNIOR SQUAD : Students of classes 9th and 10th.\n2) HAUTS SQUAD : Students of classes 11th and 12th.\n\nNOTE: The classes of the student at the time of the examination is considered.')),
+                      ]
+                  ),
+                  ExpansionTile(
+                      title: const Text('LEVELS',style: TextStyle(fontWeight: FontWeight.bold)),
+                      backgroundColor: Theme.of(context).accentColor.withOpacity(0.025),
+                      children: const <Widget>[
+                        ListTile(title: Text('PRELIMS (to be held on 14th July 2019) :\n\nPrelims is in general an objective written exam.It involves no syllabus or general knowledge and relies solely on the Student’s LOGIC and ANALYTICAL THINKING ABILITIES.\nThe exam is generally of 2.5 hour length.The two team members are given a common Question Paper and answer sheet, and they can discuss it amongst themselves and attempt the paper together.\n\nMAINS(to be held at IIT Guwahati during TECHNICHE 2019) :\n\nMains is an event based competition.The selected teams of the same squad compete against each other in various events.Each team will have to face 3 events from which top 5 teams from each squad will be selected for The Final Showdown.The events, like prelims, do not require any pre-requisite knowledge and students will be taught any extra knowledge they require.The events vary every year and in the past there have been events like Robotics, Air Crash Investigation, Water Rocket, A Little Bid, Fluxo de Energia and many more!\nIn addition to these, students can attend the workshops and fun events to spend the night.Other than events, the students can witness the competitions of Techniche and attend the Lecture Series of famous personalities(past speakers include Mr.Subramanian Swamy,Mr.Fred Raab,Miss Ada Yonath etc.).They can also enjoy the Pronite performances.')),
+                      ]
+                  ),
+                  ExpansionTile(
+                      title: const Text('SELECTION PROCESS',style: TextStyle(fontWeight: FontWeight.bold)),
+                      backgroundColor: Theme.of(context).accentColor.withOpacity(0.025),
+                      children: const <Widget>[
+                        ListTile(title: Text('Selection is solely based on the marks scored in Prelims.The teams are selected on the basis of the total marks scored in Prelims.The Top 50 teams from each squad are called to IIT Guwahati for the Mains Round.')),
+                      ]
+                  ),
+                  ExpansionTile(
+                      title: const Text('MODES OF REGISTRATION',style: TextStyle(fontWeight: FontWeight.bold)),
+                      backgroundColor: Theme.of(context).accentColor.withOpacity(0.025),
+                      children: const <Widget>[
+                        ListTile(title: Text('The interested students can register themselves for the exam online or offline.\n\n\n1) OFFLINE: Technothlon is conducted over various cities and centres with the help of city representatives.The city representatives are responsible to collect the registrations offline.Participating schools can collect the registration fee themselves and then prepare a demand draft to be handed over to the city representatives.\n\n2) ONLINE: You can register online too!Online registration portal is now active!Click here to Register Online\nFor Registration from Jawahar Navodaya Vidyalaya or from Kendriya Vidyalaya Click Here\n\nPlease note that you will be able to access Technopedia only after successful payment of registratio fees.\n\nThe fees is non-refundable.')),
+                      ]
+                  ),
+                  ExpansionTile(
+                      title: const Text('REWARDS',style: TextStyle(fontWeight: FontWeight.bold)),
+                      backgroundColor: Theme.of(context).accentColor.withOpacity(0.025),
+                      children: const <Widget>[
+                        ListTile(title: Text('Exciting Prizes to be won!!!\n\n\nOther than the top 100 participants which are selected for Mains in each Squad (and given Gold Certificate), the next 400 participants in both the Squads are awarded with Silver Certificates from TECHNICHE,IIT Guwahati.\n\nAlso there are various other prizes which will be disclosed later.\n\nEveryone participating in Technothlon 2019 will receive e-Certificate of Participation.')),
+                      ]
+                  ),
+                  ExpansionTile(
+                      title: const Text('TESTIMONIALS',style: TextStyle(fontWeight: FontWeight.bold)),
+                      backgroundColor: Theme.of(context).accentColor.withOpacity(0.025),
+                      children: const <Widget>[
+                        ListTile(title: Text('H C VERMA:\n\nI saw your questions, and it is good that I don’t have to appear in that.It’s very tough and very very challenging and you are targeting the best brains.The “Best Brains” need the challenge!\n\n\nSHUBHAM JAIN(AIR 56, IITJEE 2012):\n\nIt was my trip to IIT Guwahati in 2009 for Technothlon that motivated me and helped me achieve such a wonderful rank.I look to participate again in Techniche.')),
+                      ]
+                  ),
+                ],
               ),
 
-                Container(
-                margin: EdgeInsets.symmetric(vertical: 10),
-                width: size.width * 0.8,
-                child: ClipRRect(
-                borderRadius: BorderRadius.circular(29),
-                child: FlatButton(
-                padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
-                onPressed: () async {
-                  const url = 'https://google.com';
-                  if (await canLaunch(url)) {
-                    await launch(url);
-                  } else {
-                    throw 'Could not launch $url';
-                  }
-                },
-                color: Colors.purple,
-                textColor: Colors.white,
-                child: Text("Attempt Now",
-                    style: TextStyle(fontSize: 17)
-                  ),
-              ),
-                ),
-                ),
 
-              /*RoundedButton(
-                text: "SIGN UP",
-                color: kPrimaryLightColor,
-                textColor: Colors.black,
-                press: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return SignUpScreen();
-                      },
-                    ),
-                  );
-                },
-              ),*///*/
+
+
+
             ],
           ),
+    ),
+    ],
+    ),
+
         );
   }
 }  

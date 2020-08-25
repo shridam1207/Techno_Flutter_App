@@ -99,7 +99,7 @@ class _BodyState extends State<Body> {
               tag: 'hero',
               child: CircleAvatar(
                 backgroundColor: Colors.transparent,
-                radius: 100.0,
+                radius: size.width * 0.3,
                 child: Image.asset('assets/images/contact-us.png'),
               ),
             ),
@@ -135,16 +135,18 @@ class _BodyState extends State<Body> {
             SizedBox(height: size.height * 0.03),
 
             Container(
-              height: 500,
+              height: size.height * 0.53,
               child: FutureBuilder(
                 future: _getRep(),
                 builder: (BuildContext context, AsyncSnapshot snapshot)
                 {
                   if (snapshot.data == null) {
-                    return Container(
-                      
-                        child: Text("Loading..."),
-                      
+                    return Center(
+                      child: Container(
+                        
+                          child: Text("Loading..."),
+                        
+                      ),
                     );
                   }
                   else
@@ -161,10 +163,11 @@ class _BodyState extends State<Body> {
                     return Column(
                       children: <Widget>[
                         SizedBox(
-                          height: 10,
+                          height: size.height * 0.005
                         ),
                         Container(
-                          padding: EdgeInsets.only(left: 15, right: 15, top: 5),
+                          height: size.height * 0.08,
+                          padding: EdgeInsets.only(left: size.height*0.02, right: size.height*0.02, top: size.height*0.01),
                           color: Colors.white,
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -176,11 +179,11 @@ class _BodyState extends State<Body> {
                                     alignedDropdown: true,
                                     child: DropdownButton<String>(
                                       value: selectedzone,
-                                      iconSize: 30,
+                                      iconSize: size.height * 0.04,
                                       icon: (null),
                                       style: TextStyle(
                                         color: Colors.black54,
-                                        fontSize: 16,
+                                        fontSize: size.height * 0.021,
                                       ),
                                       hint: Text('Select Zone'),
                                       onChanged: (String newValue) {
@@ -209,10 +212,11 @@ class _BodyState extends State<Body> {
                           ),
                         ),
                         SizedBox(
-                          height: 15,
+                          height: size.height * 0.005
                         ),
                         Container(
-                          padding: EdgeInsets.only(left: 15, right: 15, top: 5),
+                          height: size.height * 0.08,
+                          padding: EdgeInsets.only(left: size.height*0.02, right: size.height*0.02, top: size.height*0.01),
                           color: Colors.white,
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -223,11 +227,11 @@ class _BodyState extends State<Body> {
                                     alignedDropdown: true,
                                     child: DropdownButton<String>(
                                       value: selectedstate,
-                                      iconSize: 30,
+                                      iconSize: size.height * 0.04,
                                       icon: (null),
                                       style: TextStyle(
                                         color: Colors.black54,
-                                        fontSize: 16,
+                                        fontSize: size.height * 0.021,
                                       ),
                                       hint: Text('Select State'),
                                       onChanged: (String newValue) {
@@ -254,10 +258,11 @@ class _BodyState extends State<Body> {
                           ),
                         ),
                         SizedBox(
-                          height: 15,
+                          height: size.height * 0.005,
                         ),
                         Container(
-                          padding: EdgeInsets.only(left: 15, right: 15, top: 5),
+                          height: size.height * 0.08,
+                          padding: EdgeInsets.only(left: size.height*0.02, right: size.height*0.02, top: size.height*0.01),
                           color: Colors.white,
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -268,11 +273,11 @@ class _BodyState extends State<Body> {
                                     alignedDropdown: true,
                                     child: DropdownButton<String>(
                                       value: selectedcity,
-                                      iconSize: 30,
+                                      iconSize: size.height * 0.04,
                                       icon: (null),
                                       style: TextStyle(
                                         color: Colors.black54,
-                                        fontSize: 16,
+                                        fontSize: size.height * 0.021,
                                       ),
                                       hint: Text('Select City'),
                                       onChanged: (String newValue) {
@@ -295,10 +300,8 @@ class _BodyState extends State<Body> {
                             ],
                           ),
                         ),
-                        SizedBox(
-                          height: 15,
-                        ),
                         Container(
+
                           child: Expanded(
                           child: ListView.builder(
                               scrollDirection: Axis.horizontal,
@@ -309,10 +312,11 @@ class _BodyState extends State<Body> {
                                     return Center(
                                       child: Container(
                                           child: Container(
+                                                  height: size.height * 0.16,
                                                   constraints: BoxConstraints(),
-                                                  padding: EdgeInsets.all(25),
+                                                  padding: EdgeInsets.all(size.height*0.03),
                                                   margin: EdgeInsets.fromLTRB(
-                                                      15, 60, 15, 60),
+                                                      size.height*0.02, size.height*0.005,size.height*0.02,size.height*0.020),
                                                   decoration: BoxDecoration(
                                                     color: Colors.white,
                                                     boxShadow: [
@@ -337,8 +341,8 @@ class _BodyState extends State<Body> {
                                                     Text(
                                                       snapshot.data[index].name,
                                                       style: TextStyle(
-                                                          //ontWeight: FontWeight.bold,
-                                                          fontSize: 25),
+                                                          fontWeight: FontWeight.w400,
+                                                          fontSize: size.height * 0.030),
                                                     ),
                                                     Center(
                                                       child: Container(
@@ -347,7 +351,7 @@ class _BodyState extends State<Body> {
                                                               .toString(),
                                                           style: TextStyle(
                                                             //fontWeight: FontWeight.bold
-                                                            fontSize: 15,
+                                                            fontSize:size.height * 0.021,
                                                           ),
                                                           textAlign: TextAlign.center,
                                                         ),
@@ -359,7 +363,7 @@ class _BodyState extends State<Body> {
                                                           snapshot.data[index].email,
                                                           style: TextStyle(
                                                             //fontWeight: FontWeight.bold
-                                                            fontSize: 15,
+                                                            fontSize: size.height * 0.021,
                                                           ),
                                                           textAlign: TextAlign.center,
                                                         ),
@@ -386,7 +390,7 @@ class _BodyState extends State<Body> {
                               }),
                         )),
                         SizedBox(
-                          height: 15,
+                          height: size.height * 0.005,
                         ),
                       ],
                     );
@@ -398,12 +402,12 @@ class _BodyState extends State<Body> {
             
             Text(
               "Meet the heads",
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 30),
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: size.height * 0.04),
             ),
             SizedBox(height: size.height * 0.03),
 
             Container(
-              height: 600,
+              height: size.height * 0.7,
               decoration: BoxDecoration(
                 color: Colors.transparent,
               ),
@@ -412,11 +416,13 @@ class _BodyState extends State<Body> {
                 itemCount: headlist.length,
                 itemBuilder: (context, index) {
                   return Container(
+                    height: size.height * 0.65,
                     child: Column(
                       children: [
                         Container(
-                            padding: EdgeInsets.all(10),
-                            margin: EdgeInsets.fromLTRB(20, 10, 25, 10),
+                           height: size.height * 0.58,
+                            padding: EdgeInsets.all(size.height * 0.015),
+                            margin: EdgeInsets.all(size.height * 0.015),
                             decoration: BoxDecoration(
                               color: Colors.white,
                               boxShadow: [
@@ -436,9 +442,9 @@ class _BodyState extends State<Body> {
                             child: Column(children: [
 //
                               Padding(
-                                padding: EdgeInsets.all(16.0),
+                                padding: EdgeInsets.fromLTRB(size.height * 0.02,size.height * 0.03,size.height * 0.02,size.height * 0.03),
                                 child: CircleAvatar(
-                                  radius: 110.0,
+                                  radius: size.height * 0.14,
                                   backgroundColor: Colors.transparent,
                                   backgroundImage:
                                       AssetImage(headlist[index]['iconPath']),
@@ -448,17 +454,17 @@ class _BodyState extends State<Body> {
                               Text(
                                 headlist[index]['name'],
                                 style: TextStyle(
-                                    //ontWeight: FontWeight.bold,
-                                    fontSize: 30),
+                                    fontWeight: FontWeight.w500 ,
+                                    fontSize: size.height * 0.030),
                               ),
                               Center(
                                 child: Container(
-                                  padding: EdgeInsets.fromLTRB(30, 20, 30, 20),
+                                  padding: EdgeInsets.fromLTRB(size.height * 0.02, size.height * 0.03, size.height * 0.02, size.height * 0.03),
                                   child: Text(
                                     headlist[index]['details'],
                                     style: TextStyle(
                                       //fontWeight: FontWeight.bold
-                                      fontSize: 18,
+                                      fontSize: size.height * 0.024,
                                     ),
                                     textAlign: TextAlign.center,
                                   ),

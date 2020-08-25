@@ -10,149 +10,149 @@ import '../../components/rounded_button.dart';
 import '../../constants.dart';
 import 'package:flutter_svg/svg.dart';
 
+List<Map> devlist = [
+    {'tag': 'shridam','name': 'Shridam Mahajan', 'iconPath': 'dev_images/Shridam_Mahajan.jpg','details':'''East Zone Head
+shridam@techniche.org
++91 7587817679''' },
+
+  {'tag': 'sparsh', 'name':   ' Sparsh Dutta  ', 'iconPath': 'dev_images/sparsh.jpg','details':'''Ex - Head
+    
+    ''' },
+
+  {'tag': 'atharva','name':   'Atharva Shrawge', 'iconPath': 'dev_images/atharva.jpg','details':'''Technothlon
+Team Member
+ ''' },
+
+  {'tag': 'parag','name':     'Parag Panigrahi', 'iconPath': 'dev_images/parag.jpg','details':'''Technothlon
+Team Member
+  ''' },
+
+  {'tag': 'tushar','name':    ' Tushar Bajaj  ', 'iconPath': 'dev_images/tushar.jpg','details':'''Technothlon
+Team Member
+  ''' }
+
+
+];
+
+
+
 class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-    // This size provide us total height and width of our screen
-    /*return Container(
-      height: size.height,
-      width: double.infinity,
-      child: Stack(
-        alignment: Alignment.center,
+    return Background(
+      child: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
 
-        children: <Widget>[
-          Positioned(
-            top:0,
-            left:0,
-            child: Image.asset(
-              "assets/images/main_top.png",
-              width: size.width*0.3,
-            ),
-          ),
-          Positioned(
-            bottom:0,
-            left:0,
-            child: Image.asset(
-              "assets/images/main_bottom.png",
-              width: size.width*0.2,
-            ),
-          )
-        ],
-      ),
-    );
-  }
-} 
-    
-    */
-    return
-      Background(
-          child: Column(
-            //mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              SizedBox(height: size.height * 0.05),
-              Align(
-                alignment: Alignment.topLeft,
-                 child: IconButton(
-                   iconSize: 33.0,
-                   icon: Icon(Icons.arrow_back_ios  ),
-                   onPressed: () => {
-                     Navigator.push(context, MaterialPageRoute(
-                       builder: (context) => HomePage()
-                   ))},
-                 ),
+            SizedBox(height: size.height * 0.05),
+            
+            Align(
+              alignment: Alignment.topLeft,
+              child: IconButton(
+                iconSize: 33.0,
+                icon: Icon(Icons.arrow_back_ios  ),
+                onPressed: (){  Navigator.push(context, MaterialPageRoute(
+                    builder: (context) => HomePage()
+                ));},
               ),
-              //SizedBox(height: size.height * 0.05),
-              //SizedBox(height: size.height * 0.05),
+            ),
 
-              /*Hero(
-                tag:'hero',
-                child: CircleAvatar(
-                  backgroundColor: Colors.transparent,
-                  radius: 100.0,
-                  child: Image.asset('assets/images/AboutUs.png'),
-                ),
-              ),*/
             Hero(
               tag:'hero',
               child: CircleAvatar(
-
                 backgroundColor: Colors.transparent,
-                radius: 100.0,
-                child: Image.asset('assets/icons/developers.jpg'),
+                radius: 100.0,                                                 
+                child: Image.asset('assets/icons/coder.jpg'),
               ),
             ),
-              SizedBox(height: size.height * 0.05),
-
-/*            SvgPicture.asset(
-                "assets/icons/chat.svg",
-                height: size.height * 0.45,
-              ),*/
-              //SizedBox(height: size.height * 0.05),
-              Text(
-                "Developers",
-                style: TextStyle(
+            
+            //SizedBox(height: size.height * 0.05),
+            
+            Text(
+              "Developers",
+              style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 40
-                ),
               ),
-              Center(
-                child:Container(
-                  padding: EdgeInsets.fromLTRB(30, 20, 30, 20),
-                  child: Text(
-                    '''Technopedia is the online module of Technothlon providing its students with an ultimate experience of the prelims beforehand. With the monthly quizzes, Technopedia aims at keeping the young minds involved in brainstorming questions and helping them prepare for the prelims''',
-                    style: TextStyle(
-                      fontFamily: 'sniglet',
-                      //fontWeight: FontWeight.bold
-                      fontSize: 15,
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
-                ),
-              ),
+            ),
+            
+            SizedBox(height: size.height * 0.03),
 
-                Container(
-                margin: EdgeInsets.symmetric(vertical: 10),
-                width: size.width * 0.8,
-                child: ClipRRect(
-                borderRadius: BorderRadius.circular(29),
-                child: FlatButton(
-                padding: EdgeInsets.symmetric(vertical: 20, horizontal: 40),
-                onPressed: () async {
-                  const url = 'https://google.com';
-                  if (await canLaunch(url)) {
-                    await launch(url);
-                  } else {
-                    throw 'Could not launch $url';
-                  }
-                },
-                color: Colors.purple,
-                textColor: Colors.white,
-                child: Text("Attempt Now",
-                    style: TextStyle(fontSize: 17)
-                  ),
+            Container(height: 500,
+              decoration: BoxDecoration(
+                color:Colors.transparent,
               ),
-                ),
-                ),
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount:devlist.length,
+                itemBuilder: (context,index){
+                  return Container(
+                    child: Column(
+                      children: [
+                        Container(
+                            padding: EdgeInsets.all(5),
+                            margin: EdgeInsets.fromLTRB(10, 10,15,10),
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              boxShadow: [
+                                BoxShadow(
+                                  blurRadius: 10,
+                                  offset: Offset(6, 6),
+                                  color: Color(0xff333333).withOpacity(1),
+                                  spreadRadius: -1,
+                                )
+                              ],
+                              borderRadius: BorderRadius.circular(50.0),
+                              border: Border.all(
+                                color: Colors.white,
+                                width: 1.0,
+                              ),
 
-              /*RoundedButton(
-                text: "SIGN UP",
-                color: kPrimaryLightColor,
-                textColor: Colors.black,
-                press: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return SignUpScreen();
-                      },
+                            ),
+                            child:Column(
+                              children: [                            
+                                Padding(
+                                  padding: EdgeInsets.all(6.0),
+                                  child : CircleAvatar(
+                                    radius: 90.0,
+                                    backgroundColor: Colors.transparent,
+                                    backgroundImage: AssetImage(devlist[index]['iconPath']),
+                                  ),
+                                ),
+                                Text(
+                                  devlist[index]['name'],
+                                  style: TextStyle(
+                                    //ontWeight: FontWeight.bold,
+                                      fontSize: 27
+                                  ),
+                                ),
+                                Center(
+                                  child:Container(
+                                    padding: EdgeInsets.fromLTRB(10, 20, 10, 20),
+                                    child: Text(
+                                      devlist[index]['details'],
+                                      style: TextStyle(
+                                        //fontWeight: FontWeight.bold
+                                        fontSize: 18,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
+                                  ),
+                                ),
+                              ]
+                            )
+                        ),
+                      ],
                     ),
                   );
                 },
-              ),*///*/
-            ],
-          ),
-        );
+              ),
+            ),
+          
+          ],
+        ),
+      ),
+    );
   }
-}  
-
+}
