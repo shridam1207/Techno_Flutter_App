@@ -117,7 +117,7 @@ class _BodyState extends State<Body> {
               ),
               //SizedBox(height: size.height * 0.05),
               Image.asset(
-                "assets/icons/sol_picture.jpg",
+                "assets/icons/sol_picture.png",
                 height: size.height * 0.3,
               ),
               SizedBox(height: size.height * 0.05),
