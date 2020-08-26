@@ -117,14 +117,9 @@ class _BodyState extends State<Body> {
               ),
               //SizedBox(height: size.height * 0.05),
 
-              Hero(
-                tag:'hero',
-                child: CircleAvatar(
-
-                  backgroundColor: Colors.transparent,
-                  radius: 130.0,
-                  child: Image.asset('assets/icons/sol_picture.jpg'),
-                ),
+              Image.asset(
+                "assets/icons/sol_picture.png",
+                height: size.height * 0.3,
 
               ),
               //SizedBox(height: size.height * 0.05),

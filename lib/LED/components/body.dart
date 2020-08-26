@@ -38,7 +38,7 @@ class Body extends StatelessWidget {
 
                       backgroundColor: Colors.transparent,
                       radius: 100.0,
-                      child: Image.asset('images/LED2.png'),
+                      child: Image.asset('images/LED3.png'),
                     ),
 
                   ),
