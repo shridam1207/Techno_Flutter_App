@@ -63,6 +63,8 @@ class Body extends StatelessWidget {
               ),
 
               ListView(
+                  primary: false,
+                physics: NeverScrollableScrollPhysics(),
                 scrollDirection: Axis.vertical,
                 shrinkWrap: true,
                 padding: EdgeInsets.all(5.0),
