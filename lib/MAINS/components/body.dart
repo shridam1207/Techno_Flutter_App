@@ -56,7 +56,7 @@ class _MainsState extends State<mains> {
                     child: CircleAvatar(
 
                       backgroundColor: Colors.transparent,
-                      radius: 200.0,
+                      radius: 100.0,
                       child: Image.asset('assets/images/mains.png'),
                     ),
 

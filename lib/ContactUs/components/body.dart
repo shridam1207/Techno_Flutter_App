@@ -162,9 +162,9 @@ class _BodyState extends State<Body> {
 
                     return Column(
                       children: <Widget>[
-                        SizedBox(
-                          height: size.height * 0.005
-                        ),
+//                        SizedBox(
+//                          height: size.height * 0.005
+//                        ),
                         Container(
                           height: size.height * 0.08,
                           padding: EdgeInsets.only(left: size.height*0.02, right: size.height*0.02, top: size.height*0.01),
@@ -389,9 +389,9 @@ class _BodyState extends State<Body> {
                                 }
                               }),
                         )),
-                        SizedBox(
-                          height: size.height * 0.005,
-                        ),
+//                        SizedBox(
+//                          height: size.height * 0.005,
+//                        ),
                       ],
                     );
                   }
