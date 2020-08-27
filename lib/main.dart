@@ -39,8 +39,6 @@ class HomePage extends StatelessWidget {
         children: [
           DrawerScreen(),
           HomeScreen(),
-
-
         ],
       ),
 

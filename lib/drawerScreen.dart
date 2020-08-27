@@ -8,6 +8,7 @@ import 'package:flutter_app_techno_recent/Info/info.dart';
 //import 'package:flutter_app_techno_recent/AboutUs/welcome_screen.dart';
 import 'configuration.dart';
 import 'AboutUs/about_us.dart';
+import 'package:flutter_app_techno_recent/constants.dart';
 
 
 class DrawerScreen extends StatefulWidget {
@@ -19,7 +20,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.deepPurple,
+      color: leftmenu2,
       padding: EdgeInsets.only(top:50,bottom: 70,left: 10),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -28,7 +29,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
             children: [
               CircleAvatar(
                 child: Image.asset('images/logo.png'),
-                backgroundColor: Colors.deepPurple,
+                backgroundColor: Colors.transparent,
               ),
               SizedBox(width: 10,),
               Column(

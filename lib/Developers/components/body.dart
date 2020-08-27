@@ -62,7 +62,7 @@ class Body extends StatelessWidget {
               tag:'hero',
               child: CircleAvatar(
                 backgroundColor: Colors.transparent,
-                radius: 100.0,                                                 
+                radius: 200.0,
                 child: Image.asset('assets/icons/coder.jpg'),
               ),
             ),
