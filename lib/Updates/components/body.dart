@@ -1,110 +1,125 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app_techno_recent/main.dart';
-//import 'package:flutter_auth/Screens/Login/login_screen.dart';
-//import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
 import 'background.dart';
 //import 'package:flutter_auth/components/rounded_button.dart';
 import '../../constants.dart';
 import 'package:flutter_svg/svg.dart';
-
-class Body extends StatelessWidget {
+import 'package:firebase_messaging/firebase_messaging.dart';
+import './model.dart';
+import '../updates.dart';
+/*Function abcd() { Navigator.of(context).pushReplacement(MaterialPageRoute(
+            builder: (BuildContext context) => HomePage()))
+}*/
+class Body extends StatefulWidget {
   @override
+  _BodyState createState() => _BodyState();
+}
+
+class _BodyState extends State<Body> {
+  final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
+//  final List<String> messages = ["kjsdb","kasdva","uebiva"];
+  final List<String> messages = [];
+
+
+  @override
+  void initState(){
+    super.initState();
+    _firebaseMessaging.configure(
+      onMessage: (Map<String, dynamic> message) async{
+        print("onMessage: $message");
+        final notification = message['notification'];
+        setState(() {
+          messages.add( notification['body']);
+        });
+        //Navigator.of(context).push(
+          //MaterialPageRoute(builder: (BuildContext context) => Updates()));
+      
+      },
+      onLaunch: (Map<String, dynamic> message) async{
+        print("onLaunch: $message");
+        Navigator.of(context).push(
+          MaterialPageRoute(builder: (BuildContext context) => Updates()));
+      
+      },
+      onResume: (Map<String, dynamic> message) async{
+        print("onResume: $message");
+        Navigator.of(context).push(
+          MaterialPageRoute(builder: (BuildContext context) => Updates()));
+      
+      },  
+
+      
+    );
+    
+    _firebaseMessaging.requestNotificationPermissions(
+      const IosNotificationSettings(sound: true, badge: true, alert: true));
+  } 
+
+
+    @override
+  Widget build(BuildContext context) => Background(
+    child:ListView(
+        children: messages.map(buildMessage).toList(),
+      )
+  );
+  Widget buildMessage(String message) => ListTile(
+        title: Text(message),
+        //subtitle: Text(message.body),
+      );
+/*
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
-
-    return Background(
-      child: SingleChildScrollView(
-        child: Column(
-          //mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-
-            SizedBox(height: size.height * 0.05),
-            //SizedBox(height: size.height * 0.05),
-
-            Align(
-              alignment: Alignment.topLeft,
-              child: IconButton(
-                iconSize: 33.0,
-                icon: Icon(Icons.arrow_back_ios  ), 
-                onPressed: (){Navigator.push(context, MaterialPageRoute(
-                    builder: (context) => HomePage()
-                ));},
+    return SafeArea(
+          child: Background(
+        child: SingleChildScrollView(
+          child: Column(
+            children: <Widget>[
+              //SizedBox(height: size.height * 0.05),
+              Center(
+                child: Container(
+                  height: 500,
+                  decoration: BoxDecoration(
+                    color:Colors.transparent,
+                  ),
+                  child:ListView.builder(
+                    itemCount: messages.length,
+                    itemBuilder: (context, position) {
+                      return ListTile(
+                        leading: Icon(Icons.chevron_right ),
+                        title: 
+                          Text(messages[position],                     
+                            style: TextStyle(
+                              fontFamily: 'sniglet',
+                            ),
+                          ),
+                      );
+                    },
+                  ),
+                )
               ),
-            ),
-        //SizedBox(height: size.height * 0.05),    
-            SvgPicture.asset(
-              "assets/icons/updates.svg",
-              height: size.height * 0.25,
-            ),
-            SizedBox(height: size.height * 0.05),
-            Text(
-              "Updates",
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 40
-                ),
-            ),
-            
-            ListTile(
-              leading: Icon(Icons.chevron_right ),
-              title: Text("Make sure to confirm your email addresses by visiting your Profile.",                     
-                       style: TextStyle(
+
+              Center(
+                child: Container(
+                  padding: EdgeInsets.fromLTRB(30, 20, 30, 20),
+                  child: Text(
+                    '''Look through our repository of past question papers to help you prepare for Technothlon 2020''',
+                    style: TextStyle(
                       fontFamily: 'sniglet',
+                      //fontWeight: FontWeight.bold
+                      fontSize: 15,
                     ),
-                 ),
-            ),
-            ListTile(
-              leading: Icon(Icons.chevron_right ),
-              title: Text("A very warm welcome to the participants, hope you have a pleasing journey.",                     
-                       style: TextStyle(
-                      fontFamily: 'sniglet',
-
-                    ),
-                 ),
-            ),
-            ListTile(
-              leading: Icon(Icons.chevron_right ),
-              title: Text("You can also edit your other contact details in the Edit Profile Tab.",                     
-                       style: TextStyle(
-                      fontFamily: 'sniglet',
-
-                    ),
-               ),
-            ),
-
-
-/*
-
-                    Center(
-                      child:Container(
-            padding: EdgeInsets.fromLTRB(30, 20, 30, 20),
-            child: Text(
-            '''1. Make sure to confirm your email addresses by visiting your Profile.
-
-2. A very warm welcome to the participants, hope you have a pleasing journey.
-
-3. You can also edit your other contact details in the Edit Profile Tab.''',
-              style: TextStyle(
-                //fontWeight: FontWeight.bold
-                fontSize: 15,
+                    textAlign: TextAlign.center,
+                  ),
                 ),
               ),
-            ),
+              
+            ],
           ),
-*/          
-          SizedBox(height: size.height * 0.05),
-          SizedBox(height: size.height * 0.05),
-          SizedBox(height: size.height * 0.05),
-          SizedBox(height: size.height * 0.05),    
-          SizedBox(height: size.height * 0.05),    
-          SizedBox(height: size.height * 0.05),    
-          SizedBox(height: size.height * 0.05),    
-          SizedBox(height: size.height * 0.05),    
-          SizedBox(height: size.height * 0.05),    
-          ],
         ),
       ),
     );
   }
-}  
 
+  */
+
+}
