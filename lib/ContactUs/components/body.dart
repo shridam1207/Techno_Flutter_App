@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-//import 'package:flutter_app_techno_recent/ContactUs/components/know_your_reps.dart';
-import 'package:flutter_app_techno_recent/homeScreen.dart';
-//import 'package:flutter_app_techno_recent/ContactUs/components/know_your_reps.dart';
+//import 'package:flutter_app_technothlon/ContactUs/components/know_your_reps.dart';
+import 'package:flutter_app_technothlon/homeScreen.dart';
+//import 'package:flutter_app_technothlon/ContactUs/components/know_your_reps.dart';
 import 'dart:async' show Future;
 import 'package:flutter/services.dart' show rootBundle;
-import 'package:flutter_app_techno_recent/main.dart';
+import 'package:flutter_app_technothlon/main.dart';
 
 import 'dart:async';
 import 'dart:convert';
@@ -12,7 +12,7 @@ import 'background.dart';
 import '../../components/rounded_button.dart';
 import '../../constants.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:flutter_app_techno_recent/configuration.dart';
+import 'package:flutter_app_technothlon/configuration.dart';
 
 class Body extends StatefulWidget {
   @override

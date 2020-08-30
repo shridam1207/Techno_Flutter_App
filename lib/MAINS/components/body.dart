@@ -1,10 +1,10 @@
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app_techno_recent/main.dart';
+import 'package:flutter_app_technothlon/main.dart';
 import 'background.dart';
 import '../../constants.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:flutter_app_techno_recent/configuration.dart';
+import 'package:flutter_app_technothlon/configuration.dart';
 
 class mains extends StatefulWidget {
   @override

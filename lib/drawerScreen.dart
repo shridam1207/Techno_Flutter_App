@@ -1,14 +1,14 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app_techno_recent/Developers/developers.dart';
+import 'package:flutter_app_technothlon/Developers/developers.dart';
 
-import 'package:flutter_app_techno_recent/configuration.dart';
-import '''package:flutter_app_techno_recent/FAQ's/faqs.dart''';
-import 'package:flutter_app_techno_recent/Info/info.dart';
-//import 'package:flutter_app_techno_recent/AboutUs/welcome_screen.dart';
+import 'package:flutter_app_technothlon/configuration.dart';
+import '''package:flutter_app_technothlon/FAQ's/faqs.dart''';
+import 'package:flutter_app_technothlon/Info/info.dart';
+//import 'package:flutter_app_technothlon/AboutUs/welcome_screen.dart';
 import 'configuration.dart';
 import 'AboutUs/about_us.dart';
-import 'package:flutter_app_techno_recent/constants.dart';
+import 'package:flutter_app_technothlon/constants.dart';
 
 
 class DrawerScreen extends StatefulWidget {

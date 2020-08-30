@@ -1,4 +1,4 @@
-name: flutter_app_techno_recent
+name: flutter_app_technothlon
 description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
@@ -55,7 +55,7 @@ dependencies:
   downloads_path_provider: ^0.1.0
   flutter_swiper: ^1.1.6
   table_calendar: ^2.2.3
-
+  firebase_messaging: 
 
 
 
