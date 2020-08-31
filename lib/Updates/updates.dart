@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:sample/constants.dart';
-import 'components/body.dart';
+import 'components/b/body1.dart';
 //import 'package:flutter_auth/Screens/Welcome/components/body.dart';
 
 class Updates extends StatelessWidget {
