@@ -94,6 +94,21 @@ class Body extends StatelessWidget {
                   fontSize: 40
                 ),
               ),
+
+              Center( 
+                child:Container(
+                  padding: EdgeInsets.fromLTRB(30, 20, 30, 20),
+                  child:Text(
+                    """(These are general Info and do not relate to Technothlon 2020. For changes in the procedure of Technothlon 2020 visit updates)""",
+                    style: TextStyle(
+                      //fontWeight: FontWeight.bold,
+                      //fontSize: 40
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
+                )
+              ),
+
               ListView(
                   primary: false,
                 physics: NeverScrollableScrollPhysics(),
