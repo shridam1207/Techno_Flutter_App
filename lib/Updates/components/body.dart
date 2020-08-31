@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_techno_recent/main.dart';
+import 'package:flutter_app_technothlon/main.dart';
 import 'background.dart';
 //import 'package:flutter_auth/components/rounded_button.dart';
 import '../../constants.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
-import './model.dart';
+//import './model.dart';
 import '../updates.dart';
 /*Function abcd() { Navigator.of(context).pushReplacement(MaterialPageRoute(
             builder: (BuildContext context) => HomePage()))

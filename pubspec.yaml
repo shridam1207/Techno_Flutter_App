@@ -1,4 +1,4 @@
-name: flutter_app_techno_recent
+name: flutter_app_technothlon
 description: A new Flutter application.
 
 # The following line prevents the package from being accidentally published to
@@ -39,12 +39,15 @@ dependencies:
   page_transition: ^1.1.6
   percent_indicator: ^2.1.5
   youtube_player_flutter: ^7.0.0+7
+
   flutter_svg: ^0.17.0
+
+
   font_awesome_flutter:
   cupertino_icons: ^0.1.3
   extended_image: ^0.7.3-dev
   url_launcher: ^5.5.0
-  webview_flutter: ^0.3.19+9
+  webview_flutter: 0.3.20+2
   flip_card: ^0.4.4
   flutter_downloader: ^1.5.0
   path_provider: ^1.6.11
@@ -52,7 +55,7 @@ dependencies:
   downloads_path_provider: ^0.1.0
   flutter_swiper: ^1.1.6
   table_calendar: ^2.2.3
-  firebase_messaging: ^6.0.0
+  firebase_messaging: 
 
 
 

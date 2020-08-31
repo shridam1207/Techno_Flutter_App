@@ -19,7 +19,7 @@ import 'package:flutter_downloader/flutter_downloader.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:downloads_path_provider/downloads_path_provider.dart';
 
-import 'package:flutter_app_techno_recent/main.dart';
+import 'package:flutter_app_technothlon/main.dart';
 
 
 class Body extends StatefulWidget {

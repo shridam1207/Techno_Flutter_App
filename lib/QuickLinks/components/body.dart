@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_techno_recent/main.dart';
-import 'package:flutter_app_techno_recent/webviews/fbweb.dart';
-import 'package:flutter_app_techno_recent/webviews/igweb.dart';
-import 'package:flutter_app_techno_recent/webviews/mediumweb.dart';
-import 'package:flutter_app_techno_recent/webviews/websiteweb.dart';
+import 'package:flutter_app_technothlon/main.dart';
+import 'package:flutter_app_technothlon/webviews/fbweb.dart';
+import 'package:flutter_app_technothlon/webviews/igweb.dart';
+import 'package:flutter_app_technothlon/webviews/mediumweb.dart';
+import 'package:flutter_app_technothlon/webviews/websiteweb.dart';
 import 'package:url_launcher/url_launcher.dart';
 //import 'package:flutter_auth/Screens/Login/login_screen.dart';
 //import 'package:flutter_auth/Screens/Signup/signup_screen.dart';

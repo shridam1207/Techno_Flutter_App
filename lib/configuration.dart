@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_techno_recent/MAINS/Mains.dart';
-//import 'package:flutter_app_techno_recent/ContactUs/components/know_your_reps.dart';
+import 'package:flutter_app_technothlon/MAINS/Mains.dart';
+//import 'package:flutter_app_technothlon/ContactUs/components/know_your_reps.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'LED/LED.dart';
 import 'ContactUs/contact_us.dart';
@@ -10,7 +10,7 @@ import 'QuickLinks/quick_links.dart';
 import 'Updates/updates.dart';
 
 
-import 'package:flutter_app_techno_recent/Updates/updates.dart';
+import 'package:flutter_app_technothlon/Updates/updates.dart';
 import 'AboutUs/about_us.dart';
 import 'Technopedia/technopedia.dart';
 import 'Solutions/solutions.dart';
