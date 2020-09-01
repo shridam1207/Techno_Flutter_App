@@ -1,6 +1,7 @@
 import 'package:flip_card/flip_card.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_technothlon/main.dart';
+import 'package:flutter/cupertino.dart';
 import 'background.dart';
 import '../../constants.dart';
 import 'package:flutter_svg/svg.dart';
@@ -141,7 +142,7 @@ class _MainsState extends State<mains> {
                       ],
                     ),
                   ),
-                  Container(height: 450,
+                  Container(height: size.height*0.65,
                     decoration: BoxDecoration(
                       color:Colors.white,),
                       child: Container(
@@ -154,58 +155,54 @@ class _MainsState extends State<mains> {
                                   return FlipCard(
                                     direction: FlipDirection.VERTICAL,
                                     front: Container(
-                                      width: 400,
-                                        margin: EdgeInsets.fromLTRB(
-                                            10, 20, 10, 20),
-                                        decoration: BoxDecoration(
-                                          color: Colors.white,
-                                          boxShadow: [
-                                            BoxShadow(
-                                              blurRadius: 10,
-                                              offset: Offset(6, 6),
-                                              color: Color(0xff333333)
-                                                  .withOpacity(1),
-                                              spreadRadius: -1,
-                                            )
-                                          ],
-                                          borderRadius:
-                                          BorderRadius.circular(15.0),
-                                          border: Border.all(
-                                            color: Colors.white,
-                                            width: 1.0,
-                                          ),
-                                        ),
-                                        child: Container(
-                                          width:400,
-                                          decoration: new BoxDecoration(
-                                            borderRadius: BorderRadius.circular(20.0),
-                                            shape: BoxShape.rectangle,
-                                            color: const Color(0xff7c94b6),
-                                            image: new DecorationImage(
-                                              fit: BoxFit.fill ,
-                                              colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.5), BlendMode.dstATop),
-                                              image: new AssetImage(
-                                                  mains_events[index]['iconPath'],
+                                      child: Column(
+                                        children: [
+                                          Container(
+                                            height: size.height*0.61,
+                                            width: size.width,
+                                            padding: EdgeInsets.all(10),
+                                            margin: EdgeInsets.fromLTRB(20, 10, 15, 20),
+                                            decoration: BoxDecoration(
+                                              image: DecorationImage(
+                                                colorFilter: new ColorFilter.mode(Colors.black.withOpacity(0.7), BlendMode.dstATop),
+                                                image: AssetImage(mains_events[index]['iconpath']),
+                                                fit: BoxFit.fill,
                                               ),
-                                            ),),
-                                          child: Column(
-                                            mainAxisAlignment: MainAxisAlignment.center,
+                                              boxShadow: [
+                                                BoxShadow(
+                                                  blurRadius: 10,
+                                                  offset: Offset(6, 6),
+                                                  color:
+                                                  Color(0xff333333).withOpacity(1),
+                                                  spreadRadius: -2,
+                                                )
+                                              ],
+                                              borderRadius: BorderRadius.circular(20.0),
+                                              border: Border.all(
+                                                color: Colors.white,
+                                                width: 1.0,
+                                              ),
+                                            ),
+                                            child: Column(
+                                              mainAxisAlignment: MainAxisAlignment.center,
                                               children: [
-                                                Center(
-                                                  child: Text(
-                                                    mains_events[index]['Name'] ,
-                                                    style: TextStyle(
-                                                      color: Colors.white,
+                                                Text(
+                                                  mains_events[index]['Name'],
+                                                  style: TextStyle(
                                                       fontWeight: FontWeight.bold,
-                                                        fontSize: 25),
-                                                  ),
+                                                      fontSize: 35.0,
+                                                      color: Colors.white),
+                                                  textAlign: TextAlign.center,
                                                 ),
                                               ],
+                                            ),
                                           ),
-                                        ),
+                                        ],
+                                      ),
                                     ),
                                     back: Container(
-                                      width:400,
+                                      width:size.width,
+                                      height: size.height*0.61,
                                       constraints: BoxConstraints(),
                                       padding: EdgeInsets.all(25),
                                       margin: EdgeInsets.fromLTRB(
@@ -229,13 +226,12 @@ class _MainsState extends State<mains> {
                                         ),
                                       ),
                                       child: Container(
-                                        height: 450,
-                                        width: 400,
                                         decoration: new BoxDecoration(
                                           borderRadius: BorderRadius.circular(20.0),
                                           shape: BoxShape.rectangle,
 //                                          color: const Color(0xff7c94b6),
                                           image: new DecorationImage(
+                                            colorFilter: new ColorFilter.mode(Colors.white.withOpacity(0.3), BlendMode.dstATop),
                                             fit: BoxFit.fill ,
 //                                            colorFilter: new ColorFilter.mode(Colors.black.withOpacity(1), BlendMode.dstATop),
                                             image: new AssetImage(
@@ -250,7 +246,8 @@ class _MainsState extends State<mains> {
                                               child: Text(
                                                 mains_events[index]['About'] ,
                                                 style: TextStyle(
-                                                  color: Color(0xff000000),
+                                                  color: Colors.purple,
+                                                  fontWeight: FontWeight.bold,
                                                   fontSize: 20.0,
                                                 ),),
                                             ),

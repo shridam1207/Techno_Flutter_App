@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_techno_recent/main.dart';
+import 'package:flutter_app_technothlon/main.dart';
 //import 'package:flutter_auth/Screens/Login/login_screen.dart';
 //import 'package:flutter_auth/Screens/Signup/signup_screen.dart';
-import 'background.dart';
+import '../background.dart';
 //import 'package:flutter_auth/components/rounded_button.dart';
-import '../../constants.dart';
+import 'package:flutter_app_technothlon/constants.dart';
 import 'package:flutter_svg/svg.dart';
 //import 'package:firebase_messaging/firebase_messaging.dart'
 

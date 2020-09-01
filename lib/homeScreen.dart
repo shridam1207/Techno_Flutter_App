@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_app_technothlon/configuration.dart';
 import 'package:flutter_app_technothlon/constants.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 //import 'package:flutter_app_technothlon/developers.dart';
 //import 'package:flutter_app_technothlon/screen2.dart';
@@ -57,32 +58,32 @@ class _HomeScreenState extends State<HomeScreen> {
         child: DefaultTabController(
           length: 2,
           child: Scaffold(
-            backgroundColor: topmenu3,
+            backgroundColor: Colors.blue,
             appBar: AppBar(
               leading: isDrawerOpen
                   ? IconButton(
-                icon: Icon(Icons.arrow_back_ios),
-                color: Colors.white,
-                onPressed: () {
-                  setState(() {
-                    xOffset = 0;
-                    yOffset = 0;
-                    scaleFactor = 1;
-                    isDrawerOpen = false;
-                  });
-                },
-              )
+                      icon: Icon(Icons.arrow_back_ios),
+                      color: Colors.white,
+                      onPressed: () {
+                        setState(() {
+                          xOffset = 0;
+                          yOffset = 0;
+                          scaleFactor = 1;
+                          isDrawerOpen = false;
+                        });
+                      },
+                    )
                   : IconButton(
-                  icon: Icon(Icons.menu),
-                  color: Colors.white,
-                  onPressed: () {
-                    setState(() {
-                      xOffset = 230;
-                      yOffset = 150;
-                      scaleFactor = 0.6;
-                      isDrawerOpen = true;
-                    });
-                  }),
+                      icon: Icon(Icons.menu),
+                      color: Colors.white,
+                      onPressed: () {
+                        setState(() {
+                          xOffset = 230;
+                          yOffset = 150;
+                          scaleFactor = 0.6;
+                          isDrawerOpen = true;
+                        });
+                      }),
               backgroundColor: Colors.transparent,
               elevation: 0.0,
               title: Text('HOME',
@@ -112,7 +113,7 @@ class _HomeScreenState extends State<HomeScreen> {
             body: ListView(children: [
               Stack(children: [
                 Container(
-                    height: MediaQuery.of(context).size.height * 2.18,
+                    height: MediaQuery.of(context).size.height * 2.4,
                     width: MediaQuery.of(context).size.width,
                     color: Colors.transparent),
                 Container(
@@ -137,7 +138,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     context,
                                     MaterialPageRoute(
                                         builder: (context) =>
-                                        categories[index]['page']))
+                                            categories[index]['page']))
                               },
                               child: Container(
                                 padding: EdgeInsets.fromLTRB(
@@ -183,9 +184,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   top: MediaQuery.of(context).size.height * 0.16,
                   width: MediaQuery.of(context).size.width,
                   child: Container(
-                    decoration: BoxDecoration(
-                        color: Colors.white),
-                    height: MediaQuery.of(context).size.height * 2.2,
+                    decoration: BoxDecoration(color: Colors.white),
+                    height: MediaQuery.of(context).size.height * 2.4,
                     width: MediaQuery.of(context).size.width,
                   ),
                 ),
@@ -199,7 +199,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         'TECHNO 2020',
                         style: TextStyle(
                             fontSize: 35.0,
-                            fontFamily:'CircularAir-Light' ,
+                            fontWeight: FontWeight.bold,
                             color: Colors.purple),
                         textAlign: TextAlign.center,
                       ),
@@ -220,10 +220,10 @@ class _HomeScreenState extends State<HomeScreen> {
                         return ClipRRect(
 //                                  borderRadius: BorderRadius.circular(10),
                             child: Image(
-                              image: AssetImage(photos[index]),
-                              fit: BoxFit.cover,
-                              width: 1000,
-                            ));
+                          image: AssetImage(photos[index]),
+                          fit: BoxFit.cover,
+                          width: 1000,
+                        ));
                       },
                       viewportFraction: 1,
                       scale: 1,
@@ -239,7 +239,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Text(
                       'CURTAIN RAISER',
                       style: TextStyle(
-                          fontFamily:'CircularAir-Light' ,
+                          fontFamily: 'CircularAir-Light',
                           fontSize: 35.0,
                           color: Colors.purple),
                       textAlign: TextAlign.center,
@@ -273,14 +273,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: Text(
                       'EXPLORE',
                       style: TextStyle(
-                          fontFamily:'CircularAir-Light' ,
+                          fontFamily: 'CircularAir-Light',
                           fontSize: 35.0,
                           color: Colors.purple),
                       textAlign: TextAlign.center,
                     ),
                   ),
                 ),
-
                 Positioned(
                   top: MediaQuery.of(context).size.height * 1.25,
                   left: 25.0,
@@ -290,7 +289,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: <Widget>[
                       Container(
-                        height: MediaQuery.of(context).size.height * 0.25,
+                        height: MediaQuery.of(context).size.height * 0.6,
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
                           itemCount: categories.length,
@@ -299,17 +298,29 @@ class _HomeScreenState extends State<HomeScreen> {
                               child: Column(
                                 children: [
                                   Container(
+                                    height: MediaQuery.of(context).size.height *
+                                        0.4,
+                                    width:
+                                        MediaQuery.of(context).size.width * 0.8,
                                     padding: EdgeInsets.all(10),
-                                    margin: EdgeInsets.fromLTRB(0, 10, 15, 10),
+                                    margin: EdgeInsets.fromLTRB(20, 10, 15, 20),
                                     decoration: BoxDecoration(
+                                      image: DecorationImage(
+                                        colorFilter: new ColorFilter.mode(
+                                            Colors.black.withOpacity(0.7),
+                                            BlendMode.dstATop),
+                                        image: AssetImage(
+                                            slider[index]['iconpath']),
+                                        fit: BoxFit.fill,
+                                      ),
                                       color: Colors.white,
                                       boxShadow: [
                                         BoxShadow(
                                           blurRadius: 10,
                                           offset: Offset(6, 6),
                                           color:
-                                          Color(0xff333333).withOpacity(1),
-                                          spreadRadius: -1,
+                                              Color(0xff333333).withOpacity(1),
+                                          spreadRadius: -2,
                                         )
                                       ],
                                       borderRadius: BorderRadius.circular(20.0),
@@ -318,12 +329,22 @@ class _HomeScreenState extends State<HomeScreen> {
                                         width: 1.0,
                                       ),
                                     ),
-                                    child: Image(
-                                      image: AssetImage('images/logo.png'),
-                                      height:
-                                      MediaQuery.of(context).size.height *
-                                          0.18,
-                                      width: 250,
+                                    child: Column(
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      children: [
+                                        InkWell(
+                                          onTap: _launchURL,
+                                          child: Text(
+                                            slider[index]['text'],
+                                            style: TextStyle(
+                                                fontSize: 25.0,
+                                                fontWeight: FontWeight.bold,
+                                                color: Colors.black),
+                                            textAlign: TextAlign.center,
+                                          ),
+                                        ),
+                                      ],
                                     ),
                                   ),
                                 ],
@@ -335,17 +356,15 @@ class _HomeScreenState extends State<HomeScreen> {
                     ],
                   ),
                 ),
-
-
                 Positioned(
-                  top: MediaQuery.of(context).size.height * 1.565,
+                  top: MediaQuery.of(context).size.height * 1.8,
                   //right: 153,
                   width: MediaQuery.of(context).size.width,
                   child: Container(
                     child: Text(
                       'THEME',
                       style: TextStyle(
-                          fontFamily:'CircularAir-Light' ,
+                          fontFamily: 'CircularAir-Light',
                           fontSize: 35.0,
                           color: Colors.purple),
                       textAlign: TextAlign.center,
@@ -353,7 +372,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
                 Positioned(
-                  top: MediaQuery.of(context).size.height * 1.6,
+                  top: MediaQuery.of(context).size.height * 1.835,
                   left: 10.0,
                   right: 10.0,
                   child: Container(
@@ -411,7 +430,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ])
             ]),
             floatingActionButtonLocation:
-            FloatingActionButtonLocation.centerDocked,
+                FloatingActionButtonLocation.centerDocked,
             floatingActionButton: FloatingActionButton(
               child: Center(
                 child: Image(
@@ -421,7 +440,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   color: Colors.white,
                 ),
               ),
-              backgroundColor: Colors.blue,
+              backgroundColor: Colors.lightBlueAccent,
               elevation: 20.0,
               onPressed: () {
                 print('Technothlon Logo');
@@ -454,5 +473,14 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
         ));
+  }
+}
+
+_launchURL() async {
+  const url = 'https://flutter.dev';
+  if (await canLaunch(url)) {
+    await launch(url);
+  } else {
+    throw 'Could not launch $url';
   }
 }

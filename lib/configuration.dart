@@ -28,17 +28,24 @@ List<Map> categories = [
   {'name': 'Mains', 'iconPath': 'images/Mains.png','page':main_event(),},
   {'name': 'Pedia', 'iconPath': 'images/Pedia.png','page':Technopedia()},
 ];
+List<Map> slider = [
+  {'text': 'Online Registration for Technothlon 2020 have started!','iconpath': 'images/laptop.png'},
+  {'text': 'E-certificates are available for all participants','iconpath': 'images/cert.png'},
+  {'text': 'Results of Technothlon 2019 have been announced','iconpath': 'images/Results.png'},
+  {'text': 'Technothlon solutions have been released on Doubtnut','iconpath': 'images/doubt.png'},
+  {'text': 'Mains of Technothlon has been held at IIT Guwahati','iconpath': 'images/iitg.png'},
+];
 List<Map> experiment = [
-  {'iconPath': 'images/Experiment1.png'},
-  {'iconPath': 'images/Experiment2.png'},
-  {'iconPath': 'images/Experiment3.png'},
-  {'iconPath': 'images/Experiment4.png'},
-  {'iconPath': 'images/Experiment5.png'},
-  {'iconPath': 'images/Experiment6.png'},
-  {'iconPath': 'images/Experiment7.png'},
-  {'iconPath': 'images/Experiment8.png'},
-  {'iconPath': 'images/Experiment9.png'},
-  {'iconPath': 'images/Experiment10.png'},
+  {'iconpath': 'images/Experiment1.png'},
+  {'iconpath': 'images/Experiment2.png'},
+  {'iconpath': 'images/Experiment3.png'},
+  {'iconpath': 'images/Experiment4.png'},
+  {'iconpath': 'images/Experiment5.png'},
+  {'iconpath': 'images/Experiment6.png'},
+  {'iconpath': 'images/Experiment7.png'},
+  {'iconpath': 'images/Experiment8.png'},
+  {'iconpath': 'images/Experiment9.png'},
+  {'iconpath': 'images/Experiment10.png'},
 
 ];
 
