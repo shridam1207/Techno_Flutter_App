@@ -5,6 +5,7 @@ import '../../../constants.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:flutter_app_technothlon/splash.dart';
 
 /*Function abcd() { Navigator.of(context).pushReplacement(MaterialPageRoute(
             builder: (BuildContext context) => HomePage()))

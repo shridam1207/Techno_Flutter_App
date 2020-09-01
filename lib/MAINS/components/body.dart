@@ -6,6 +6,7 @@ import 'background.dart';
 import '../../constants.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_app_technothlon/configuration.dart';
+import 'package:flutter_app_technothlon/splash.dart';
 
 class mains extends StatefulWidget {
   @override
@@ -246,7 +247,7 @@ class _MainsState extends State<mains> {
                                               child: Text(
                                                 mains_events[index]['About'] ,
                                                 style: TextStyle(
-                                                  color: Colors.purple,
+                                                  color: Colors.black,
                                                   fontWeight: FontWeight.bold,
                                                   fontSize: 20.0,
                                                 ),),

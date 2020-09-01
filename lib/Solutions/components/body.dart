@@ -18,6 +18,7 @@ import 'dart:convert';
 import 'package:flutter_downloader/flutter_downloader.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:downloads_path_provider/downloads_path_provider.dart';
+import 'package:flutter_app_technothlon/splash.dart';
 
 import 'package:flutter_app_technothlon/main.dart';
 

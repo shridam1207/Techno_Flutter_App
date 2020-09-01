@@ -7,6 +7,7 @@ import '../background.dart';
 import 'package:flutter_app_technothlon/constants.dart';
 import 'package:flutter_svg/svg.dart';
 //import 'package:firebase_messaging/firebase_messaging.dart'
+import 'package:flutter_app_technothlon/splash.dart';
 
 class Body extends StatelessWidget {
   @override

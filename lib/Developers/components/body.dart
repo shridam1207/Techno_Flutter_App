@@ -9,6 +9,7 @@ import 'background.dart';
 import '../../components/rounded_button.dart';
 import '../../constants.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:flutter_app_technothlon/splash.dart';
 
 List<Map> devlist = [
     {'tag': 'shridam','name': 'Shridam Mahajan', 'iconPath': 'dev_images/Shridam_Mahajan.jpg','details':'''East Zone Head
