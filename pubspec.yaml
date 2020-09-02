@@ -40,7 +40,7 @@ dependencies:
   percent_indicator: ^2.1.5
   youtube_player_flutter: ^7.0.0+7
 
-  flutter_svg: ^0.17.0
+  flutter_svg: 0.18.0
 
 
   font_awesome_flutter:

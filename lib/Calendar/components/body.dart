@@ -12,6 +12,7 @@ import 'package:flutter_svg/svg.dart';
 import 'package:flutter_app_technothlon/configuration.dart';
 import 'package:table_calendar/table_calendar.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app_technothlon/splash.dart';
 
 class Body extends StatefulWidget {
   @override

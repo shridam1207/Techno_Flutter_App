@@ -1,49 +1,94 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
-import "splash.dart";
-import 'drawerScreen.dart';
-import 'homeScreen.dart';
+import 'package:flutter/painting.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:loading_animations/loading_animations.dart';
+import 'package:flutter_app_technothlon/splash.dart';
 
+void main(){
+  runApp(MaterialApp(home: SplashScreen(),
 
-import 'login_page.dart';
-import 'constants.dart';
-import 'AboutUs/about_us.dart';
-import 'Technopedia/technopedia.dart';
-import 'Updates/updates.dart';
-import 'QuickLinks/quick_links.dart';
-import 'ContactUs/contact_us.dart';
-
-
-import 'ContactUs/components/know_your_reps.dart';
-import 'Solutions/solutions.dart';
-import 'package:flutter_downloader/flutter_downloader.dart';
-void main() async {
-
-  WidgetsFlutterBinding.ensureInitialized();
-  await FlutterDownloader.initialize(
-  debug: false // optional: set false to disable printing logs to console
-);
-
-  runApp(MaterialApp(home: HomePage(),
-                     
-  theme: ThemeData(
-    fontFamily: 'Circular'
-  ),
+    theme: ThemeData(
+        fontFamily: 'Circular'
+    ),
   ));
 }
 
-class HomePage extends StatelessWidget {
+class SplashScreen extends StatefulWidget {
+  @override
+  Splash createState() => Splash();
+}
+
+class Splash extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+  }
+
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Stack(
-        children: [
-          DrawerScreen(),
-          HomeScreen(),
-        ],
-      ),
+    Timer(
+        Duration(seconds: 5),
+            () => Navigator.of(context).pushReplacement(MaterialPageRoute(
+            builder: (BuildContext context) => HomePage())));
 
-    );
+    return SplashScreenContent();
   }
 }
 
-
+class SplashScreenContent extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body:Container(
+        decoration: BoxDecoration(
+            gradient: LinearGradient(
+              begin: Alignment(0, 0),
+              end: Alignment(2, 2),
+              colors: <Color>[Colors.deepPurple,Colors.white],
+            )),
+        child: Center(
+          child: Column(children: <Widget>[
+            Padding(
+              padding: EdgeInsets.only(top: 200.0),
+              child: Image(
+                image: AssetImage('images/logo.png'),
+                // color: Colors.white,
+                height: 120.0,
+                width: 120.0,
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.only(top: 10.0,bottom: 5.0),
+              child: Text(
+                'Technothlon',
+                style: GoogleFonts.varelaRound(
+                    textStyle: TextStyle(
+                      color: Colors.white,
+                      fontSize: 50.0,
+                      fontWeight: FontWeight.bold,
+                    )),
+              ),
+            ),
+            Text(
+              'Experience logic like never before!',
+              style: GoogleFonts.varelaRound(
+                  textStyle: TextStyle(
+                    color: Colors.white,
+                    fontSize: 15.0,
+                    fontWeight: FontWeight.normal,
+                  )),
+            ),
+            Padding(
+              padding: EdgeInsets.only(top: 150.0),
+              child: LoadingJumpingLine.circle(
+                size: 40,
+                backgroundColor: Colors.white,
+              ),
+            ),
+          ]),
+        ),
+      ),
+    );
+  }
+}
