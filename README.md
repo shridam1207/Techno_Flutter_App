@@ -16,5 +16,5 @@
 </h3><br>
 
 ## Contributors
-This app was made by [Shridam](https://github.com/shridam1207),   [Tushar](https://github.com/bajajtushar094),   [Parag](https://github.com/Picnic1209) and   [Atharva](https://github.com/haxer-max)
+This app was developed by [Shridam](https://github.com/shridam1207),   [Tushar](https://github.com/bajajtushar094),   [Parag](https://github.com/Picnic1209) and   [Atharva](https://github.com/haxer-max)
 
