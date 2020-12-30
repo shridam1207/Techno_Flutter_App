@@ -1,4 +1,4 @@
-# Techno_Flutter_App
+# Technothlon App
 <p align="center">
 <img src="./readmeImg/1.jpg" width="30%" >
   <span>&nbsp; &nbsp; &nbsp; </span>
