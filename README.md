@@ -15,15 +15,8 @@
   Official Repo of The Technothlon App
 </h3><br>
 
-  This App is built in flutter using Dart.
-  It is a general Informative app that also has a dynamic quizzing platform.<br>
- <h3> 
-  Getting Started
- </h3>
- 
-  This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
+## Contributors
+This app was made by [Shridam](https://github.com/shridam1207),   [Tushar](https://github.com/bajajtushar094),   [Parag](https://github.com/Picnic1209) and   [Atharva](https://github.com/haxer-max)
 
 - [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
