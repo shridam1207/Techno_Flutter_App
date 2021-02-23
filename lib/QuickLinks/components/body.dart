@@ -12,23 +12,24 @@ import '../../components/rounded_button.dart';
 import '../../constants.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_app_technothlon/splash.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 
 class Body extends StatelessWidget {
-  
- // String _facebook=''
-  Future<void> _launchInApp(String url) async {
-      if (await canLaunch(url)) {
-        await launch(
-          url,
-          forceSafariVC: false,
-          forceWebView: true,
-          headers: <String, String>{'header_key': 'header_value'},
-        );
-      } else {
-        throw 'Could not launch $url';
-      }
-  }
+  Future<void> _launched;
+  String _facebook = 'https://www.google.com';
 
+  Future<void> _launchInApp(String url) async {
+    if (await canLaunch(url)) {
+      await launch(
+        url,
+        forceSafariVC: false,
+        forceWebView: false,
+        headers: <String, String>{'header_key': 'header_value'},
+      );
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -42,149 +43,142 @@ class Body extends StatelessWidget {
               alignment: Alignment.topLeft,
               child: IconButton(
                 iconSize: 33.0,
-                icon: Icon(Icons.arrow_back_ios  ), 
-                onPressed: (){Navigator.push(context, MaterialPageRoute(
-                    builder: (context) => HomePage()
-                ));},
+                icon: Icon(Icons.arrow_back_ios),
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => HomePage()));
+                },
               ),
             ),
-            
             Hero(
-              tag:'hero',
+              tag: 'hero',
               child: CircleAvatar(
                 backgroundColor: Colors.transparent,
                 radius: 100.0,
                 child: Image.asset('assets/images/quicklink.jpg'),
               ),
-              
             ),
-
-            SizedBox(height: size.height * 0.05),    
-
+            SizedBox(height: size.height * 0.05),
             Container(
               width: 240.0,
               height: 40.0,
-              child :
-              RaisedButton.icon(
-                onPressed: (){ 
-                  Navigator.push(context, MaterialPageRoute(
-                  builder: (context) => Fbweb()
-                  ));
-                  //_launchInApp('https://www.facebook.com/technothlon.techniche/');
-                  
-                  
-                  
-                  },
+              child: RaisedButton.icon(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Fbweb()));
+                  // _launchInApp(
+                  //     'https://www.facebook.com/technothlon.techniche/');
+                },
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.all(Radius.circular(10.0))
-                ),
+                    borderRadius: BorderRadius.all(Radius.circular(10.0))),
                 label: Text(
-                  'Facebook', 
+                  'Facebook',
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 22,
-                    ),
+                  ),
                 ),
-                icon: Image.asset('link_logo/facebook.png',width: 35,height: 35), 
+                icon: Image.asset('link_logo/facebook.png',
+                    width: 35, height: 35),
                 textColor: Colors.black,
                 splashColor: Colors.blue[100],
                 color: Colors.blue[300],
               ),
             ),
-
             SizedBox(height: size.height * 0.05),
-            
             Container(
               width: 240.0,
               height: 40.0,
-              child :
-              RaisedButton.icon(
-                onPressed: (){ 
-                  Navigator.push(context, MaterialPageRoute(
-                  builder: (context) => Igweb()
-                  ));
+              child: RaisedButton.icon(
+                // onPressed: () {
+                //   Navigator.push(context,
+                //       MaterialPageRoute(builder: (context) => Igweb()));
+                // },
+                onPressed: () {
+                  _launchInApp(_facebook);
                 },
+                // onPressed: _launchURL,
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.all(Radius.circular(10.0))
-                ),
+                    borderRadius: BorderRadius.all(Radius.circular(10.0))),
                 label: Text(
-                  'Instagram', 
+                  'Instagram',
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 22,
                   ),
                 ),
-                icon: Image.asset('link_logo/insta.png',width: 25,height: 25)/*Icon(
+                icon: Image.asset('link_logo/insta.png',
+                    width: 25,
+                    height:
+                        25) /*Icon(
                   Icons.android, color:Colors.white,
-                )*/, 
+                )*/
+                ,
                 textColor: Colors.black,
                 splashColor: Colors.purple[100],
                 color: Colors.purple[200],
               ),
             ),
-
-            SizedBox(height: size.height * 0.05), 
-
+            SizedBox(height: size.height * 0.05),
             Container(
               width: 240.0,
               height: 40.0,
-              child :    
-              RaisedButton.icon(
-                onPressed: (){ 
-                  Navigator.push(context, MaterialPageRoute(
-                  builder: (context) => Websiteweb()
-                  ));
-                 },
+              child: RaisedButton.icon(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Websiteweb()));
+                },
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.all(Radius.circular(10.0))
-                ),
+                    borderRadius: BorderRadius.all(Radius.circular(10.0))),
                 label: Text(
-                  ' Website ', 
+                  ' Website ',
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 22,
                   ),
                 ),
-                icon: Image.asset('link_logo/web.png',width: 25,height: 25)/*Icon(
+                icon: Image.asset('link_logo/web.png',
+                    width: 25,
+                    height:
+                        25) /*Icon(
                   Icons.android, color:Colors.white,
-                )*/, 
+                )*/
+                ,
                 textColor: Colors.black,
                 splashColor: Colors.green[100],
                 color: Colors.green[300],
               ),
             ),
-
             SizedBox(height: size.height * 0.05),
-
             Container(
               width: 240.0,
               height: 40.0,
-              child : 
-              RaisedButton.icon(
-                onPressed: (){ 
-                  Navigator.push(context, MaterialPageRoute(
-                  builder: (context) => Mediumweb()
-                  ));
-                 },
+              child: RaisedButton.icon(
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => Mediumweb()));
+                },
                 shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.all(Radius.circular(10.0))
-                ),
+                    borderRadius: BorderRadius.all(Radius.circular(10.0))),
                 label: Text(
-                  '   Blogs   ', 
+                  '   Blogs   ',
                   style: TextStyle(
                     color: Colors.black,
                     fontSize: 22,
                   ),
                 ),
-                icon: Image.asset('link_logo/medium.png',width: 25,height: 25)/*Icon(
+                icon: Image.asset('link_logo/medium.png',
+                    width: 25,
+                    height:
+                        25) /*Icon(
                   Icons.android, color:Colors.white,
-                )*/, 
+                )*/
+                ,
                 textColor: Colors.black,
                 splashColor: Colors.yellow[300],
                 color: Colors.yellow,
               ),
-            ),  
-            
+            ),
             SizedBox(height: size.height * 0.05),
             SizedBox(height: size.height * 0.05),
             SizedBox(height: size.height * 0.05),
@@ -194,5 +188,14 @@ class Body extends StatelessWidget {
       ),
     );
   }
-}  
 
+//   _launchURL() async {
+//     const url = 'https://flutter.dev';
+//     if (await canLaunch(url)) {
+//       await launch(url);
+//     } else {
+//       throw 'Could not launch $url';
+//     }
+//   }
+// }
+}
