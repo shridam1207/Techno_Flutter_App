@@ -27,8 +27,9 @@ class _HomeScreenState extends State<HomeScreen> {
     'assets/poster1.jpg',
   ];
   var photos_theme = [
-    'assets/theme_hauts.jpg',
-    'assets/theme_juniors.jpg',
+    'assets/insta3.png',
+    'assets/insta1.png',
+    'assets/insta2.png',
   ];
 
   double xOffset = 0;
@@ -37,7 +38,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   bool isDrawerOpen = false;
 
-  String videoURL = "https://youtu.be/UsucYJ8eiVM";
+  String videoURL = "https://youtu.be/fPTxLFld4ks";
   YoutubePlayerController _controller;
 
   @override
@@ -58,7 +59,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: DefaultTabController(
           length: 2,
           child: Scaffold(
-            backgroundColor: Colors.blue,
+            backgroundColor: Colors.orangeAccent,
             appBar: AppBar(
               leading: isDrawerOpen
                   ? IconButton(
@@ -196,7 +197,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   child: Center(
                     child: Container(
                       child: Text(
-                        'TECHNO 2020',
+                        'TECHNO 2021',
                         style: TextStyle(
                             fontSize: 35.0,
                             fontWeight: FontWeight.bold,
@@ -292,7 +293,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         height: MediaQuery.of(context).size.height * 0.6,
                         child: ListView.builder(
                           scrollDirection: Axis.horizontal,
-                          itemCount: categories.length,
+                          itemCount: 2, // categories.lenght
                           itemBuilder: (context, index) {
                             return Container(
                               child: Column(
@@ -307,7 +308,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                     decoration: BoxDecoration(
                                       image: DecorationImage(
                                         colorFilter: new ColorFilter.mode(
-                                            Colors.black.withOpacity(0.7),
+                                            Colors.black.withOpacity(1),
                                             BlendMode.dstATop),
                                         image: AssetImage(
                                             slider[index]['iconpath']),
@@ -362,7 +363,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   width: MediaQuery.of(context).size.width,
                   child: Container(
                     child: Text(
-                      'THEME',
+                      'Factechs',
                       style: TextStyle(
                           fontFamily: 'CircularAir-Light',
                           fontSize: 35.0,
@@ -381,7 +382,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     width: MediaQuery.of(context).size.width * 0.5,
                     child: Swiper(
                       curve: Curves.easeIn,
-                      itemCount: 2,
+                      itemCount: 3,
                       itemBuilder: (BuildContext context, int index) {
                         return Container(
                           height: MediaQuery.of(context).size.height * 0.5,
